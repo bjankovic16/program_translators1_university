@@ -1,0 +1,144 @@
+INFO  17:28:37,687 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  17:28:37,723 - #8 program
+INFO  17:28:37,723 - #5 ABC
+INFO  17:28:37,723 - #12 const
+INFO  17:28:37,723 - #5 int
+INFO  17:28:37,723 - #5 N
+INFO  17:28:37,724 - #36 =
+INFO  17:28:37,724 - #2 2
+INFO  17:28:37,724 - #39 ;
+INFO  17:28:37,724 - #47 {
+INFO  17:28:37,724 - #19 void
+INFO  17:28:37,725 - #5 main
+INFO  17:28:37,725 - #43 (
+INFO  17:28:37,725 - #44 )
+INFO  17:28:37,725 - #5 int
+INFO  17:28:37,725 - #5 x
+INFO  17:28:37,726 - #39 ;
+INFO  17:28:37,726 - #5 int
+INFO  17:28:37,726 - #5 niz
+INFO  17:28:37,726 - #45 [
+INFO  17:28:37,726 - #46 ]
+INFO  17:28:37,726 - #39 ;
+INFO  17:28:37,726 - #47 {
+INFO  17:28:37,728 - #5 x
+INFO  17:28:37,729 - #36 =
+INFO  17:28:37,729 - #2 8
+INFO  17:28:37,729 - #39 ;
+INFO  17:28:37,730 - #5 x
+INFO  17:28:37,730 - #36 =
+INFO  17:28:37,730 - #5 x
+INFO  17:28:37,730 - #39 ;
+INFO  17:28:37,730 - #48 }
+INFO  17:28:37,730 - #48 }
+INFO  17:28:37,737 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalConstDecl(
+      ConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneConstDeclarationItem(
+          ConstDeclarationItem(
+           N
+            ConstValueNumber(
+             2
+            ) [ConstValueNumber]
+          ) [ConstDeclarationItem]
+        ) [OneConstDeclarationItem]
+      ) [ConstDeclarations]
+    ) [GlobalConstDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               x
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             niz
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          NoStatementListM(
+          ) [NoStatementListM]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               x
+              ) [ScalarDesignator]
+              AssignOperation(
+              ) [AssignOperation]
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   8
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [FullStatementListM]
+        AssignStmt(
+          DesignatorAssignValue(
+            ScalarDesignator(
+             x
+            ) [ScalarDesignator]
+            AssignOperation(
+            ) [AssignOperation]
+            ExprTerm(
+              TermFactor(
+                FactorDesignator(
+                  ScalarDesignator(
+                   x
+                  ) [ScalarDesignator]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprTerm]
+          ) [DesignatorAssignValue]
+        ) [AssignStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  17:28:37,737 - ===================================
+INFO  17:28:37,740 - Obradjuje se tip int na liniji 2
+INFO  17:28:37,740 - obradjuje se metoda main na liniji 4
+INFO  17:28:37,740 - Obradjuje se tip int na liniji 5
+INFO  17:28:37,740 - Deklarisana promenljiva x na liniji 5
+INFO  17:28:37,741 - Obradjuje se tip int na liniji 6
+INFO  17:28:37,741 - Deklarisan niz niz na liniji 6
+INFO  17:28:37,741 - uspesno dodeljeno na liniji 8
+INFO  17:28:37,741 - uspesno dodeljeno na liniji 9
+INFO  17:28:37,741 - ===================================

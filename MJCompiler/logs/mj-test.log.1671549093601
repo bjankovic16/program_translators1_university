@@ -1,0 +1,66 @@
+INFO  13:50:12,546 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:50:12,592 - #8 program
+INFO  13:50:12,592 - #5 Test
+INFO  13:50:12,592 - #10 class
+INFO  13:50:12,592 - #5 Prva
+INFO  13:50:12,593 - #48 {
+INFO  13:50:12,593 - #48 {
+INFO  13:50:12,594 - #49 }
+INFO  13:50:12,594 - #49 }
+INFO  13:50:12,594 - #5 bool
+INFO  13:50:12,594 - #5 l
+INFO  13:50:12,595 - #46 [
+INFO  13:50:12,595 - #47 ]
+INFO  13:50:12,595 - #42 ,
+INFO  13:50:12,595 - #5 k
+INFO  13:50:12,595 - #40 ;
+INFO  13:50:12,595 - #48 {
+INFO  13:50:12,596 - #49 }
+INFO  13:50:12,601 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalClassDecl(
+        ClassDeclaration(
+         Prva
+          NoClassExtends(
+          ) [NoClassExtends]
+          NoClassVarDeclaration(
+          ) [NoClassVarDeclaration]
+          ClassMethDeclaration(
+            NoClassMethodDeclaration(
+            ) [NoClassMethodDeclaration]
+          ) [ClassMethDeclaration]
+        ) [ClassDeclaration]
+      ) [GlobalClassDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         bool
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             l
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           k
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  13:50:12,601 - ===================================
+INFO  13:50:12,604 - Obradjuje se tip bool na liniji 3
+INFO  13:50:12,605 - Deklarisan niz l na liniji 3
+INFO  13:50:12,605 - Deklarisana promenljiva k na liniji 3
+INFO  13:50:12,605 - ===================================

@@ -1,0 +1,431 @@
+INFO  17:15:01,537 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  17:15:01,571 - #8 program
+INFO  17:15:01,571 - #5 Test
+INFO  17:15:01,571 - #5 int
+INFO  17:15:01,573 - #5 niz
+INFO  17:15:01,574 - #46 [
+INFO  17:15:01,574 - #47 ]
+INFO  17:15:01,574 - #40 ;
+INFO  17:15:01,574 - #5 int
+INFO  17:15:01,574 - #5 c
+INFO  17:15:01,574 - #40 ;
+INFO  17:15:01,574 - #10 class
+INFO  17:15:01,574 - #5 Druga
+INFO  17:15:01,574 - #48 {
+INFO  17:15:01,575 - #5 int
+INFO  17:15:01,575 - #5 l
+INFO  17:15:01,576 - #40 ;
+INFO  17:15:01,576 - #48 {
+INFO  17:15:01,576 - #19 void
+INFO  17:15:01,576 - #5 met
+INFO  17:15:01,576 - #44 (
+INFO  17:15:01,576 - #5 char
+INFO  17:15:01,576 - #5 s
+INFO  17:15:01,578 - #45 )
+INFO  17:15:01,578 - #48 {
+INFO  17:15:01,579 - #49 }
+INFO  17:15:01,579 - #49 }
+INFO  17:15:01,579 - #49 }
+INFO  17:15:01,579 - #10 class
+INFO  17:15:01,580 - #5 Extendovana
+INFO  17:15:01,580 - #20 extends
+INFO  17:15:01,580 - #5 Druga
+INFO  17:15:01,580 - #48 {
+INFO  17:15:01,580 - #5 int
+INFO  17:15:01,580 - #5 c
+INFO  17:15:01,580 - #40 ;
+INFO  17:15:01,580 - #5 char
+INFO  17:15:01,580 - #5 niz
+INFO  17:15:01,580 - #46 [
+INFO  17:15:01,580 - #47 ]
+INFO  17:15:01,580 - #40 ;
+INFO  17:15:01,580 - #48 {
+INFO  17:15:01,580 - #19 void
+INFO  17:15:01,581 - #5 met1
+INFO  17:15:01,581 - #44 (
+INFO  17:15:01,581 - #45 )
+INFO  17:15:01,581 - #48 {
+INFO  17:15:01,581 - #49 }
+INFO  17:15:01,581 - #19 void
+INFO  17:15:01,582 - #5 met
+INFO  17:15:01,582 - #44 (
+INFO  17:15:01,582 - #5 char
+INFO  17:15:01,582 - #5 s
+INFO  17:15:01,582 - #45 )
+INFO  17:15:01,582 - #48 {
+INFO  17:15:01,582 - #5 c
+INFO  17:15:01,582 - #38 ++
+INFO  17:15:01,582 - #40 ;
+INFO  17:15:01,582 - #49 }
+INFO  17:15:01,582 - #49 }
+INFO  17:15:01,582 - #49 }
+INFO  17:15:01,583 - #48 {
+INFO  17:15:01,583 - #5 int
+INFO  17:15:01,583 - #5 main
+INFO  17:15:01,583 - #44 (
+INFO  17:15:01,584 - #45 )
+INFO  17:15:01,584 - #5 Extendovana
+INFO  17:15:01,584 - #5 a
+INFO  17:15:01,584 - #40 ;
+INFO  17:15:01,584 - #5 char
+INFO  17:15:01,585 - #5 nn
+INFO  17:15:01,585 - #46 [
+INFO  17:15:01,585 - #47 ]
+INFO  17:15:01,585 - #40 ;
+INFO  17:15:01,585 - #48 {
+INFO  17:15:01,585 - #5 nn
+INFO  17:15:01,585 - #37 =
+INFO  17:15:01,585 - #15 new
+INFO  17:15:01,586 - #5 char
+INFO  17:15:01,586 - #46 [
+INFO  17:15:01,586 - #2 10
+INFO  17:15:01,586 - #47 ]
+INFO  17:15:01,586 - #40 ;
+INFO  17:15:01,587 - #5 a
+INFO  17:15:01,587 - #43 .
+INFO  17:15:01,587 - #5 c
+INFO  17:15:01,587 - #37 =
+INFO  17:15:01,587 - #2 4
+INFO  17:15:01,587 - #40 ;
+INFO  17:15:01,587 - #5 a
+INFO  17:15:01,587 - #43 .
+INFO  17:15:01,587 - #5 niz
+INFO  17:15:01,588 - #37 =
+INFO  17:15:01,588 - #5 nn
+INFO  17:15:01,588 - #40 ;
+INFO  17:15:01,589 - #18 return
+INFO  17:15:01,589 - #2 3
+INFO  17:15:01,589 - #40 ;
+INFO  17:15:01,589 - #49 }
+INFO  17:15:01,589 - #49 }
+INFO  17:15:01,595 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        GlobalDeclarationsList(
+          NoGlobalDeclarationsList(
+          ) [NoGlobalDeclarationsList]
+          GlobalVarDecl(
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclarationItem(
+                ArrayDeclarationItem(
+                 niz
+                ) [ArrayDeclarationItem]
+              ) [OneVarDeclarationItem]
+            ) [VarDeclarations]
+          ) [GlobalVarDecl]
+        ) [GlobalDeclarationsList]
+        GlobalVarDecl(
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               c
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [GlobalVarDecl]
+      ) [GlobalDeclarationsList]
+      GlobalClassDecl(
+        ClassDeclaration(
+          ClassFirst(
+           Druga
+            NoClassExtends(
+            ) [NoClassExtends]
+          ) [ClassFirst]
+          ClassVarDeclaration(
+            NoClassVarDeclaration(
+            ) [NoClassVarDeclaration]
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclarationItem(
+                VarDeclarationItem(
+                 l
+                ) [VarDeclarationItem]
+              ) [OneVarDeclarationItem]
+            ) [VarDeclarations]
+          ) [ClassVarDeclaration]
+          ClassMethDeclaration(
+            ClassMethodDeclaration(
+              NoClassMethodDeclaration(
+              ) [NoClassMethodDeclaration]
+              MethodDeclaration(
+                MethodReturnVoid(
+                 met
+                ) [MethodReturnVoid]
+                FormParams(
+                  SingleFormalParamDecl(
+                    ScalarParam(
+                      Type(
+                       char
+                      ) [Type]
+                     s
+                    ) [ScalarParam]
+                  ) [SingleFormalParamDecl]
+                ) [FormParams]
+                NoLocalVarDeclarationsList(
+                ) [NoLocalVarDeclarationsList]
+                NoStatementListM(
+                ) [NoStatementListM]
+              ) [MethodDeclaration]
+            ) [ClassMethodDeclaration]
+          ) [ClassMethDeclaration]
+        ) [ClassDeclaration]
+      ) [GlobalClassDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+        ClassFirst(
+         Extendovana
+          ClassExtends(
+            Type(
+             Druga
+            ) [Type]
+          ) [ClassExtends]
+        ) [ClassFirst]
+        ClassVarDeclaration(
+          ClassVarDeclaration(
+            NoClassVarDeclaration(
+            ) [NoClassVarDeclaration]
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclarationItem(
+                VarDeclarationItem(
+                 c
+                ) [VarDeclarationItem]
+              ) [OneVarDeclarationItem]
+            ) [VarDeclarations]
+          ) [ClassVarDeclaration]
+          VarDeclarations(
+            Type(
+             char
+            ) [Type]
+            OneVarDeclarationItem(
+              ArrayDeclarationItem(
+               niz
+              ) [ArrayDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [ClassVarDeclaration]
+        ClassMethDeclaration(
+          ClassMethodDeclaration(
+            ClassMethodDeclaration(
+              NoClassMethodDeclaration(
+              ) [NoClassMethodDeclaration]
+              MethodDeclaration(
+                MethodReturnVoid(
+                 met1
+                ) [MethodReturnVoid]
+                NoFormParams(
+                ) [NoFormParams]
+                NoLocalVarDeclarationsList(
+                ) [NoLocalVarDeclarationsList]
+                NoStatementListM(
+                ) [NoStatementListM]
+              ) [MethodDeclaration]
+            ) [ClassMethodDeclaration]
+            MethodDeclaration(
+              MethodReturnVoid(
+               met
+              ) [MethodReturnVoid]
+              FormParams(
+                SingleFormalParamDecl(
+                  ScalarParam(
+                    Type(
+                     char
+                    ) [Type]
+                   s
+                  ) [ScalarParam]
+                ) [SingleFormalParamDecl]
+              ) [FormParams]
+              NoLocalVarDeclarationsList(
+              ) [NoLocalVarDeclarationsList]
+              FullStatementListM(
+                NoStatementListM(
+                ) [NoStatementListM]
+                AssignStmt(
+                  DesignatorIncValue(
+                    ScalarDesignator(
+                     c
+                    ) [ScalarDesignator]
+                  ) [DesignatorIncValue]
+                ) [AssignStmt]
+              ) [FullStatementListM]
+            ) [MethodDeclaration]
+          ) [ClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             Extendovana
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               a
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           char
+          ) [Type]
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             nn
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          FullStatementListM(
+            FullStatementListM(
+              NoStatementListM(
+              ) [NoStatementListM]
+              AssignStmt(
+                DesignatorAssignValue(
+                  ScalarDesignator(
+                   nn
+                  ) [ScalarDesignator]
+                  AssignOperation(
+                  ) [AssignOperation]
+                  ExprTerm(
+                    TermFactor(
+                      FactorArray(
+                        Type(
+                         char
+                        ) [Type]
+                        ExprTerm(
+                          TermFactor(
+                            FactorNumber(
+                             10
+                            ) [FactorNumber]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [FactorArray]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [DesignatorAssignValue]
+              ) [AssignStmt]
+            ) [FullStatementListM]
+            AssignStmt(
+              DesignatorAssignValue(
+                ClassDesignator(
+                  ScalarDesignator(
+                   a
+                  ) [ScalarDesignator]
+                 c
+                ) [ClassDesignator]
+                AssignOperation(
+                ) [AssignOperation]
+                ExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     4
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [DesignatorAssignValue]
+            ) [AssignStmt]
+          ) [FullStatementListM]
+          AssignStmt(
+            DesignatorAssignValue(
+              ClassDesignator(
+                ScalarDesignator(
+                 a
+                ) [ScalarDesignator]
+               niz
+              ) [ClassDesignator]
+              AssignOperation(
+              ) [AssignOperation]
+              ExprTerm(
+                TermFactor(
+                  FactorDesignator(
+                    ScalarDesignator(
+                     nn
+                    ) [ScalarDesignator]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [FullStatementListM]
+        ReturnStmt(
+          ExprStmtMl(
+            ExprTerm(
+              TermFactor(
+                FactorNumber(
+                 3
+                ) [FactorNumber]
+              ) [TermFactor]
+            ) [ExprTerm]
+          ) [ExprStmtMl]
+        ) [ReturnStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  17:15:01,596 - ===================================
+INFO  17:15:01,599 - Obradjuje se tip int na liniji 2
+INFO  17:15:01,600 - Deklarisan niz niz na liniji 2
+INFO  17:15:01,600 - Obradjuje se tip int na liniji 3
+INFO  17:15:01,600 - Deklarisana promenljiva c na liniji 3
+INFO  17:15:01,600 - Kreirana je klasa Druga na liniji 4
+INFO  17:15:01,600 - Obradjuje se tip int na liniji 4
+INFO  17:15:01,600 - Deklarisana promenljiva l na liniji 4
+INFO  17:15:01,600 - obradjuje se metoda met na liniji 5
+INFO  17:15:01,600 - Obradjuje se tip char na liniji 5
+INFO  17:15:01,600 - Obradjuje se tip Druga na liniji 8
+INFO  17:15:01,600 - Kreirana je klasa Extendovana na liniji 8
+INFO  17:15:01,600 - Ubacen je simbol l na liniji 8
+INFO  17:15:01,601 - Obradjuje se tip int na liniji 8
+INFO  17:15:01,601 - Deklarisana promenljiva c na liniji 8
+INFO  17:15:01,601 - Obradjuje se tip char na liniji 8
+INFO  17:15:01,601 - Deklarisan niz niz na liniji 8
+INFO  17:15:01,601 - obradjuje se metoda met1 na liniji 9
+INFO  17:15:01,601 - obradjuje se metoda met na liniji 10
+INFO  17:15:01,601 - Obradjuje se tip char na liniji 10
+INFO  17:15:01,601 - Obradjuje se tip int na liniji 14
+INFO  17:15:01,601 - obradjuje se metoda main na liniji 14
+INFO  17:15:01,601 - Obradjuje se tip Extendovana na liniji 14
+INFO  17:15:01,601 - Deklarisana promenljiva a na liniji 14
+INFO  17:15:01,601 - Obradjuje se tip char na liniji 14
+INFO  17:15:01,601 - Deklarisan niz nn na liniji 14
+INFO  17:15:01,601 - Obradjuje se tip char na liniji 15
+INFO  17:15:01,602 - 3hhh
+INFO  17:15:01,602 - uspesno dodeljeno na liniji 15
+INFO  17:15:01,602 - poziva se c na liniji 16
+INFO  17:15:01,602 - 1hhh
+INFO  17:15:01,602 - uspesno dodeljeno na liniji 16
+INFO  17:15:01,602 - poziva se niz na liniji 17

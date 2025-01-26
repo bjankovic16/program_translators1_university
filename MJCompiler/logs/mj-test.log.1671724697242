@@ -1,0 +1,165 @@
+INFO  16:56:48,900 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:56:48,933 - #8 program
+INFO  16:56:48,933 - #5 Test
+INFO  16:56:48,933 - #5 int
+INFO  16:56:48,935 - #5 niz
+INFO  16:56:48,936 - #46 [
+INFO  16:56:48,936 - #47 ]
+INFO  16:56:48,936 - #40 ;
+INFO  16:56:48,936 - #10 class
+INFO  16:56:48,937 - #5 Druga
+INFO  16:56:48,937 - #48 {
+INFO  16:56:48,937 - #48 {
+INFO  16:56:48,938 - #5 int
+INFO  16:56:48,938 - #5 putp
+INFO  16:56:48,938 - #44 (
+INFO  16:56:48,938 - #5 int
+INFO  16:56:48,938 - #5 a
+INFO  16:56:48,938 - #42 ,
+INFO  16:56:48,939 - #5 int
+INFO  16:56:48,939 - #5 idx
+INFO  16:56:48,939 - #45 )
+INFO  16:56:48,939 - #48 {
+INFO  16:56:48,939 - #5 niz
+INFO  16:56:48,941 - #46 [
+INFO  16:56:48,942 - #5 idx
+INFO  16:56:48,942 - #47 ]
+INFO  16:56:48,942 - #37 =
+INFO  16:56:48,942 - #5 a
+INFO  16:56:48,943 - #40 ;
+INFO  16:56:48,943 - #18 return
+INFO  16:56:48,943 - #2 4
+INFO  16:56:48,943 - #40 ;
+INFO  16:56:48,943 - #49 }
+INFO  16:56:48,944 - #49 }
+INFO  16:56:48,944 - #49 }
+INFO  16:56:48,944 - #48 {
+INFO  16:56:48,944 - #49 }
+INFO  16:56:48,949 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             niz
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+        ClassFirst(
+         Druga
+          NoClassExtends(
+          ) [NoClassExtends]
+        ) [ClassFirst]
+        NoClassVarDeclaration(
+        ) [NoClassVarDeclaration]
+        ClassMethDeclaration(
+          ClassMethodDeclaration(
+            NoClassMethodDeclaration(
+            ) [NoClassMethodDeclaration]
+            MethodDeclaration(
+              MethodReturnType(
+                Type(
+                 int
+                ) [Type]
+               putp
+              ) [MethodReturnType]
+              FormParams(
+                FormalParamDecls(
+                  SingleFormalParamDecl(
+                    ScalarParam(
+                      Type(
+                       int
+                      ) [Type]
+                     a
+                    ) [ScalarParam]
+                  ) [SingleFormalParamDecl]
+                  ScalarParam(
+                    Type(
+                     int
+                    ) [Type]
+                   idx
+                  ) [ScalarParam]
+                ) [FormalParamDecls]
+              ) [FormParams]
+              NoLocalVarDeclarationsList(
+              ) [NoLocalVarDeclarationsList]
+              FullStatementListM(
+                FullStatementListM(
+                  NoStatementListM(
+                  ) [NoStatementListM]
+                  AssignStmt(
+                    DesignatorAssignValue(
+                      ArrayDesignator(
+                        ScalarDesignator(
+                         niz
+                        ) [ScalarDesignator]
+                        ExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              ScalarDesignator(
+                               idx
+                              ) [ScalarDesignator]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [ArrayDesignator]
+                      AssignOperation(
+                      ) [AssignOperation]
+                      ExprTerm(
+                        TermFactor(
+                          FactorDesignator(
+                            ScalarDesignator(
+                             a
+                            ) [ScalarDesignator]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [DesignatorAssignValue]
+                  ) [AssignStmt]
+                ) [FullStatementListM]
+                ReturnStmt(
+                  ExprStmtMl(
+                    ExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         4
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [ExprStmtMl]
+                ) [ReturnStmt]
+              ) [FullStatementListM]
+            ) [MethodDeclaration]
+          ) [ClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  16:56:48,950 - ===================================
+INFO  16:56:48,957 - Obradjuje se tip int na liniji 2
+INFO  16:56:48,957 - Deklarisan niz niz na liniji 2
+INFO  16:56:48,957 - Kreirana je klasa Druga na liniji 3
+INFO  16:56:48,957 - Obradjuje se tip int na liniji 4
+INFO  16:56:48,957 - obradjuje se metoda putp na liniji 4
+INFO  16:56:48,957 - Obradjuje se tip int na liniji 4
+INFO  16:56:48,957 - Obradjuje se tip int na liniji 4
+INFO  16:56:48,957 - Obradjuje se niz niz na liniji 4
+INFO  16:56:48,957 - uspesno dodeljeno na liniji 4
+ERROR 16:56:48,957 - Nisu kompatibilni tipovi u naredbi dodele 3 na liniji 4
+INFO  16:56:48,958 - ===================================

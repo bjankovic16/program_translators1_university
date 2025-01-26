@@ -1,0 +1,69 @@
+INFO  20:09:12,683 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:09:12,692 - #8 program
+INFO  20:09:12,692 - #5 Test
+INFO  20:09:12,692 - #12 const
+INFO  20:09:12,692 - #5 char
+INFO  20:09:12,693 - #5 x
+INFO  20:09:12,693 - #37 =
+INFO  20:09:12,693 - #3 x
+INFO  20:09:12,693 - #42 ,
+INFO  20:09:12,694 - #5 s
+INFO  20:09:12,694 - #37 =
+INFO  20:09:12,694 - #3 5
+INFO  20:09:12,694 - #40 ;
+INFO  20:09:12,694 - #12 const
+INFO  20:09:12,694 - #5 int
+INFO  20:09:12,694 - #5 s
+INFO  20:09:12,694 - #37 =
+INFO  20:09:12,694 - #2 0
+INFO  20:09:12,695 - #40 ;
+INFO  20:09:12,695 - #48 {
+INFO  20:09:12,695 - #49 }
+INFO  20:09:12,695 - Program(
+ Test
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalConstDecl(
+        ConstDeclarations(
+          Type(
+           char
+          ) [Type]
+          ConstDeclarationsList(
+            OneConstDeclarationItem(
+              ConstDeclarationItem(
+               x
+                ConstValueChar(
+                 x
+                ) [ConstValueChar]
+              ) [ConstDeclarationItem]
+            ) [OneConstDeclarationItem]
+            ConstDeclarationItem(
+             s
+              ConstValueChar(
+               5
+              ) [ConstValueChar]
+            ) [ConstDeclarationItem]
+          ) [ConstDeclarationsList]
+        ) [ConstDeclarations]
+      ) [GlobalConstDecl]
+    ) [GlobalDeclarationsList]
+    GlobalConstDecl(
+      ConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneConstDeclarationItem(
+          ConstDeclarationItem(
+           s
+            ConstValueNumber(
+             0
+            ) [ConstValueNumber]
+          ) [ConstDeclarationItem]
+        ) [OneConstDeclarationItem]
+      ) [ConstDeclarations]
+    ) [GlobalConstDecl]
+  ) [GlobalDeclarationsList]
+) [Program]
+INFO  20:09:12,697 - ===================================

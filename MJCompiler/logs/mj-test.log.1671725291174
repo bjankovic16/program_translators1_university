@@ -1,0 +1,277 @@
+INFO  17:04:51,303 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  17:04:51,345 - #8 program
+INFO  17:04:51,346 - #5 p
+INFO  17:04:51,346 - #12 const
+INFO  17:04:51,347 - #5 int
+INFO  17:04:51,347 - #5 size
+INFO  17:04:51,347 - #37 =
+INFO  17:04:51,347 - #2 10
+INFO  17:04:51,347 - #40 ;
+INFO  17:04:51,348 - #10 class
+INFO  17:04:51,348 - #5 Table
+INFO  17:04:51,348 - #48 {
+INFO  17:04:51,349 - #5 int
+INFO  17:04:51,349 - #5 pos
+INFO  17:04:51,350 - #46 [
+INFO  17:04:51,350 - #47 ]
+INFO  17:04:51,350 - #42 ,
+INFO  17:04:51,350 - #5 neg
+INFO  17:04:51,350 - #46 [
+INFO  17:04:51,350 - #47 ]
+INFO  17:04:51,350 - #42 ,
+INFO  17:04:51,350 - #5 factor
+INFO  17:04:51,351 - #40 ;
+INFO  17:04:51,353 - #48 {
+INFO  17:04:51,353 - #19 void
+INFO  17:04:51,353 - #5 putp
+INFO  17:04:51,353 - #44 (
+INFO  17:04:51,354 - #5 int
+INFO  17:04:51,354 - #5 a
+INFO  17:04:51,354 - #42 ,
+INFO  17:04:51,354 - #5 int
+INFO  17:04:51,354 - #5 idx
+INFO  17:04:51,354 - #45 )
+INFO  17:04:51,354 - #48 {
+INFO  17:04:51,355 - #22 this
+ERROR 17:04:51,355 - 
+Sintaksna greska na liniji 6
+INFO  17:04:51,355 - #43 .
+INFO  17:04:51,355 - #5 pos
+INFO  17:04:51,355 - #46 [
+INFO  17:04:51,355 - #5 idx
+INFO  17:04:51,356 - #47 ]
+INFO  17:04:51,356 - #37 =
+INFO  17:04:51,356 - #5 a
+INFO  17:04:51,356 - #40 ;
+INFO  17:04:51,356 - #49 }
+INFO  17:04:51,356 - #19 void
+INFO  17:04:51,356 - #5 putn
+INFO  17:04:51,356 - #44 (
+INFO  17:04:51,356 - #5 int
+INFO  17:04:51,356 - #5 a
+INFO  17:04:51,356 - #42 ,
+INFO  17:04:51,356 - #5 int
+INFO  17:04:51,356 - #5 idx
+INFO  17:04:51,356 - #45 )
+ERROR 17:04:51,357 - Izvrsen oporavak od greske u deklaraciji formalnog parametra do , ili ). Greska je u liniji 6
+INFO  17:04:51,357 - #48 {
+INFO  17:04:51,357 - #22 this
+ERROR 17:04:51,357 - 
+Sintaksna greska na liniji 7
+INFO  17:04:51,357 - #43 .
+INFO  17:04:51,358 - #5 neg
+INFO  17:04:51,358 - #46 [
+INFO  17:04:51,358 - #5 idx
+INFO  17:04:51,358 - #47 ]
+INFO  17:04:51,358 - #37 =
+INFO  17:04:51,358 - #5 a
+INFO  17:04:51,358 - #40 ;
+INFO  17:04:51,358 - #49 }
+INFO  17:04:51,358 - #5 int
+INFO  17:04:51,358 - #5 getp
+INFO  17:04:51,358 - #44 (
+INFO  17:04:51,359 - #5 int
+INFO  17:04:51,359 - #5 idx
+INFO  17:04:51,359 - #45 )
+INFO  17:04:51,359 - #48 {
+INFO  17:04:51,360 - #18 return
+INFO  17:04:51,360 - #5 pos
+ERROR 17:04:51,360 - Izvrsen oporavak od greske u deklaraciji formalnog parametra do , ili ). Greska je u liniji 6
+INFO  17:04:51,360 - #46 [
+INFO  17:04:51,360 - #5 idx
+INFO  17:04:51,360 - #47 ]
+INFO  17:04:51,361 - #40 ;
+INFO  17:04:51,361 - #49 }
+INFO  17:04:51,361 - #5 int
+INFO  17:04:51,362 - #5 getn
+INFO  17:04:51,362 - #44 (
+INFO  17:04:51,363 - #5 int
+INFO  17:04:51,363 - #5 idx
+INFO  17:04:51,363 - #45 )
+INFO  17:04:51,363 - #48 {
+INFO  17:04:51,363 - #18 return
+INFO  17:04:51,363 - #5 neg
+INFO  17:04:51,363 - #46 [
+INFO  17:04:51,363 - #5 idx
+INFO  17:04:51,363 - #47 ]
+INFO  17:04:51,363 - #40 ;
+INFO  17:04:51,363 - #49 }
+INFO  17:04:51,363 - #49 }
+INFO  17:04:51,363 - #49 }
+INFO  17:04:51,364 - #48 {
+INFO  17:04:51,364 - #49 }
+INFO  17:04:51,369 - Program(
+  NamePro(
+   p
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalConstDecl(
+        ConstDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneConstDeclarationItem(
+            ConstDeclarationItem(
+             size
+              ConstValueNumber(
+               10
+              ) [ConstValueNumber]
+            ) [ConstDeclarationItem]
+          ) [OneConstDeclarationItem]
+        ) [ConstDeclarations]
+      ) [GlobalConstDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+        ClassFirst(
+         Table
+          NoClassExtends(
+          ) [NoClassExtends]
+        ) [ClassFirst]
+        ClassVarDeclaration(
+          NoClassVarDeclaration(
+          ) [NoClassVarDeclaration]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsList(
+              VarDeclarationsList(
+                OneVarDeclarationItem(
+                  ArrayDeclarationItem(
+                   pos
+                  ) [ArrayDeclarationItem]
+                ) [OneVarDeclarationItem]
+                ArrayDeclarationItem(
+                 neg
+                ) [ArrayDeclarationItem]
+              ) [VarDeclarationsList]
+              VarDeclarationItem(
+               factor
+              ) [VarDeclarationItem]
+            ) [VarDeclarationsList]
+          ) [VarDeclarations]
+        ) [ClassVarDeclaration]
+        ClassMethDeclaration(
+          ClassMethodDeclaration(
+            ClassMethodDeclaration(
+              NoClassMethodDeclaration(
+              ) [NoClassMethodDeclaration]
+              MethodDeclaration(
+                MethodReturnVoid(
+                 putp
+                ) [MethodReturnVoid]
+                FormParams(
+                  SingleFormalParamDecl(
+                    ErrorInFormalParamDecl(
+                    ) [ErrorInFormalParamDecl]
+                  ) [SingleFormalParamDecl]
+                ) [FormParams]
+                NoLocalVarDeclarationsList(
+                ) [NoLocalVarDeclarationsList]
+                FullStatementListM(
+                  NoStatementListM(
+                  ) [NoStatementListM]
+                  ReturnStmt(
+                    ExprStmtMl(
+                      ExprTerm(
+                        TermFactor(
+                          FactorDesignator(
+                            ArrayDesignator(
+                              ScalarDesignator(
+                               pos
+                              ) [ScalarDesignator]
+                              ExprTerm(
+                                TermFactor(
+                                  FactorDesignator(
+                                    ScalarDesignator(
+                                     idx
+                                    ) [ScalarDesignator]
+                                  ) [FactorDesignator]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [ArrayDesignator]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [ExprStmtMl]
+                  ) [ReturnStmt]
+                ) [FullStatementListM]
+              ) [MethodDeclaration]
+            ) [ClassMethodDeclaration]
+            MethodDeclaration(
+              MethodReturnType(
+                Type(
+                 int
+                ) [Type]
+               getn
+              ) [MethodReturnType]
+              FormParams(
+                SingleFormalParamDecl(
+                  ScalarParam(
+                    Type(
+                     int
+                    ) [Type]
+                   idx
+                  ) [ScalarParam]
+                ) [SingleFormalParamDecl]
+              ) [FormParams]
+              NoLocalVarDeclarationsList(
+              ) [NoLocalVarDeclarationsList]
+              FullStatementListM(
+                NoStatementListM(
+                ) [NoStatementListM]
+                ReturnStmt(
+                  ExprStmtMl(
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          ArrayDesignator(
+                            ScalarDesignator(
+                             neg
+                            ) [ScalarDesignator]
+                            ExprTerm(
+                              TermFactor(
+                                FactorDesignator(
+                                  ScalarDesignator(
+                                   idx
+                                  ) [ScalarDesignator]
+                                ) [FactorDesignator]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [ArrayDesignator]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [ExprStmtMl]
+                ) [ReturnStmt]
+              ) [FullStatementListM]
+            ) [MethodDeclaration]
+          ) [ClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  17:04:51,370 - ===================================
+INFO  17:04:51,372 - Obradjuje se tip int na liniji 2
+INFO  17:04:51,373 - Kreirana je klasa Table na liniji 3
+INFO  17:04:51,373 - Obradjuje se tip int na liniji 4
+INFO  17:04:51,373 - Deklarisan niz pos na liniji 4
+INFO  17:04:51,373 - Deklarisan niz neg na liniji 4
+INFO  17:04:51,373 - Deklarisana promenljiva factor na liniji 4
+INFO  17:04:51,373 - obradjuje se metoda putp na liniji 6
+ERROR 17:04:51,373 - Ime idx nije deklarisano! Semanticka greska na liniji 8
+ERROR 17:04:51,373 - Izraz unutar zagrada mora biti tipa int! Semanticka greska na liniji 8
+ERROR 17:04:51,373 - Metoda tipa void ne vraca nikakvu vrednost! Semanticka greska na liniji 8
+INFO  17:04:51,373 - Obradjuje se tip int na liniji 9
+INFO  17:04:51,373 - obradjuje se metoda getn na liniji 9
+INFO  17:04:51,373 - Obradjuje se tip int na liniji 9
+INFO  17:04:51,373 - Obradjuje se niz neg na liniji 9
+ERROR 17:04:51,373 - Izraz uz return nije ekvivalentan tipu tekuce metode! Semanticka greska na liniji 9
+INFO  17:04:51,374 - ===================================

@@ -1,0 +1,235 @@
+INFO  13:13:47,352 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:13:47,385 - #8 program
+INFO  13:13:47,387 - #5 test_303
+INFO  13:13:47,387 - #12 const
+INFO  13:13:47,387 - #5 int
+INFO  13:13:47,387 - #5 cinilac
+INFO  13:13:47,387 - #36 =
+INFO  13:13:47,387 - #2 4
+INFO  13:13:47,387 - #41 ,
+INFO  13:13:47,387 - #5 delilac
+INFO  13:13:47,387 - #36 =
+INFO  13:13:47,387 - #2 3
+INFO  13:13:47,387 - #39 ;
+INFO  13:13:47,387 - #10 class
+INFO  13:13:47,388 - #5 Predmet
+INFO  13:13:47,388 - #47 {
+INFO  13:13:47,388 - #47 {
+INFO  13:13:47,390 - #5 int
+INFO  13:13:47,390 - #5 zapremina
+INFO  13:13:47,390 - #43 (
+INFO  13:13:47,390 - #5 int
+INFO  13:13:47,390 - #5 z
+INFO  13:13:47,390 - #44 )
+INFO  13:13:47,391 - #47 {
+INFO  13:13:47,392 - #18 return
+INFO  13:13:47,392 - #2 0
+INFO  13:13:47,392 - #39 ;
+INFO  13:13:47,393 - #48 }
+INFO  13:13:47,393 - #48 }
+INFO  13:13:47,393 - #48 }
+INFO  13:13:47,393 - #10 class
+INFO  13:13:47,394 - #5 Sfera
+INFO  13:13:47,394 - #20 extends
+INFO  13:13:47,394 - #5 Predmet
+INFO  13:13:47,394 - #47 {
+INFO  13:13:47,394 - #47 {
+INFO  13:13:47,394 - #5 int
+INFO  13:13:47,394 - #5 zapremina
+INFO  13:13:47,394 - #43 (
+INFO  13:13:47,394 - #5 int
+INFO  13:13:47,394 - #5 z
+INFO  13:13:47,394 - #44 )
+INFO  13:13:47,394 - #47 {
+INFO  13:13:47,394 - #5 z
+INFO  13:13:47,395 - #36 =
+INFO  13:13:47,395 - #5 cinilac
+INFO  13:13:47,395 - #39 ;
+INFO  13:13:47,395 - #18 return
+INFO  13:13:47,397 - #5 z
+INFO  13:13:47,397 - #39 ;
+INFO  13:13:47,397 - #48 }
+INFO  13:13:47,397 - #48 }
+INFO  13:13:47,397 - #48 }
+INFO  13:13:47,397 - #47 {
+INFO  13:13:47,397 - #48 }
+INFO  13:13:47,403 - Program(
+  NamePro(
+   test_303
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        NoGlobalDeclarationsList(
+        ) [NoGlobalDeclarationsList]
+        GlobalConstDecl(
+          ConstDeclarations(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsList(
+              OneConstDeclarationItem(
+                ConstDeclarationItem(
+                 cinilac
+                  ConstValueNumber(
+                   4
+                  ) [ConstValueNumber]
+                ) [ConstDeclarationItem]
+              ) [OneConstDeclarationItem]
+              ConstDeclarationItem(
+               delilac
+                ConstValueNumber(
+                 3
+                ) [ConstValueNumber]
+              ) [ConstDeclarationItem]
+            ) [ConstDeclarationsList]
+          ) [ConstDeclarations]
+        ) [GlobalConstDecl]
+      ) [GlobalDeclarationsList]
+      GlobalClassDecl(
+        ClassDeclaration(
+          ClassFirst(
+           Predmet
+            NoClassExtends(
+            ) [NoClassExtends]
+          ) [ClassFirst]
+          NoClassVarDeclaration(
+          ) [NoClassVarDeclaration]
+          ClassMethDeclaration(
+            ClassMethodDeclaration(
+              NoClassMethodDeclaration(
+              ) [NoClassMethodDeclaration]
+              MethodDeclaration(
+                MethodReturnType(
+                  Type(
+                   int
+                  ) [Type]
+                 zapremina
+                ) [MethodReturnType]
+                FormParams(
+                  SingleFormalParamDecl(
+                    ScalarParam(
+                      Type(
+                       int
+                      ) [Type]
+                     z
+                    ) [ScalarParam]
+                  ) [SingleFormalParamDecl]
+                ) [FormParams]
+                NoLocalVarDeclarationsList(
+                ) [NoLocalVarDeclarationsList]
+                FullStatementListM(
+                  NoStatementListM(
+                  ) [NoStatementListM]
+                  ReturnStmt(
+                    ExprStmtMl(
+                      ExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           0
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [ExprStmtMl]
+                  ) [ReturnStmt]
+                ) [FullStatementListM]
+              ) [MethodDeclaration]
+            ) [ClassMethodDeclaration]
+          ) [ClassMethDeclaration]
+        ) [ClassDeclaration]
+      ) [GlobalClassDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+        ClassFirst(
+         Sfera
+          ClassExtends(
+            Type(
+             Predmet
+            ) [Type]
+          ) [ClassExtends]
+        ) [ClassFirst]
+        NoClassVarDeclaration(
+        ) [NoClassVarDeclaration]
+        ClassMethDeclaration(
+          ClassMethodDeclaration(
+            NoClassMethodDeclaration(
+            ) [NoClassMethodDeclaration]
+            MethodDeclaration(
+              MethodReturnType(
+                Type(
+                 int
+                ) [Type]
+               zapremina
+              ) [MethodReturnType]
+              FormParams(
+                SingleFormalParamDecl(
+                  ScalarParam(
+                    Type(
+                     int
+                    ) [Type]
+                   z
+                  ) [ScalarParam]
+                ) [SingleFormalParamDecl]
+              ) [FormParams]
+              NoLocalVarDeclarationsList(
+              ) [NoLocalVarDeclarationsList]
+              FullStatementListM(
+                FullStatementListM(
+                  NoStatementListM(
+                  ) [NoStatementListM]
+                  AssignStmt(
+                    DesignatorAssignValue(
+                      ScalarDesignator(
+                       z
+                      ) [ScalarDesignator]
+                      AssignOperation(
+                      ) [AssignOperation]
+                      ExprTerm(
+                        TermFactor(
+                          FactorDesignator(
+                            ScalarDesignator(
+                             cinilac
+                            ) [ScalarDesignator]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [DesignatorAssignValue]
+                  ) [AssignStmt]
+                ) [FullStatementListM]
+                ReturnStmt(
+                  ExprStmtMl(
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          ScalarDesignator(
+                           z
+                          ) [ScalarDesignator]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [ExprStmtMl]
+                ) [ReturnStmt]
+              ) [FullStatementListM]
+            ) [MethodDeclaration]
+          ) [ClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  13:13:47,404 - ===================================
+INFO  13:13:47,406 - Obradjuje se tip int na liniji 6
+INFO  13:13:47,406 - Kreirana je klasa Predmet na liniji 8
+INFO  13:13:47,406 - Obradjuje se tip int na liniji 12
+INFO  13:13:47,406 - obradjuje se metoda zapremina na liniji 12
+INFO  13:13:47,406 - Obradjuje se tip int na liniji 12
+INFO  13:13:47,407 - Obradjuje se tip Predmet na liniji 17
+INFO  13:13:47,407 - Kreirana je klasa Sfera na liniji 17
+INFO  13:13:47,407 - Obradjuje se tip int na liniji 21
+INFO  13:13:47,407 - obradjuje se metoda zapremina na liniji 21
+INFO  13:13:47,407 - Obradjuje se tip int na liniji 21
+INFO  13:13:47,407 - uspesno dodeljeno na liniji 23
+INFO  13:13:47,407 - ===================================

@@ -1,0 +1,170 @@
+INFO  22:39:25,062 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  22:39:25,083 - #8 program
+INFO  22:39:25,083 - #5 Test
+INFO  22:39:25,083 - #12 const
+INFO  22:39:25,084 - #5 char
+INFO  22:39:25,084 - #5 x
+INFO  22:39:25,084 - #37 =
+INFO  22:39:25,084 - #3 x
+INFO  22:39:25,084 - #42 ,
+INFO  22:39:25,085 - #5 s
+INFO  22:39:25,085 - #37 =
+INFO  22:39:25,085 - #3 5
+INFO  22:39:25,085 - #40 ;
+INFO  22:39:25,085 - #12 const
+INFO  22:39:25,086 - #5 int
+INFO  22:39:25,086 - #5 s
+INFO  22:39:25,086 - #37 =
+INFO  22:39:25,086 - #2 0
+INFO  22:39:25,086 - #40 ;
+INFO  22:39:25,086 - #5 int
+INFO  22:39:25,086 - #5 x
+INFO  22:39:25,086 - #46 [
+INFO  22:39:25,086 - #47 ]
+INFO  22:39:25,086 - #42 ,
+INFO  22:39:25,089 - #5 k
+INFO  22:39:25,089 - #40 ;
+INFO  22:39:25,089 - #10 class
+INFO  22:39:25,089 - #5 X
+INFO  22:39:25,089 - #48 {
+INFO  22:39:25,090 - #5 int
+INFO  22:39:25,090 - #5 x
+INFO  22:39:25,090 - #42 ,
+INFO  22:39:25,090 - #5 y
+INFO  22:39:25,090 - #40 ;
+INFO  22:39:25,090 - #48 {
+INFO  22:39:25,090 - #19 void
+INFO  22:39:25,091 - #5 fun1
+INFO  22:39:25,091 - #44 (
+INFO  22:39:25,091 - #45 )
+INFO  22:39:25,092 - #5 int
+INFO  22:39:25,092 - #5 x
+INFO  22:39:25,092 - #40 ;
+INFO  22:39:25,092 - #48 {
+INFO  22:39:25,093 - #49 }
+INFO  22:39:25,093 - #49 }
+INFO  22:39:25,093 - #49 }
+INFO  22:39:25,093 - #48 {
+INFO  22:39:25,094 - #49 }
+INFO  22:39:25,095 - Program(
+ Test
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        GlobalDeclarationsList(
+          NoGlobalDeclarationsList(
+          ) [NoGlobalDeclarationsList]
+          GlobalConstDecl(
+            ConstDeclarations(
+              Type(
+               char
+              ) [Type]
+              ConstDeclarationsList(
+                OneConstDeclarationItem(
+                  ConstDeclarationItem(
+                   x
+                    ConstValueChar(
+                     x
+                    ) [ConstValueChar]
+                  ) [ConstDeclarationItem]
+                ) [OneConstDeclarationItem]
+                ConstDeclarationItem(
+                 s
+                  ConstValueChar(
+                   5
+                  ) [ConstValueChar]
+                ) [ConstDeclarationItem]
+              ) [ConstDeclarationsList]
+            ) [ConstDeclarations]
+          ) [GlobalConstDecl]
+        ) [GlobalDeclarationsList]
+        GlobalConstDecl(
+          ConstDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneConstDeclarationItem(
+              ConstDeclarationItem(
+               s
+                ConstValueNumber(
+                 0
+                ) [ConstValueNumber]
+              ) [ConstDeclarationItem]
+            ) [OneConstDeclarationItem]
+          ) [ConstDeclarations]
+        ) [GlobalConstDecl]
+      ) [GlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              ArrayDeclarationItem(
+               x
+              ) [ArrayDeclarationItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             k
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+       X
+        NoClassExtends(
+        ) [NoClassExtends]
+        ClassVarDeclaration(
+          NoClassVarDeclaration(
+          ) [NoClassVarDeclaration]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsList(
+              OneVarDeclarationItem(
+                VarDeclarationItem(
+                 x
+                ) [VarDeclarationItem]
+              ) [OneVarDeclarationItem]
+              VarDeclarationItem(
+               y
+              ) [VarDeclarationItem]
+            ) [VarDeclarationsList]
+          ) [VarDeclarations]
+        ) [ClassVarDeclaration]
+        ClassMethDeclaration(
+          ClassMethodDeclaration(
+            NoClassMethodDeclaration(
+            ) [NoClassMethodDeclaration]
+            MethodDeclaration(
+              MethodReturnVoid(
+               fun1
+              ) [MethodReturnVoid]
+              NoFormParams(
+              ) [NoFormParams]
+              LocalVarDeclarationsList(
+                NoLocalVarDeclarationsList(
+                ) [NoLocalVarDeclarationsList]
+                VarDeclarations(
+                  Type(
+                   int
+                  ) [Type]
+                  OneVarDeclarationItem(
+                    VarDeclarationItem(
+                     x
+                    ) [VarDeclarationItem]
+                  ) [OneVarDeclarationItem]
+                ) [VarDeclarations]
+              ) [LocalVarDeclarationsList]
+            ) [MethodDeclaration]
+          ) [ClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+) [Program]
+INFO  22:39:25,095 - ===================================

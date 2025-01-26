@@ -1,0 +1,149 @@
+INFO  13:52:19,330 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:52:19,365 - #8 program
+INFO  13:52:19,365 - #5 ABC
+INFO  13:52:19,365 - #12 const
+INFO  13:52:19,366 - #5 int
+INFO  13:52:19,366 - #5 N
+INFO  13:52:19,366 - #36 =
+INFO  13:52:19,366 - #2 2
+INFO  13:52:19,366 - #39 ;
+INFO  13:52:19,367 - #47 {
+INFO  13:52:19,367 - #5 int
+INFO  13:52:19,368 - #5 fun
+INFO  13:52:19,368 - #43 (
+INFO  13:52:19,368 - #5 int
+INFO  13:52:19,368 - #5 k
+INFO  13:52:19,368 - #44 )
+INFO  13:52:19,368 - #5 int
+INFO  13:52:19,369 - #5 l
+INFO  13:52:19,369 - #47 {
+ERROR 13:52:19,369 - 
+Sintaksna greska na liniji 4
+INFO  13:52:19,369 - #18 return
+INFO  13:52:19,369 - #5 k
+INFO  13:52:19,369 - #39 ;
+INFO  13:52:19,372 - #48 }
+INFO  13:52:19,372 - #19 void
+INFO  13:52:19,372 - #5 main
+INFO  13:52:19,372 - #43 (
+INFO  13:52:19,372 - #44 )
+INFO  13:52:19,372 - #5 int
+INFO  13:52:19,372 - #5 x
+INFO  13:52:19,372 - #39 ;
+INFO  13:52:19,372 - #47 {
+INFO  13:52:19,372 - #5 x
+INFO  13:52:19,372 - #36 =
+ERROR 13:52:19,372 - Izvrsen oporavak od greske u definiciji globalne promenljive do , ili ;. Greska je u liniji 4
+INFO  13:52:19,373 - #5 fun
+INFO  13:52:19,373 - #43 (
+INFO  13:52:19,373 - #5 N
+INFO  13:52:19,374 - #44 )
+INFO  13:52:19,374 - #39 ;
+INFO  13:52:19,374 - #48 }
+INFO  13:52:19,374 - #48 }
+INFO  13:52:19,379 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalConstDecl(
+      ConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneConstDeclarationItem(
+          ConstDeclarationItem(
+           N
+            ConstValueNumber(
+             2
+            ) [ConstValueNumber]
+          ) [ConstDeclarationItem]
+        ) [OneConstDeclarationItem]
+      ) [ConstDeclarations]
+    ) [GlobalConstDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnType(
+        Type(
+         int
+        ) [Type]
+       fun
+      ) [MethodReturnType]
+      FormParams(
+        SingleFormalParamDecl(
+          ScalarParam(
+            Type(
+             int
+            ) [Type]
+           k
+          ) [ScalarParam]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      LocalVarDeclarationsList(
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            ErrorInDeclaringItem(
+            ) [ErrorInDeclaringItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        NoStatementListM(
+        ) [NoStatementListM]
+        AssignStmt(
+          DesignatorAssignValue(
+            ScalarDesignator(
+             x
+            ) [ScalarDesignator]
+            AssignOperation(
+            ) [AssignOperation]
+            ExprTerm(
+              TermFactor(
+                FactorFuncCall(
+                  ScalarDesignator(
+                   fun
+                  ) [ScalarDesignator]
+                  YesActualPars(
+                    SingleActualParam(
+                      ActualParameter(
+                        ExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              ScalarDesignator(
+                               N
+                              ) [ScalarDesignator]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [ActualParameter]
+                    ) [SingleActualParam]
+                  ) [YesActualPars]
+                ) [FactorFuncCall]
+              ) [TermFactor]
+            ) [ExprTerm]
+          ) [DesignatorAssignValue]
+        ) [AssignStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:52:19,379 - ===================================
+INFO  13:52:19,382 - Obradjuje se tip int na liniji 2
+INFO  13:52:19,382 - Obradjuje se tip int na liniji 4
+INFO  13:52:19,383 - obradjuje se metoda fun na liniji 4
+INFO  13:52:19,383 - Obradjuje se tip int na liniji 4
+INFO  13:52:19,383 - Obradjuje se tip int na liniji 4
+ERROR 13:52:19,383 - Ime x nije deklarisano! Semanticka greska na liniji 10
+ERROR 13:52:19,383 - Nisu kompatibilni tipovi u naredbi dodele 0 na liniji 10
+ERROR 13:52:19,383 - Funkcija nema return naredbu! Semanticka greska na liniji 4
+INFO  13:52:19,383 - ===================================

@@ -1,0 +1,121 @@
+INFO  14:51:07,155 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:51:07,201 - #8 program
+INFO  14:51:07,201 - #5 Test
+INFO  14:51:07,202 - #12 const
+INFO  14:51:07,202 - #5 int
+INFO  14:51:07,202 - #5 s
+INFO  14:51:07,202 - #37 =
+INFO  14:51:07,203 - #2 0
+INFO  14:51:07,203 - #40 ;
+INFO  14:51:07,203 - #5 int
+INFO  14:51:07,203 - #5 x
+INFO  14:51:07,203 - #42 ,
+INFO  14:51:07,204 - #5 k
+INFO  14:51:07,204 - #40 ;
+INFO  14:51:07,204 - #48 {
+INFO  14:51:07,205 - #5 int
+INFO  14:51:07,205 - #5 fun1
+INFO  14:51:07,205 - #44 (
+INFO  14:51:07,205 - #5 int
+INFO  14:51:07,205 - #5 s
+INFO  14:51:07,205 - #45 )
+INFO  14:51:07,206 - #48 {
+INFO  14:51:07,207 - #18 return
+INFO  14:51:07,213 - #5 s
+INFO  14:51:07,213 - #40 ;
+INFO  14:51:07,214 - #49 }
+INFO  14:51:07,214 - #49 }
+INFO  14:51:07,219 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalConstDecl(
+        ConstDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneConstDeclarationItem(
+            ConstDeclarationItem(
+             s
+              ConstValueNumber(
+               0
+              ) [ConstValueNumber]
+            ) [ConstDeclarationItem]
+          ) [OneConstDeclarationItem]
+        ) [ConstDeclarations]
+      ) [GlobalConstDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             x
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           k
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnType(
+        Type(
+         int
+        ) [Type]
+       fun1
+      ) [MethodReturnType]
+      FormParams(
+        SingleFormalParamDecl(
+          ScalarParam(
+            Type(
+             int
+            ) [Type]
+           s
+          ) [ScalarParam]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      FullStatementListM(
+        NoStatementListM(
+        ) [NoStatementListM]
+        ReturnStmt(
+          ExprStmtMl(
+            ExprTerm(
+              TermFactor(
+                FactorDesignator(
+                  ScalarDesignator(
+                   s
+                  ) [ScalarDesignator]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprTerm]
+          ) [ExprStmtMl]
+        ) [ReturnStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:51:07,220 - ===================================
+INFO  14:51:07,222 - Obradjuje se tip int na liniji 2
+INFO  14:51:07,223 - Obradjuje se tip int na liniji 3
+INFO  14:51:07,223 - Deklarisana promenljiva x na liniji 3
+INFO  14:51:07,223 - Deklarisana promenljiva k na liniji 3
+INFO  14:51:07,223 - Obradjuje se tip int na liniji 4
+INFO  14:51:07,223 - obradjuje se metoda fun1 na liniji 4
+INFO  14:51:07,223 - Obradjuje se tip int na liniji 4
+ERROR 14:51:07,224 - Izraz uz return nije ekvivalentan tipu tekuce metode! Semanticka greska na liniji 5
+INFO  14:51:07,224 - ===================================

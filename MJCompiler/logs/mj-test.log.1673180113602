@@ -1,0 +1,142 @@
+INFO  13:04:35,902 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:04:35,944 - #8 program
+INFO  13:04:35,944 - #5 ABC
+INFO  13:04:35,944 - #5 int
+INFO  13:04:35,945 - #5 x
+INFO  13:04:35,946 - #41 ,
+INFO  13:04:35,946 - #5 z
+INFO  13:04:35,946 - #39 ;
+INFO  13:04:35,946 - #5 int
+INFO  13:04:35,947 - #5 y
+INFO  13:04:35,947 - #39 ;
+INFO  13:04:35,947 - #47 {
+INFO  13:04:35,947 - #19 void
+INFO  13:04:35,947 - #5 main
+INFO  13:04:35,948 - #43 (
+INFO  13:04:35,948 - #44 )
+INFO  13:04:35,948 - #47 {
+INFO  13:04:35,949 - #5 x
+INFO  13:04:35,949 - #36 =
+INFO  13:04:35,949 - #2 5
+INFO  13:04:35,950 - #39 ;
+INFO  13:04:35,950 - #5 y
+INFO  13:04:35,950 - #36 =
+INFO  13:04:35,950 - #2 7
+INFO  13:04:35,952 - #24 -
+INFO  13:04:35,953 - #5 x
+INFO  13:04:35,954 - #39 ;
+INFO  13:04:35,954 - #48 }
+INFO  13:04:35,955 - #48 }
+INFO  13:04:35,962 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               x
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             z
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          VarDeclarationItem(
+           y
+          ) [VarDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          NoStatementListM(
+          ) [NoStatementListM]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               x
+              ) [ScalarDesignator]
+              AssignOperation(
+              ) [AssignOperation]
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   5
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [FullStatementListM]
+        AssignStmt(
+          DesignatorAssignValue(
+            ScalarDesignator(
+             y
+            ) [ScalarDesignator]
+            AssignOperation(
+            ) [AssignOperation]
+            ExprAdd(
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   7
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+              MinusOperation(
+              ) [MinusOperation]
+              TermFactor(
+                FactorDesignator(
+                  ScalarDesignator(
+                   x
+                  ) [ScalarDesignator]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprAdd]
+          ) [DesignatorAssignValue]
+        ) [AssignStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:04:35,962 - ===================================
+INFO  13:04:35,965 - Obradjuje se tip int na liniji 2
+INFO  13:04:35,965 - Deklarisana promenljiva x na liniji 2
+INFO  13:04:35,965 - Deklarisana promenljiva z na liniji 2
+INFO  13:04:35,965 - Obradjuje se tip int na liniji 3
+INFO  13:04:35,965 - Deklarisana promenljiva y na liniji 3
+INFO  13:04:35,965 - obradjuje se metoda main na liniji 5
+INFO  13:04:35,966 - uspesno dodeljeno na liniji 7
+INFO  13:04:35,966 - uspesno dodeljeno na liniji 8
+INFO  13:04:35,966 - ===================================
+INFO  13:04:35,971 - Parsiranje uspesno zavrseno!

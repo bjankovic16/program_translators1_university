@@ -1,0 +1,235 @@
+INFO  11:08:13,101 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  11:08:13,160 - #8 program
+INFO  11:08:13,160 - #5 test302
+INFO  11:08:13,160 - #5 int
+INFO  11:08:13,161 - #5 a
+INFO  11:08:13,162 - #41 ,
+INFO  11:08:13,162 - #5 int
+INFO  11:08:13,162 - #5 b
+ERROR 11:08:13,162 - 
+Sintaksna greska na liniji 2
+INFO  11:08:13,162 - #39 ;
+INFO  11:08:13,162 - #47 {
+INFO  11:08:13,162 - #19 void
+INFO  11:08:13,163 - #5 main
+ERROR 11:08:13,163 - Izvrsen oporavak od greske u definiciji globalne promenljive do , ili ;. Greska je u liniji 2
+INFO  11:08:13,164 - #43 (
+INFO  11:08:13,164 - #44 )
+INFO  11:08:13,165 - #47 {
+INFO  11:08:13,166 - #5 a
+INFO  11:08:13,167 - #36 =
+INFO  11:08:13,167 - #2 2
+INFO  11:08:13,168 - #39 ;
+INFO  11:08:13,168 - #5 b
+INFO  11:08:13,168 - #36 =
+INFO  11:08:13,168 - #2 2
+INFO  11:08:13,168 - #39 ;
+INFO  11:08:13,168 - #14 while
+INFO  11:08:13,170 - #43 (
+INFO  11:08:13,170 - #5 a
+INFO  11:08:13,170 - #30 >
+INFO  11:08:13,170 - #2 0
+INFO  11:08:13,172 - #34 &&
+INFO  11:08:13,172 - #5 b
+INFO  11:08:13,172 - #30 >
+INFO  11:08:13,172 - #2 0
+INFO  11:08:13,172 - #44 )
+INFO  11:08:13,172 - #47 {
+INFO  11:08:13,173 - #5 a
+INFO  11:08:13,175 - #38 --
+INFO  11:08:13,175 - #39 ;
+INFO  11:08:13,175 - #5 b
+INFO  11:08:13,175 - #38 --
+INFO  11:08:13,175 - #39 ;
+INFO  11:08:13,175 - #48 }
+INFO  11:08:13,175 - #16 print
+INFO  11:08:13,176 - #43 (
+INFO  11:08:13,176 - #5 a
+INFO  11:08:13,176 - #44 )
+INFO  11:08:13,177 - #39 ;
+INFO  11:08:13,177 - #48 }
+INFO  11:08:13,177 - #48 }
+INFO  11:08:13,187 - Program(
+  NamePro(
+   test302
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             a
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+          ErrorInDeclaringItem(
+          ) [ErrorInDeclaringItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          FullStatementListM(
+            FullStatementListM(
+              NoStatementListM(
+              ) [NoStatementListM]
+              AssignStmt(
+                DesignatorAssignValue(
+                  ScalarDesignator(
+                   a
+                  ) [ScalarDesignator]
+                  AssignOperation(
+                  ) [AssignOperation]
+                  ExprTerm(
+                    TermFactor(
+                      FactorNumber(
+                       2
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [DesignatorAssignValue]
+              ) [AssignStmt]
+            ) [FullStatementListM]
+            AssignStmt(
+              DesignatorAssignValue(
+                ScalarDesignator(
+                 b
+                ) [ScalarDesignator]
+                AssignOperation(
+                ) [AssignOperation]
+                ExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [DesignatorAssignValue]
+            ) [AssignStmt]
+          ) [FullStatementListM]
+          WhileStmt(
+            WhileEmpty(
+            ) [WhileEmpty]
+            ConditionTerm(
+              ConditionAnd(
+                ConditionFact(
+                  ConFact(
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          ScalarDesignator(
+                           a
+                          ) [ScalarDesignator]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                    CondFactorPart(
+                      GreatOperation(
+                      ) [GreatOperation]
+                      ExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           0
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [CondFactorPart]
+                  ) [ConFact]
+                ) [ConditionFact]
+                ConFact(
+                  ExprTerm(
+                    TermFactor(
+                      FactorDesignator(
+                        ScalarDesignator(
+                         b
+                        ) [ScalarDesignator]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                  CondFactorPart(
+                    GreatOperation(
+                    ) [GreatOperation]
+                    ExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         0
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [CondFactorPart]
+                ) [ConFact]
+              ) [ConditionAnd]
+            ) [ConditionTerm]
+            StatWhileBeg(
+            ) [StatWhileBeg]
+            OneMoreStmt(
+              StatementHNI(
+                StatementHNI(
+                  EmptySHNI(
+                  ) [EmptySHNI]
+                  AssignStmt(
+                    DesignatorDecValue(
+                      ScalarDesignator(
+                       a
+                      ) [ScalarDesignator]
+                    ) [DesignatorDecValue]
+                  ) [AssignStmt]
+                ) [StatementHNI]
+                AssignStmt(
+                  DesignatorDecValue(
+                    ScalarDesignator(
+                     b
+                    ) [ScalarDesignator]
+                  ) [DesignatorDecValue]
+                ) [AssignStmt]
+              ) [StatementHNI]
+            ) [OneMoreStmt]
+          ) [WhileStmt]
+        ) [FullStatementListM]
+        PrintStmt(
+          ExprTerm(
+            TermFactor(
+              FactorDesignator(
+                ScalarDesignator(
+                 a
+                ) [ScalarDesignator]
+              ) [FactorDesignator]
+            ) [TermFactor]
+          ) [ExprTerm]
+          ConstStatementEmpty(
+          ) [ConstStatementEmpty]
+        ) [PrintStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  11:08:13,188 - ===================================
+INFO  11:08:13,193 - Obradjuje se tip int na liniji 2
+INFO  11:08:13,193 - Deklarisana promenljiva a na liniji 2
+INFO  11:08:13,193 - obradjuje se metoda main na liniji 4
+INFO  11:08:13,193 - uspesno dodeljeno na liniji 6
+ERROR 11:08:13,193 - Ime b nije deklarisano! Semanticka greska na liniji 7
+ERROR 11:08:13,193 - Nisu kompatibilni tipovi u naredbi dodele  na liniji 7
+ERROR 11:08:13,194 - Ime b nije deklarisano! Semanticka greska na liniji 8
+ERROR 11:08:13,194 - Tipovi nisu kompatibilni! Semanticka greska na liniji 8
+ERROR 11:08:13,194 - Ime b nije deklarisano! Semanticka greska na liniji 10
+ERROR 11:08:13,194 - Condition u do while petlji mora biti tipa bool! Semanticka greska na liniji 4
+INFO  11:08:13,194 - ===================================
+ERROR 11:08:13,194 - Parsiranje NIJE uspesno zavrseno!

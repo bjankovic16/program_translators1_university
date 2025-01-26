@@ -1,0 +1,324 @@
+INFO  15:48:45,739 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:48:45,772 - #8 program
+INFO  15:48:45,772 - #5 Test
+INFO  15:48:45,772 - #5 int
+INFO  15:48:45,773 - #5 niz
+INFO  15:48:45,773 - #46 [
+INFO  15:48:45,773 - #47 ]
+INFO  15:48:45,773 - #40 ;
+INFO  15:48:45,773 - #5 int
+INFO  15:48:45,773 - #5 c
+INFO  15:48:45,774 - #40 ;
+INFO  15:48:45,774 - #10 class
+INFO  15:48:45,774 - #5 Druga
+INFO  15:48:45,774 - #48 {
+INFO  15:48:45,774 - #5 int
+INFO  15:48:45,775 - #5 l
+INFO  15:48:45,775 - #40 ;
+INFO  15:48:45,775 - #48 {
+INFO  15:48:45,775 - #19 void
+INFO  15:48:45,775 - #5 met
+INFO  15:48:45,776 - #44 (
+INFO  15:48:45,776 - #5 char
+INFO  15:48:45,776 - #5 s
+INFO  15:48:45,778 - #45 )
+INFO  15:48:45,778 - #48 {
+INFO  15:48:45,779 - #49 }
+INFO  15:48:45,780 - #49 }
+INFO  15:48:45,781 - #49 }
+INFO  15:48:45,781 - #10 class
+INFO  15:48:45,781 - #5 Extendovana
+INFO  15:48:45,781 - #20 extends
+INFO  15:48:45,781 - #5 Druga
+INFO  15:48:45,781 - #48 {
+INFO  15:48:45,782 - #5 int
+INFO  15:48:45,782 - #5 c
+INFO  15:48:45,782 - #40 ;
+INFO  15:48:45,782 - #48 {
+INFO  15:48:45,782 - #19 void
+INFO  15:48:45,782 - #5 met1
+INFO  15:48:45,782 - #44 (
+INFO  15:48:45,782 - #45 )
+INFO  15:48:45,783 - #48 {
+INFO  15:48:45,783 - #49 }
+INFO  15:48:45,783 - #19 void
+INFO  15:48:45,783 - #5 met
+INFO  15:48:45,783 - #44 (
+INFO  15:48:45,783 - #5 char
+INFO  15:48:45,783 - #5 s
+INFO  15:48:45,783 - #45 )
+INFO  15:48:45,783 - #48 {
+INFO  15:48:45,783 - #5 c
+INFO  15:48:45,783 - #38 ++
+INFO  15:48:45,783 - #40 ;
+INFO  15:48:45,784 - #49 }
+INFO  15:48:45,784 - #49 }
+INFO  15:48:45,784 - #49 }
+INFO  15:48:45,784 - #48 {
+INFO  15:48:45,784 - #5 int
+INFO  15:48:45,784 - #5 main
+INFO  15:48:45,784 - #44 (
+INFO  15:48:45,784 - #45 )
+INFO  15:48:45,785 - #5 Druga
+INFO  15:48:45,785 - #5 a
+INFO  15:48:45,785 - #40 ;
+INFO  15:48:45,785 - #48 {
+INFO  15:48:45,785 - #5 a
+INFO  15:48:45,785 - #43 .
+INFO  15:48:45,785 - #5 l
+INFO  15:48:45,785 - #37 =
+INFO  15:48:45,785 - #2 4
+INFO  15:48:45,786 - #40 ;
+INFO  15:48:45,787 - #18 return
+INFO  15:48:45,787 - #2 0
+INFO  15:48:45,787 - #40 ;
+INFO  15:48:45,787 - #49 }
+INFO  15:48:45,787 - #49 }
+INFO  15:48:45,792 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        GlobalDeclarationsList(
+          NoGlobalDeclarationsList(
+          ) [NoGlobalDeclarationsList]
+          GlobalVarDecl(
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclarationItem(
+                ArrayDeclarationItem(
+                 niz
+                ) [ArrayDeclarationItem]
+              ) [OneVarDeclarationItem]
+            ) [VarDeclarations]
+          ) [GlobalVarDecl]
+        ) [GlobalDeclarationsList]
+        GlobalVarDecl(
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               c
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [GlobalVarDecl]
+      ) [GlobalDeclarationsList]
+      GlobalClassDecl(
+        ClassDeclaration(
+          ClassFirst(
+           Druga
+            NoClassExtends(
+            ) [NoClassExtends]
+          ) [ClassFirst]
+          ClassVarDeclaration(
+            NoClassVarDeclaration(
+            ) [NoClassVarDeclaration]
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclarationItem(
+                VarDeclarationItem(
+                 l
+                ) [VarDeclarationItem]
+              ) [OneVarDeclarationItem]
+            ) [VarDeclarations]
+          ) [ClassVarDeclaration]
+          ClassMethDeclaration(
+            ClassMethodDeclaration(
+              NoClassMethodDeclaration(
+              ) [NoClassMethodDeclaration]
+              MethodDeclaration(
+                MethodReturnVoid(
+                 met
+                ) [MethodReturnVoid]
+                FormParams(
+                  SingleFormalParamDecl(
+                    ScalarParam(
+                      Type(
+                       char
+                      ) [Type]
+                     s
+                    ) [ScalarParam]
+                  ) [SingleFormalParamDecl]
+                ) [FormParams]
+                NoLocalVarDeclarationsList(
+                ) [NoLocalVarDeclarationsList]
+                NoStatementListM(
+                ) [NoStatementListM]
+              ) [MethodDeclaration]
+            ) [ClassMethodDeclaration]
+          ) [ClassMethDeclaration]
+        ) [ClassDeclaration]
+      ) [GlobalClassDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+        ClassFirst(
+         Extendovana
+          ClassExtends(
+            Type(
+             Druga
+            ) [Type]
+          ) [ClassExtends]
+        ) [ClassFirst]
+        ClassVarDeclaration(
+          NoClassVarDeclaration(
+          ) [NoClassVarDeclaration]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               c
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [ClassVarDeclaration]
+        ClassMethDeclaration(
+          ClassMethodDeclaration(
+            ClassMethodDeclaration(
+              NoClassMethodDeclaration(
+              ) [NoClassMethodDeclaration]
+              MethodDeclaration(
+                MethodReturnVoid(
+                 met1
+                ) [MethodReturnVoid]
+                NoFormParams(
+                ) [NoFormParams]
+                NoLocalVarDeclarationsList(
+                ) [NoLocalVarDeclarationsList]
+                NoStatementListM(
+                ) [NoStatementListM]
+              ) [MethodDeclaration]
+            ) [ClassMethodDeclaration]
+            MethodDeclaration(
+              MethodReturnVoid(
+               met
+              ) [MethodReturnVoid]
+              FormParams(
+                SingleFormalParamDecl(
+                  ScalarParam(
+                    Type(
+                     char
+                    ) [Type]
+                   s
+                  ) [ScalarParam]
+                ) [SingleFormalParamDecl]
+              ) [FormParams]
+              NoLocalVarDeclarationsList(
+              ) [NoLocalVarDeclarationsList]
+              FullStatementListM(
+                NoStatementListM(
+                ) [NoStatementListM]
+                AssignStmt(
+                  DesignatorIncValue(
+                    ScalarDesignator(
+                     c
+                    ) [ScalarDesignator]
+                  ) [DesignatorIncValue]
+                ) [AssignStmt]
+              ) [FullStatementListM]
+            ) [MethodDeclaration]
+          ) [ClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodReturnType]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           Druga
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             a
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          NoStatementListM(
+          ) [NoStatementListM]
+          AssignStmt(
+            DesignatorAssignValue(
+              ClassDesignator(
+                ScalarDesignator(
+                 a
+                ) [ScalarDesignator]
+               l
+              ) [ClassDesignator]
+              AssignOperation(
+              ) [AssignOperation]
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   4
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [FullStatementListM]
+        ReturnStmt(
+          ExprStmtMl(
+            ExprTerm(
+              TermFactor(
+                FactorNumber(
+                 0
+                ) [FactorNumber]
+              ) [TermFactor]
+            ) [ExprTerm]
+          ) [ExprStmtMl]
+        ) [ReturnStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:48:45,793 - ===================================
+INFO  15:48:45,797 - Obradjuje se tip int na liniji 2
+INFO  15:48:45,797 - Deklarisan niz niz na liniji 2
+INFO  15:48:45,797 - Obradjuje se tip int na liniji 3
+INFO  15:48:45,797 - Deklarisana promenljiva c na liniji 3
+INFO  15:48:45,797 - Kreirana je klasa Druga na liniji 4
+INFO  15:48:45,797 - Obradjuje se tip int na liniji 4
+INFO  15:48:45,797 - Deklarisana promenljiva l na liniji 4
+INFO  15:48:45,797 - obradjuje se metoda met na liniji 5
+INFO  15:48:45,797 - Obradjuje se tip char na liniji 5
+INFO  15:48:45,798 - Obradjuje se tip Druga na liniji 8
+INFO  15:48:45,798 - Kreirana je klasa Extendovana na liniji 8
+INFO  15:48:45,798 - Ubacen je simbol l na liniji 8
+INFO  15:48:45,798 - Obradjuje se tip int na liniji 8
+INFO  15:48:45,798 - Deklarisana promenljiva c na liniji 8
+INFO  15:48:45,798 - obradjuje se metoda met1 na liniji 9
+INFO  15:48:45,798 - obradjuje se metoda met na liniji 10
+INFO  15:48:45,798 - Obradjuje se tip char na liniji 10
+INFO  15:48:45,798 - Obradjuje se tip int na liniji 14
+INFO  15:48:45,798 - obradjuje se metoda main na liniji 14
+INFO  15:48:45,798 - Obradjuje se tip Druga na liniji 14
+INFO  15:48:45,798 - Deklarisana promenljiva a na liniji 14
+ERROR 15:48:45,798 - Dati tip ne pripada klasi! Semanticka greska na liniji 15
+INFO  15:48:45,799 - ===================================

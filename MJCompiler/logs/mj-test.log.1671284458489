@@ -1,0 +1,110 @@
+INFO  14:39:07,915 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:39:07,966 - #8 program
+INFO  14:39:07,966 - #5 Test
+INFO  14:39:07,966 - #12 const
+INFO  14:39:07,967 - #5 char
+INFO  14:39:07,968 - #5 x
+INFO  14:39:07,968 - #37 =
+INFO  14:39:07,969 - #3 x
+INFO  14:39:07,969 - #42 ,
+INFO  14:39:07,969 - #5 s
+INFO  14:39:07,969 - #37 =
+INFO  14:39:07,969 - #3 5
+INFO  14:39:07,969 - #40 ;
+INFO  14:39:07,969 - #5 int
+INFO  14:39:07,970 - #5 p
+INFO  14:39:07,970 - #37 =
+ERROR 14:39:07,970 - 
+Sintaksna greska na liniji 3
+INFO  14:39:07,970 - #2 0
+INFO  14:39:07,970 - #40 ;
+INFO  14:39:07,970 - #48 {
+INFO  14:39:07,970 - #5 int
+INFO  14:39:07,970 - #5 fun
+ERROR 14:39:07,970 - Izvrsen oporavak od greske u definiciji globalne promenljive do , ili ;. Greska je u liniji 3
+INFO  14:39:07,972 - #44 (
+INFO  14:39:07,972 - #5 int
+INFO  14:39:07,972 - #5 a
+INFO  14:39:07,972 - #45 )
+INFO  14:39:07,972 - #48 {
+INFO  14:39:07,973 - #49 }
+INFO  14:39:07,974 - #49 }
+INFO  14:39:07,980 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalConstDecl(
+        ConstDeclarations(
+          Type(
+           char
+          ) [Type]
+          ConstDeclarationsList(
+            OneConstDeclarationItem(
+              ConstDeclarationItem(
+               x
+                ConstValueChar(
+                 x
+                ) [ConstValueChar]
+              ) [ConstDeclarationItem]
+            ) [OneConstDeclarationItem]
+            ConstDeclarationItem(
+             s
+              ConstValueChar(
+               5
+              ) [ConstValueChar]
+            ) [ConstDeclarationItem]
+          ) [ConstDeclarationsList]
+        ) [ConstDeclarations]
+      ) [GlobalConstDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          ErrorInDeclaringItem(
+          ) [ErrorInDeclaringItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnType(
+        Type(
+         int
+        ) [Type]
+       fun
+      ) [MethodReturnType]
+      FormParams(
+        SingleFormalParamDecl(
+          ScalarParam(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [ScalarParam]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      NoStatementListM(
+      ) [NoStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:39:07,980 - ===================================
+INFO  14:39:07,983 - Obradjuje se tip char na liniji 2
+INFO  14:39:07,984 - Obradjuje se tip int na liniji 3
+INFO  14:39:07,984 - Obradjuje se tip int na liniji 5
+INFO  14:39:07,984 - obradjuje se metoda fun na liniji 5
+INFO  14:39:07,984 - Obradjuje se tip int na liniji 5
+ERROR 14:39:07,984 - Funkcija nema return naredbu! Semanticka greska na liniji 5
+INFO  14:39:07,984 - ===================================

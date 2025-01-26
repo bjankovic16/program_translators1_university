@@ -1,0 +1,79 @@
+INFO  20:01:34,926 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:01:34,980 - #8 program
+INFO  20:01:34,980 - #5 ABC
+INFO  20:01:34,980 - #12 const
+INFO  20:01:34,981 - #5 int
+INFO  20:01:34,981 - #5 N
+INFO  20:01:34,981 - #36 =
+INFO  20:01:34,981 - #2 2
+INFO  20:01:34,981 - #39 ;
+INFO  20:01:34,982 - #5 int
+INFO  20:01:34,982 - #5 g
+INFO  20:01:34,982 - #39 ;
+INFO  20:01:34,982 - #47 {
+INFO  20:01:34,982 - #19 void
+INFO  20:01:34,983 - #5 main
+INFO  20:01:34,983 - #43 (
+INFO  20:01:34,983 - #44 )
+INFO  20:01:34,984 - #47 {
+INFO  20:01:34,985 - #48 }
+INFO  20:01:34,986 - #48 }
+INFO  20:01:35,001 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalConstDecl(
+        ConstDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneConstDeclarationItem(
+            ConstDeclarationItem(
+             N
+              ConstValueNumber(
+               2
+              ) [ConstValueNumber]
+            ) [ConstDeclarationItem]
+          ) [OneConstDeclarationItem]
+        ) [ConstDeclarations]
+      ) [GlobalConstDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          VarDeclarationItem(
+           g
+          ) [VarDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      NoStatementListM(
+      ) [NoStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  20:01:35,002 - ===================================
+INFO  20:01:35,006 - Obradjuje se tip int na liniji 2
+INFO  20:01:35,006 - Obradjuje se tip int na liniji 3
+INFO  20:01:35,006 - Deklarisana promenljiva g na liniji 3
+INFO  20:01:35,006 - obradjuje se metoda main na liniji 5
+INFO  20:01:35,007 - ===================================

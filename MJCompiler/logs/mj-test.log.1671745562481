@@ -1,0 +1,686 @@
+INFO  22:45:34,539 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  22:45:34,574 - #8 program
+INFO  22:45:34,574 - #5 p
+INFO  22:45:34,574 - #12 const
+INFO  22:45:34,575 - #5 int
+INFO  22:45:34,575 - #5 size
+INFO  22:45:34,575 - #36 =
+INFO  22:45:34,575 - #2 10
+INFO  22:45:34,575 - #39 ;
+INFO  22:45:34,576 - #10 class
+INFO  22:45:34,576 - #5 Table
+INFO  22:45:34,576 - #47 {
+INFO  22:45:34,577 - #5 int
+INFO  22:45:34,578 - #5 pos
+INFO  22:45:34,578 - #45 [
+INFO  22:45:34,578 - #46 ]
+INFO  22:45:34,578 - #41 ,
+INFO  22:45:34,578 - #5 neg
+INFO  22:45:34,578 - #45 [
+INFO  22:45:34,579 - #46 ]
+INFO  22:45:34,579 - #41 ,
+INFO  22:45:34,579 - #5 factor
+INFO  22:45:34,579 - #39 ;
+INFO  22:45:34,582 - #47 {
+INFO  22:45:34,582 - #19 void
+INFO  22:45:34,582 - #5 putp
+INFO  22:45:34,582 - #43 (
+INFO  22:45:34,582 - #5 int
+INFO  22:45:34,582 - #5 a
+INFO  22:45:34,582 - #41 ,
+INFO  22:45:34,582 - #5 int
+INFO  22:45:34,582 - #5 idx
+INFO  22:45:34,582 - #44 )
+INFO  22:45:34,582 - #47 {
+INFO  22:45:34,583 - #5 this
+INFO  22:45:34,583 - #42 .
+INFO  22:45:34,583 - #5 pos
+INFO  22:45:34,583 - #45 [
+INFO  22:45:34,583 - #5 idx
+INFO  22:45:34,583 - #46 ]
+INFO  22:45:34,584 - #36 =
+INFO  22:45:34,584 - #5 a
+INFO  22:45:34,584 - #39 ;
+INFO  22:45:34,585 - #48 }
+INFO  22:45:34,585 - #19 void
+INFO  22:45:34,585 - #5 putn
+INFO  22:45:34,585 - #43 (
+INFO  22:45:34,585 - #5 int
+INFO  22:45:34,585 - #5 a
+INFO  22:45:34,585 - #41 ,
+INFO  22:45:34,586 - #5 int
+INFO  22:45:34,586 - #5 idx
+INFO  22:45:34,587 - #44 )
+INFO  22:45:34,587 - #47 {
+INFO  22:45:34,587 - #5 this
+INFO  22:45:34,587 - #42 .
+INFO  22:45:34,587 - #5 neg
+INFO  22:45:34,587 - #45 [
+INFO  22:45:34,587 - #5 idx
+INFO  22:45:34,587 - #46 ]
+INFO  22:45:34,587 - #36 =
+INFO  22:45:34,587 - #5 a
+INFO  22:45:34,587 - #39 ;
+INFO  22:45:34,587 - #48 }
+INFO  22:45:34,587 - #5 int
+INFO  22:45:34,587 - #5 getp
+INFO  22:45:34,587 - #43 (
+INFO  22:45:34,587 - #5 int
+INFO  22:45:34,587 - #5 idx
+INFO  22:45:34,587 - #44 )
+INFO  22:45:34,588 - #47 {
+INFO  22:45:34,588 - #18 return
+INFO  22:45:34,588 - #5 pos
+INFO  22:45:34,588 - #45 [
+INFO  22:45:34,588 - #5 idx
+INFO  22:45:34,588 - #46 ]
+INFO  22:45:34,588 - #39 ;
+INFO  22:45:34,589 - #48 }
+INFO  22:45:34,590 - #5 int
+INFO  22:45:34,590 - #5 getn
+INFO  22:45:34,590 - #43 (
+INFO  22:45:34,590 - #5 int
+INFO  22:45:34,590 - #5 idx
+INFO  22:45:34,590 - #44 )
+INFO  22:45:34,590 - #47 {
+INFO  22:45:34,590 - #18 return
+INFO  22:45:34,590 - #5 neg
+INFO  22:45:34,590 - #45 [
+INFO  22:45:34,590 - #5 idx
+INFO  22:45:34,590 - #46 ]
+INFO  22:45:34,590 - #39 ;
+INFO  22:45:34,591 - #48 }
+INFO  22:45:34,591 - #48 }
+INFO  22:45:34,591 - #48 }
+INFO  22:45:34,591 - #5 Table
+INFO  22:45:34,591 - #5 val
+INFO  22:45:34,591 - #39 ;
+INFO  22:45:34,591 - #5 int
+INFO  22:45:34,592 - #5 rows
+INFO  22:45:34,592 - #41 ,
+INFO  22:45:34,592 - #5 columns
+INFO  22:45:34,592 - #39 ;
+INFO  22:45:34,592 - #47 {
+INFO  22:45:34,592 - #19 void
+INFO  22:45:34,593 - #5 main
+INFO  22:45:34,593 - #43 (
+INFO  22:45:34,593 - #5 int
+INFO  22:45:34,593 - #5 l
+INFO  22:45:34,594 - #41 ,
+INFO  22:45:34,594 - #5 int
+INFO  22:45:34,594 - #5 m
+INFO  22:45:34,594 - #44 )
+INFO  22:45:34,594 - #5 int
+INFO  22:45:34,594 - #5 x
+INFO  22:45:34,594 - #41 ,
+INFO  22:45:34,594 - #5 i
+INFO  22:45:34,594 - #41 ,
+INFO  22:45:34,594 - #5 arr
+INFO  22:45:34,594 - #45 [
+INFO  22:45:34,594 - #46 ]
+INFO  22:45:34,594 - #39 ;
+INFO  22:45:34,594 - #5 char
+INFO  22:45:34,594 - #5 c
+INFO  22:45:34,594 - #39 ;
+INFO  22:45:34,594 - #47 {
+INFO  22:45:34,594 - #5 main
+INFO  22:45:34,594 - #43 (
+INFO  22:45:34,594 - #5 x
+INFO  22:45:34,594 - #41 ,
+INFO  22:45:34,595 - #5 x
+INFO  22:45:34,595 - #44 )
+INFO  22:45:34,595 - #39 ;
+INFO  22:45:34,595 - #5 val
+INFO  22:45:34,595 - #42 .
+INFO  22:45:34,596 - #5 getn
+INFO  22:45:34,596 - #43 (
+INFO  22:45:34,596 - #5 x
+INFO  22:45:34,596 - #44 )
+INFO  22:45:34,596 - #39 ;
+INFO  22:45:34,596 - #5 val
+INFO  22:45:34,596 - #42 .
+INFO  22:45:34,597 - #5 putp
+INFO  22:45:34,597 - #43 (
+INFO  22:45:34,597 - #2 0
+INFO  22:45:34,597 - #41 ,
+INFO  22:45:34,598 - #5 i
+INFO  22:45:34,598 - #44 )
+INFO  22:45:34,598 - #39 ;
+INFO  22:45:34,598 - #48 }
+INFO  22:45:34,598 - #48 }
+INFO  22:45:34,609 - Program(
+  NamePro(
+   p
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        GlobalDeclarationsList(
+          NoGlobalDeclarationsList(
+          ) [NoGlobalDeclarationsList]
+          GlobalConstDecl(
+            ConstDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneConstDeclarationItem(
+                ConstDeclarationItem(
+                 size
+                  ConstValueNumber(
+                   10
+                  ) [ConstValueNumber]
+                ) [ConstDeclarationItem]
+              ) [OneConstDeclarationItem]
+            ) [ConstDeclarations]
+          ) [GlobalConstDecl]
+        ) [GlobalDeclarationsList]
+        GlobalClassDecl(
+          ClassDeclaration(
+            ClassFirst(
+             Table
+              NoClassExtends(
+              ) [NoClassExtends]
+            ) [ClassFirst]
+            ClassVarDeclaration(
+              NoClassVarDeclaration(
+              ) [NoClassVarDeclaration]
+              VarDeclarations(
+                Type(
+                 int
+                ) [Type]
+                VarDeclarationsList(
+                  VarDeclarationsList(
+                    OneVarDeclarationItem(
+                      ArrayDeclarationItem(
+                       pos
+                      ) [ArrayDeclarationItem]
+                    ) [OneVarDeclarationItem]
+                    ArrayDeclarationItem(
+                     neg
+                    ) [ArrayDeclarationItem]
+                  ) [VarDeclarationsList]
+                  VarDeclarationItem(
+                   factor
+                  ) [VarDeclarationItem]
+                ) [VarDeclarationsList]
+              ) [VarDeclarations]
+            ) [ClassVarDeclaration]
+            ClassMethDeclaration(
+              ClassMethodDeclaration(
+                ClassMethodDeclaration(
+                  ClassMethodDeclaration(
+                    ClassMethodDeclaration(
+                      NoClassMethodDeclaration(
+                      ) [NoClassMethodDeclaration]
+                      MethodDeclaration(
+                        MethodReturnVoid(
+                         putp
+                        ) [MethodReturnVoid]
+                        FormParams(
+                          FormalParamDecls(
+                            SingleFormalParamDecl(
+                              ScalarParam(
+                                Type(
+                                 int
+                                ) [Type]
+                               a
+                              ) [ScalarParam]
+                            ) [SingleFormalParamDecl]
+                            ScalarParam(
+                              Type(
+                               int
+                              ) [Type]
+                             idx
+                            ) [ScalarParam]
+                          ) [FormalParamDecls]
+                        ) [FormParams]
+                        NoLocalVarDeclarationsList(
+                        ) [NoLocalVarDeclarationsList]
+                        FullStatementListM(
+                          NoStatementListM(
+                          ) [NoStatementListM]
+                          AssignStmt(
+                            DesignatorAssignValue(
+                              ArrayDesignator(
+                                ClassDesignator(
+                                  ScalarDesignator(
+                                   this
+                                  ) [ScalarDesignator]
+                                 pos
+                                ) [ClassDesignator]
+                                ExprTerm(
+                                  TermFactor(
+                                    FactorDesignator(
+                                      ScalarDesignator(
+                                       idx
+                                      ) [ScalarDesignator]
+                                    ) [FactorDesignator]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                              ) [ArrayDesignator]
+                              AssignOperation(
+                              ) [AssignOperation]
+                              ExprTerm(
+                                TermFactor(
+                                  FactorDesignator(
+                                    ScalarDesignator(
+                                     a
+                                    ) [ScalarDesignator]
+                                  ) [FactorDesignator]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [DesignatorAssignValue]
+                          ) [AssignStmt]
+                        ) [FullStatementListM]
+                      ) [MethodDeclaration]
+                    ) [ClassMethodDeclaration]
+                    MethodDeclaration(
+                      MethodReturnVoid(
+                       putn
+                      ) [MethodReturnVoid]
+                      FormParams(
+                        FormalParamDecls(
+                          SingleFormalParamDecl(
+                            ScalarParam(
+                              Type(
+                               int
+                              ) [Type]
+                             a
+                            ) [ScalarParam]
+                          ) [SingleFormalParamDecl]
+                          ScalarParam(
+                            Type(
+                             int
+                            ) [Type]
+                           idx
+                          ) [ScalarParam]
+                        ) [FormalParamDecls]
+                      ) [FormParams]
+                      NoLocalVarDeclarationsList(
+                      ) [NoLocalVarDeclarationsList]
+                      FullStatementListM(
+                        NoStatementListM(
+                        ) [NoStatementListM]
+                        AssignStmt(
+                          DesignatorAssignValue(
+                            ArrayDesignator(
+                              ClassDesignator(
+                                ScalarDesignator(
+                                 this
+                                ) [ScalarDesignator]
+                               neg
+                              ) [ClassDesignator]
+                              ExprTerm(
+                                TermFactor(
+                                  FactorDesignator(
+                                    ScalarDesignator(
+                                     idx
+                                    ) [ScalarDesignator]
+                                  ) [FactorDesignator]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [ArrayDesignator]
+                            AssignOperation(
+                            ) [AssignOperation]
+                            ExprTerm(
+                              TermFactor(
+                                FactorDesignator(
+                                  ScalarDesignator(
+                                   a
+                                  ) [ScalarDesignator]
+                                ) [FactorDesignator]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [DesignatorAssignValue]
+                        ) [AssignStmt]
+                      ) [FullStatementListM]
+                    ) [MethodDeclaration]
+                  ) [ClassMethodDeclaration]
+                  MethodDeclaration(
+                    MethodReturnType(
+                      Type(
+                       int
+                      ) [Type]
+                     getp
+                    ) [MethodReturnType]
+                    FormParams(
+                      SingleFormalParamDecl(
+                        ScalarParam(
+                          Type(
+                           int
+                          ) [Type]
+                         idx
+                        ) [ScalarParam]
+                      ) [SingleFormalParamDecl]
+                    ) [FormParams]
+                    NoLocalVarDeclarationsList(
+                    ) [NoLocalVarDeclarationsList]
+                    FullStatementListM(
+                      NoStatementListM(
+                      ) [NoStatementListM]
+                      ReturnStmt(
+                        ExprStmtMl(
+                          ExprTerm(
+                            TermFactor(
+                              FactorDesignator(
+                                ArrayDesignator(
+                                  ScalarDesignator(
+                                   pos
+                                  ) [ScalarDesignator]
+                                  ExprTerm(
+                                    TermFactor(
+                                      FactorDesignator(
+                                        ScalarDesignator(
+                                         idx
+                                        ) [ScalarDesignator]
+                                      ) [FactorDesignator]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                ) [ArrayDesignator]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [ExprStmtMl]
+                      ) [ReturnStmt]
+                    ) [FullStatementListM]
+                  ) [MethodDeclaration]
+                ) [ClassMethodDeclaration]
+                MethodDeclaration(
+                  MethodReturnType(
+                    Type(
+                     int
+                    ) [Type]
+                   getn
+                  ) [MethodReturnType]
+                  FormParams(
+                    SingleFormalParamDecl(
+                      ScalarParam(
+                        Type(
+                         int
+                        ) [Type]
+                       idx
+                      ) [ScalarParam]
+                    ) [SingleFormalParamDecl]
+                  ) [FormParams]
+                  NoLocalVarDeclarationsList(
+                  ) [NoLocalVarDeclarationsList]
+                  FullStatementListM(
+                    NoStatementListM(
+                    ) [NoStatementListM]
+                    ReturnStmt(
+                      ExprStmtMl(
+                        ExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              ArrayDesignator(
+                                ScalarDesignator(
+                                 neg
+                                ) [ScalarDesignator]
+                                ExprTerm(
+                                  TermFactor(
+                                    FactorDesignator(
+                                      ScalarDesignator(
+                                       idx
+                                      ) [ScalarDesignator]
+                                    ) [FactorDesignator]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                              ) [ArrayDesignator]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [ExprStmtMl]
+                    ) [ReturnStmt]
+                  ) [FullStatementListM]
+                ) [MethodDeclaration]
+              ) [ClassMethodDeclaration]
+            ) [ClassMethDeclaration]
+          ) [ClassDeclaration]
+        ) [GlobalClassDecl]
+      ) [GlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           Table
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             val
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             rows
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           columns
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      FormParams(
+        FormalParamDecls(
+          SingleFormalParamDecl(
+            ScalarParam(
+              Type(
+               int
+              ) [Type]
+             l
+            ) [ScalarParam]
+          ) [SingleFormalParamDecl]
+          ScalarParam(
+            Type(
+             int
+            ) [Type]
+           m
+          ) [ScalarParam]
+        ) [FormalParamDecls]
+      ) [FormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsList(
+              VarDeclarationsList(
+                OneVarDeclarationItem(
+                  VarDeclarationItem(
+                   x
+                  ) [VarDeclarationItem]
+                ) [OneVarDeclarationItem]
+                VarDeclarationItem(
+                 i
+                ) [VarDeclarationItem]
+              ) [VarDeclarationsList]
+              ArrayDeclarationItem(
+               arr
+              ) [ArrayDeclarationItem]
+            ) [VarDeclarationsList]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           char
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             c
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          FullStatementListM(
+            NoStatementListM(
+            ) [NoStatementListM]
+            AssignStmt(
+              DesignatorProcCall(
+                ScalarDesignator(
+                 main
+                ) [ScalarDesignator]
+                YesActualPars(
+                  ManyActualParam(
+                    SingleActualParam(
+                      ActualParameter(
+                        ExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              ScalarDesignator(
+                               x
+                              ) [ScalarDesignator]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [ActualParameter]
+                    ) [SingleActualParam]
+                    ActualParameter(
+                      ExprTerm(
+                        TermFactor(
+                          FactorDesignator(
+                            ScalarDesignator(
+                             x
+                            ) [ScalarDesignator]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [ActualParameter]
+                  ) [ManyActualParam]
+                ) [YesActualPars]
+              ) [DesignatorProcCall]
+            ) [AssignStmt]
+          ) [FullStatementListM]
+          AssignStmt(
+            DesignatorProcCall(
+              ClassDesignator(
+                ScalarDesignator(
+                 val
+                ) [ScalarDesignator]
+               getn
+              ) [ClassDesignator]
+              YesActualPars(
+                SingleActualParam(
+                  ActualParameter(
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          ScalarDesignator(
+                           x
+                          ) [ScalarDesignator]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [ActualParameter]
+                ) [SingleActualParam]
+              ) [YesActualPars]
+            ) [DesignatorProcCall]
+          ) [AssignStmt]
+        ) [FullStatementListM]
+        AssignStmt(
+          DesignatorProcCall(
+            ClassDesignator(
+              ScalarDesignator(
+               val
+              ) [ScalarDesignator]
+             putp
+            ) [ClassDesignator]
+            YesActualPars(
+              ManyActualParam(
+                SingleActualParam(
+                  ActualParameter(
+                    ExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         0
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [ActualParameter]
+                ) [SingleActualParam]
+                ActualParameter(
+                  ExprTerm(
+                    TermFactor(
+                      FactorDesignator(
+                        ScalarDesignator(
+                         i
+                        ) [ScalarDesignator]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [ActualParameter]
+              ) [ManyActualParam]
+            ) [YesActualPars]
+          ) [DesignatorProcCall]
+        ) [AssignStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  22:45:34,611 - ===================================
+INFO  22:45:34,615 - Obradjuje se tip int na liniji 2
+INFO  22:45:34,615 - Kreirana je klasa Table na liniji 3
+INFO  22:45:34,615 - Obradjuje se tip int na liniji 4
+INFO  22:45:34,615 - Deklarisan niz pos na liniji 4
+INFO  22:45:34,615 - Deklarisan niz neg na liniji 4
+INFO  22:45:34,615 - Deklarisana promenljiva factor na liniji 4
+INFO  22:45:34,615 - obradjuje se metoda putp na liniji 6
+INFO  22:45:34,615 - Obradjuje se tip int na liniji 6
+INFO  22:45:34,615 - Obradjuje se tip int na liniji 6
+INFO  22:45:34,615 - poziva se pos na liniji 6
+INFO  22:45:34,616 - Obradjuje se niz pos na liniji 6
+INFO  22:45:34,616 - uspesno dodeljeno na liniji 6
+INFO  22:45:34,616 - obradjuje se metoda putn na liniji 7
+INFO  22:45:34,616 - Obradjuje se tip int na liniji 7
+INFO  22:45:34,616 - Obradjuje se tip int na liniji 7
+INFO  22:45:34,616 - poziva se neg na liniji 7
+INFO  22:45:34,616 - Obradjuje se niz neg na liniji 7
+INFO  22:45:34,616 - uspesno dodeljeno na liniji 7
+INFO  22:45:34,616 - Obradjuje se tip int na liniji 8
+INFO  22:45:34,616 - obradjuje se metoda getp na liniji 8
+INFO  22:45:34,616 - Obradjuje se tip int na liniji 8
+INFO  22:45:34,616 - Obradjuje se niz pos na liniji 8
+INFO  22:45:34,616 - Obradjuje se tip int na liniji 9
+INFO  22:45:34,616 - obradjuje se metoda getn na liniji 9
+INFO  22:45:34,616 - Obradjuje se tip int na liniji 9
+INFO  22:45:34,617 - Obradjuje se niz neg na liniji 9
+INFO  22:45:34,617 - Obradjuje se tip Table na liniji 12
+INFO  22:45:34,617 - Deklarisana promenljiva val na liniji 12
+INFO  22:45:34,617 - Obradjuje se tip int na liniji 13
+INFO  22:45:34,617 - Deklarisana promenljiva rows na liniji 13
+INFO  22:45:34,617 - Deklarisana promenljiva columns na liniji 13
+INFO  22:45:34,617 - obradjuje se metoda main na liniji 15
+INFO  22:45:34,617 - Obradjuje se tip int na liniji 15
+INFO  22:45:34,617 - Obradjuje se tip int na liniji 15
+INFO  22:45:34,617 - Obradjuje se tip int na liniji 15
+INFO  22:45:34,617 - Deklarisana promenljiva x na liniji 15
+INFO  22:45:34,617 - Deklarisana promenljiva i na liniji 15
+INFO  22:45:34,617 - Deklarisan niz arr na liniji 15
+INFO  22:45:34,617 - Obradjuje se tip char na liniji 15
+INFO  22:45:34,617 - Deklarisana promenljiva c na liniji 15
+INFO  22:45:34,618 - Poziva se metoda main na liniji 17
+INFO  22:45:34,618 - poziva se getn na liniji 18
+INFO  22:45:34,618 - Poziva se metoda getn na liniji 18
+INFO  22:45:34,618 - poziva se putp na liniji 19
+INFO  22:45:34,618 - Poziva se metoda putp na liniji 19
+INFO  22:45:34,618 - ===================================

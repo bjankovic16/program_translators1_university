@@ -1,0 +1,227 @@
+INFO  11:35:00,896 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  11:35:00,929 - #8 program
+INFO  11:35:00,930 - #5 p
+INFO  11:35:00,930 - #5 int
+INFO  11:35:00,930 - #5 rows
+INFO  11:35:00,931 - #41 ,
+INFO  11:35:00,931 - #5 columns
+INFO  11:35:00,931 - #39 ;
+INFO  11:35:00,931 - #47 {
+INFO  11:35:00,932 - #19 void
+INFO  11:35:00,932 - #5 fun
+INFO  11:35:00,932 - #43 (
+INFO  11:35:00,932 - #5 int
+INFO  11:35:00,932 - #5 z
+INFO  11:35:00,932 - #44 )
+INFO  11:35:00,933 - #5 int
+INFO  11:35:00,933 - #5 i
+INFO  11:35:00,933 - #41 ,
+INFO  11:35:00,933 - #5 arr
+INFO  11:35:00,933 - #45 [
+INFO  11:35:00,933 - #46 ]
+INFO  11:35:00,933 - #39 ;
+INFO  11:35:00,933 - #5 char
+INFO  11:35:00,935 - #5 c
+INFO  11:35:00,935 - #39 ;
+INFO  11:35:00,935 - #47 {
+INFO  11:35:00,935 - #18 return
+INFO  11:35:00,936 - #39 ;
+INFO  11:35:00,936 - #48 }
+INFO  11:35:00,937 - #19 void
+INFO  11:35:00,937 - #5 main
+INFO  11:35:00,937 - #43 (
+INFO  11:35:00,937 - #44 )
+INFO  11:35:00,937 - #5 int
+INFO  11:35:00,937 - #5 x
+INFO  11:35:00,937 - #41 ,
+INFO  11:35:00,937 - #5 i
+INFO  11:35:00,938 - #41 ,
+INFO  11:35:00,938 - #5 arr
+INFO  11:35:00,938 - #45 [
+INFO  11:35:00,938 - #46 ]
+INFO  11:35:00,938 - #39 ;
+INFO  11:35:00,938 - #5 char
+INFO  11:35:00,938 - #5 c
+INFO  11:35:00,938 - #39 ;
+INFO  11:35:00,938 - #47 {
+INFO  11:35:00,938 - #5 fun
+INFO  11:35:00,938 - #43 (
+INFO  11:35:00,939 - #2 4
+INFO  11:35:00,939 - #44 )
+INFO  11:35:00,939 - #39 ;
+INFO  11:35:00,940 - #48 }
+INFO  11:35:00,940 - #48 }
+INFO  11:35:00,952 - Program(
+  NamePro(
+   p
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             rows
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           columns
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclarationList(
+      ) [NoMethodDeclarationList]
+      MethodDeclaration(
+        MethodReturnVoid(
+         fun
+        ) [MethodReturnVoid]
+        FormParams(
+          SingleFormalParamDecl(
+            ScalarParam(
+              Type(
+               int
+              ) [Type]
+             z
+            ) [ScalarParam]
+          ) [SingleFormalParamDecl]
+        ) [FormParams]
+        LocalVarDeclarationsList(
+          LocalVarDeclarationsList(
+            NoLocalVarDeclarationsList(
+            ) [NoLocalVarDeclarationsList]
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsList(
+                OneVarDeclarationItem(
+                  VarDeclarationItem(
+                   i
+                  ) [VarDeclarationItem]
+                ) [OneVarDeclarationItem]
+                ArrayDeclarationItem(
+                 arr
+                ) [ArrayDeclarationItem]
+              ) [VarDeclarationsList]
+            ) [VarDeclarations]
+          ) [LocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             char
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               c
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        FullStatementListM(
+          NoStatementListM(
+          ) [NoStatementListM]
+          ReturnStmt(
+            ExprStmtLE(
+            ) [ExprStmtLE]
+          ) [ReturnStmt]
+        ) [FullStatementListM]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsList(
+              VarDeclarationsList(
+                OneVarDeclarationItem(
+                  VarDeclarationItem(
+                   x
+                  ) [VarDeclarationItem]
+                ) [OneVarDeclarationItem]
+                VarDeclarationItem(
+                 i
+                ) [VarDeclarationItem]
+              ) [VarDeclarationsList]
+              ArrayDeclarationItem(
+               arr
+              ) [ArrayDeclarationItem]
+            ) [VarDeclarationsList]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           char
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             c
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        NoStatementListM(
+        ) [NoStatementListM]
+        AssignStmt(
+          DesignatorProcCall(
+            ScalarDesignator(
+             fun
+            ) [ScalarDesignator]
+            YesActualPars(
+              SingleActualParam(
+                ActualParameter(
+                  ExprTerm(
+                    TermFactor(
+                      FactorNumber(
+                       4
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [ActualParameter]
+              ) [SingleActualParam]
+            ) [YesActualPars]
+          ) [DesignatorProcCall]
+        ) [AssignStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  11:35:00,952 - ===================================
+INFO  11:35:00,956 - Obradjuje se tip int na liniji 2
+INFO  11:35:00,957 - Deklarisana promenljiva rows na liniji 2
+INFO  11:35:00,957 - Deklarisana promenljiva columns na liniji 2
+INFO  11:35:00,957 - obradjuje se metoda fun na liniji 4
+INFO  11:35:00,958 - Obradjuje se tip int na liniji 4
+INFO  11:35:00,958 - Obradjuje se tip int na liniji 4
+INFO  11:35:00,958 - Deklarisana promenljiva i na liniji 4
+INFO  11:35:00,958 - Deklarisan niz arr na liniji 4
+INFO  11:35:00,958 - Obradjuje se tip char na liniji 4
+INFO  11:35:00,958 - Deklarisana promenljiva c na liniji 4
+INFO  11:35:00,958 - obradjuje se metoda main na liniji 9
+INFO  11:35:00,958 - Obradjuje se tip int na liniji 9
+INFO  11:35:00,958 - Deklarisana promenljiva x na liniji 9
+INFO  11:35:00,958 - Deklarisana promenljiva i na liniji 9
+INFO  11:35:00,960 - Deklarisan niz arr na liniji 9
+INFO  11:35:00,961 - Obradjuje se tip char na liniji 9
+INFO  11:35:00,961 - Deklarisana promenljiva c na liniji 9
+INFO  11:35:00,961 - 1xxx0ss11
+ERROR 11:35:00,961 - Broj argumenata ili tip argumenata nije dobar! Semanticka greska na liniji 11
+INFO  11:35:00,961 - ===================================

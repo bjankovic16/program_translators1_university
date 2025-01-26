@@ -1,0 +1,138 @@
+INFO  21:01:56,067 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  21:01:56,082 - #8 program
+INFO  21:01:56,082 - #5 Test
+INFO  21:01:56,082 - #12 const
+INFO  21:01:56,082 - #5 char
+INFO  21:01:56,082 - #5 x
+INFO  21:01:56,083 - #37 =
+INFO  21:01:56,083 - #3 x
+INFO  21:01:56,083 - #42 ,
+INFO  21:01:56,083 - #5 s
+INFO  21:01:56,083 - #37 =
+INFO  21:01:56,083 - #3 5
+INFO  21:01:56,084 - #40 ;
+INFO  21:01:56,084 - #12 const
+INFO  21:01:56,084 - #5 int
+INFO  21:01:56,084 - #5 s
+INFO  21:01:56,085 - #37 =
+INFO  21:01:56,085 - #2 0
+INFO  21:01:56,085 - #40 ;
+INFO  21:01:56,085 - #5 int
+INFO  21:01:56,085 - #5 x
+INFO  21:01:56,085 - #46 [
+INFO  21:01:56,085 - #47 ]
+INFO  21:01:56,085 - #42 ,
+INFO  21:01:56,086 - #5 k
+INFO  21:01:56,086 - #40 ;
+INFO  21:01:56,087 - #10 class
+INFO  21:01:56,087 - #5 X
+INFO  21:01:56,087 - #48 {
+INFO  21:01:56,088 - #5 int
+INFO  21:01:56,088 - #5 x
+INFO  21:01:56,089 - #42 ,
+INFO  21:01:56,089 - #5 y
+INFO  21:01:56,089 - #40 ;
+INFO  21:01:56,089 - #48 {
+INFO  21:01:56,089 - #49 }
+INFO  21:01:56,090 - #49 }
+INFO  21:01:56,090 - #48 {
+INFO  21:01:56,091 - #49 }
+INFO  21:01:56,092 - Program(
+ Test
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        GlobalDeclarationsList(
+          NoGlobalDeclarationsList(
+          ) [NoGlobalDeclarationsList]
+          GlobalConstDecl(
+            ConstDeclarations(
+              Type(
+               char
+              ) [Type]
+              ConstDeclarationsList(
+                OneConstDeclarationItem(
+                  ConstDeclarationItem(
+                   x
+                    ConstValueChar(
+                     x
+                    ) [ConstValueChar]
+                  ) [ConstDeclarationItem]
+                ) [OneConstDeclarationItem]
+                ConstDeclarationItem(
+                 s
+                  ConstValueChar(
+                   5
+                  ) [ConstValueChar]
+                ) [ConstDeclarationItem]
+              ) [ConstDeclarationsList]
+            ) [ConstDeclarations]
+          ) [GlobalConstDecl]
+        ) [GlobalDeclarationsList]
+        GlobalConstDecl(
+          ConstDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneConstDeclarationItem(
+              ConstDeclarationItem(
+               s
+                ConstValueNumber(
+                 0
+                ) [ConstValueNumber]
+              ) [ConstDeclarationItem]
+            ) [OneConstDeclarationItem]
+          ) [ConstDeclarations]
+        ) [GlobalConstDecl]
+      ) [GlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              ArrayDeclarationItem(
+               x
+              ) [ArrayDeclarationItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             k
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+       X
+        NoClassExtends(
+        ) [NoClassExtends]
+        ClassVarDeclaration(
+          NoClassVarDeclaration(
+          ) [NoClassVarDeclaration]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsList(
+              OneVarDeclarationItem(
+                VarDeclarationItem(
+                 x
+                ) [VarDeclarationItem]
+              ) [OneVarDeclarationItem]
+              VarDeclarationItem(
+               y
+              ) [VarDeclarationItem]
+            ) [VarDeclarationsList]
+          ) [VarDeclarations]
+        ) [ClassVarDeclaration]
+        ClassMethDeclaration(
+          ClassMethodDeclaration(
+          ) [ClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+) [Program]
+INFO  21:01:56,092 - ===================================

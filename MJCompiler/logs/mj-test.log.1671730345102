@@ -1,0 +1,191 @@
+INFO  18:29:50,066 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:29:50,102 - #8 program
+INFO  18:29:50,102 - #5 p
+INFO  18:29:50,102 - #12 const
+INFO  18:29:50,102 - #5 int
+INFO  18:29:50,102 - #5 size
+INFO  18:29:50,103 - #36 =
+INFO  18:29:50,103 - #2 10
+INFO  18:29:50,103 - #39 ;
+INFO  18:29:50,103 - #10 class
+INFO  18:29:50,104 - #5 Table
+INFO  18:29:50,104 - #47 {
+INFO  18:29:50,104 - #5 int
+INFO  18:29:50,105 - #5 pos
+INFO  18:29:50,105 - #45 [
+INFO  18:29:50,105 - #46 ]
+INFO  18:29:50,105 - #41 ,
+INFO  18:29:50,105 - #5 neg
+INFO  18:29:50,105 - #45 [
+INFO  18:29:50,105 - #46 ]
+INFO  18:29:50,105 - #41 ,
+INFO  18:29:50,105 - #5 factor
+INFO  18:29:50,105 - #39 ;
+INFO  18:29:50,107 - #47 {
+INFO  18:29:50,107 - #19 void
+INFO  18:29:50,108 - #5 putp
+INFO  18:29:50,108 - #43 (
+INFO  18:29:50,108 - #5 int
+INFO  18:29:50,108 - #5 a
+INFO  18:29:50,108 - #41 ,
+INFO  18:29:50,108 - #5 int
+INFO  18:29:50,108 - #5 idx
+INFO  18:29:50,109 - #44 )
+INFO  18:29:50,109 - #47 {
+INFO  18:29:50,109 - #5 this
+INFO  18:29:50,110 - #42 .
+INFO  18:29:50,110 - #5 pos
+INFO  18:29:50,110 - #45 [
+INFO  18:29:50,110 - #5 idx
+INFO  18:29:50,111 - #46 ]
+INFO  18:29:50,111 - #36 =
+INFO  18:29:50,111 - #5 a
+INFO  18:29:50,113 - #39 ;
+INFO  18:29:50,113 - #48 }
+INFO  18:29:50,113 - #48 }
+INFO  18:29:50,114 - #48 }
+INFO  18:29:50,114 - #47 {
+INFO  18:29:50,114 - #48 }
+INFO  18:29:50,120 - Program(
+  NamePro(
+   p
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalConstDecl(
+        ConstDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneConstDeclarationItem(
+            ConstDeclarationItem(
+             size
+              ConstValueNumber(
+               10
+              ) [ConstValueNumber]
+            ) [ConstDeclarationItem]
+          ) [OneConstDeclarationItem]
+        ) [ConstDeclarations]
+      ) [GlobalConstDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+        ClassFirst(
+         Table
+          NoClassExtends(
+          ) [NoClassExtends]
+        ) [ClassFirst]
+        ClassVarDeclaration(
+          NoClassVarDeclaration(
+          ) [NoClassVarDeclaration]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsList(
+              VarDeclarationsList(
+                OneVarDeclarationItem(
+                  ArrayDeclarationItem(
+                   pos
+                  ) [ArrayDeclarationItem]
+                ) [OneVarDeclarationItem]
+                ArrayDeclarationItem(
+                 neg
+                ) [ArrayDeclarationItem]
+              ) [VarDeclarationsList]
+              VarDeclarationItem(
+               factor
+              ) [VarDeclarationItem]
+            ) [VarDeclarationsList]
+          ) [VarDeclarations]
+        ) [ClassVarDeclaration]
+        ClassMethDeclaration(
+          ClassMethodDeclaration(
+            NoClassMethodDeclaration(
+            ) [NoClassMethodDeclaration]
+            MethodDeclaration(
+              MethodReturnVoid(
+               putp
+              ) [MethodReturnVoid]
+              FormParams(
+                FormalParamDecls(
+                  SingleFormalParamDecl(
+                    ScalarParam(
+                      Type(
+                       int
+                      ) [Type]
+                     a
+                    ) [ScalarParam]
+                  ) [SingleFormalParamDecl]
+                  ScalarParam(
+                    Type(
+                     int
+                    ) [Type]
+                   idx
+                  ) [ScalarParam]
+                ) [FormalParamDecls]
+              ) [FormParams]
+              NoLocalVarDeclarationsList(
+              ) [NoLocalVarDeclarationsList]
+              FullStatementListM(
+                NoStatementListM(
+                ) [NoStatementListM]
+                AssignStmt(
+                  DesignatorAssignValue(
+                    ArrayDesignator(
+                      ClassDesignator(
+                        ScalarDesignator(
+                         this
+                        ) [ScalarDesignator]
+                       pos
+                      ) [ClassDesignator]
+                      ExprTerm(
+                        TermFactor(
+                          FactorDesignator(
+                            ScalarDesignator(
+                             idx
+                            ) [ScalarDesignator]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [ArrayDesignator]
+                    AssignOperation(
+                    ) [AssignOperation]
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          ScalarDesignator(
+                           a
+                          ) [ScalarDesignator]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [DesignatorAssignValue]
+                ) [AssignStmt]
+              ) [FullStatementListM]
+            ) [MethodDeclaration]
+          ) [ClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  18:29:50,121 - ===================================
+INFO  18:29:50,124 - Obradjuje se tip int na liniji 3
+INFO  18:29:50,124 - Kreirana je klasa Table na liniji 4
+INFO  18:29:50,124 - Obradjuje se tip int na liniji 5
+INFO  18:29:50,124 - Deklarisan niz pos na liniji 5
+INFO  18:29:50,124 - Deklarisan niz neg na liniji 5
+INFO  18:29:50,124 - Deklarisana promenljiva factor na liniji 5
+INFO  18:29:50,124 - obradjuje se metoda putp na liniji 7
+INFO  18:29:50,124 - Obradjuje se tip int na liniji 7
+INFO  18:29:50,124 - Obradjuje se tip int na liniji 7
+INFO  18:29:50,124 - this je 4
+ERROR 18:29:50,124 - Dati tip ne pripada klasi! Semanticka greska na liniji 7
+ERROR 18:29:50,124 - Tip mora biti tipa Array! Semanticka greska na liniji 7
+ERROR 18:29:50,125 - Nisu kompatibilni tipovi u naredbi dodele 0 na liniji 7
+INFO  18:29:50,125 - ===================================

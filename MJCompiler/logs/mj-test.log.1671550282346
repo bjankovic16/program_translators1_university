@@ -1,0 +1,142 @@
+INFO  16:26:37,593 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:26:37,627 - #8 program
+INFO  16:26:37,628 - #5 Test
+INFO  16:26:37,628 - #10 class
+INFO  16:26:37,628 - #5 Druga
+INFO  16:26:37,629 - #48 {
+INFO  16:26:37,629 - #5 int
+INFO  16:26:37,629 - #5 l
+INFO  16:26:37,630 - #40 ;
+INFO  16:26:37,630 - #48 {
+INFO  16:26:37,630 - #49 }
+INFO  16:26:37,630 - #49 }
+INFO  16:26:37,630 - #10 class
+INFO  16:26:37,631 - #5 Prva
+INFO  16:26:37,631 - #20 extends
+INFO  16:26:37,631 - #5 Druga
+INFO  16:26:37,631 - #48 {
+INFO  16:26:37,631 - #5 int
+INFO  16:26:37,631 - #5 s
+INFO  16:26:37,631 - #42 ,
+INFO  16:26:37,631 - #5 k
+INFO  16:26:37,631 - #40 ;
+INFO  16:26:37,631 - #48 {
+INFO  16:26:37,633 - #49 }
+INFO  16:26:37,633 - #49 }
+INFO  16:26:37,633 - #5 bool
+INFO  16:26:37,633 - #5 l
+INFO  16:26:37,633 - #46 [
+INFO  16:26:37,633 - #47 ]
+INFO  16:26:37,633 - #42 ,
+INFO  16:26:37,634 - #5 k
+INFO  16:26:37,634 - #40 ;
+INFO  16:26:37,634 - #48 {
+INFO  16:26:37,634 - #49 }
+INFO  16:26:37,640 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        NoGlobalDeclarationsList(
+        ) [NoGlobalDeclarationsList]
+        GlobalClassDecl(
+          ClassDeclaration(
+            ClassFirst(
+             Druga
+              NoClassExtends(
+              ) [NoClassExtends]
+            ) [ClassFirst]
+            ClassVarDeclaration(
+              NoClassVarDeclaration(
+              ) [NoClassVarDeclaration]
+              VarDeclarations(
+                Type(
+                 int
+                ) [Type]
+                OneVarDeclarationItem(
+                  VarDeclarationItem(
+                   l
+                  ) [VarDeclarationItem]
+                ) [OneVarDeclarationItem]
+              ) [VarDeclarations]
+            ) [ClassVarDeclaration]
+            ClassMethDeclaration(
+              NoClassMethodDeclaration(
+              ) [NoClassMethodDeclaration]
+            ) [ClassMethDeclaration]
+          ) [ClassDeclaration]
+        ) [GlobalClassDecl]
+      ) [GlobalDeclarationsList]
+      GlobalClassDecl(
+        ClassDeclaration(
+          ClassFirst(
+           Prva
+            ClassExtends(
+              Type(
+               Druga
+              ) [Type]
+            ) [ClassExtends]
+          ) [ClassFirst]
+          ClassVarDeclaration(
+            NoClassVarDeclaration(
+            ) [NoClassVarDeclaration]
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsList(
+                OneVarDeclarationItem(
+                  VarDeclarationItem(
+                   s
+                  ) [VarDeclarationItem]
+                ) [OneVarDeclarationItem]
+                VarDeclarationItem(
+                 k
+                ) [VarDeclarationItem]
+              ) [VarDeclarationsList]
+            ) [VarDeclarations]
+          ) [ClassVarDeclaration]
+          ClassMethDeclaration(
+            NoClassMethodDeclaration(
+            ) [NoClassMethodDeclaration]
+          ) [ClassMethDeclaration]
+        ) [ClassDeclaration]
+      ) [GlobalClassDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         bool
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             l
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           k
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  16:26:37,640 - ===================================
+INFO  16:26:37,643 - Kreirana je klasa Druga na liniji 2
+INFO  16:26:37,643 - Obradjuje se tip int na liniji 2
+INFO  16:26:37,643 - Deklarisana promenljiva l na liniji 2
+INFO  16:26:37,643 - Obradjuje se tip Druga na liniji 3
+ERROR 16:26:37,643 - Ime Prva ne moze da se izvede iz zadatog tipa! Semanticka greska na liniji 3
+INFO  16:26:37,644 - Kreirana je klasa Prva na liniji 3
+INFO  16:26:37,644 - Obradjuje se tip int na liniji 3
+INFO  16:26:37,644 - Deklarisana promenljiva s na liniji 3
+INFO  16:26:37,644 - Deklarisana promenljiva k na liniji 3
+INFO  16:26:37,644 - Obradjuje se tip bool na liniji 4
+INFO  16:26:37,644 - Deklarisan niz l na liniji 4
+INFO  16:26:37,644 - Deklarisana promenljiva k na liniji 4
+INFO  16:26:37,644 - ===================================

@@ -1,0 +1,17 @@
+program Osn1 // rad sa nizovima
+int arr[];
+{
+	void main()int i,x;{
+		if(arr==null)
+			arr=new int[2];
+		arr.foreach(x=>{
+			arr.foreach(x=>{
+			if(x==0) continue;
+				print(x);
+			});
+			arr.foreach(x=>{
+				print(x);
+			});
+		});
+	}
+}

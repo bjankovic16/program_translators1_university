@@ -1,0 +1,144 @@
+INFO  15:56:58,722 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:56:58,763 - #8 program
+INFO  15:56:58,764 - #5 Osn1
+INFO  15:56:58,764 - #5 int
+INFO  15:56:58,764 - #5 arr
+INFO  15:56:58,765 - #45 [
+INFO  15:56:58,765 - #46 ]
+INFO  15:56:58,765 - #39 ;
+INFO  15:56:58,765 - #47 {
+INFO  15:56:58,766 - #19 void
+INFO  15:56:58,766 - #5 main
+INFO  15:56:58,766 - #43 (
+INFO  15:56:58,766 - #44 )
+INFO  15:56:58,767 - #5 int
+INFO  15:56:58,767 - #5 i
+INFO  15:56:58,767 - #41 ,
+INFO  15:56:58,767 - #5 x
+INFO  15:56:58,767 - #39 ;
+INFO  15:56:58,767 - #47 {
+INFO  15:56:58,768 - #5 arr
+INFO  15:56:58,768 - #36 =
+INFO  15:56:58,768 - #15 new
+INFO  15:56:58,769 - #5 int
+INFO  15:56:58,769 - #45 [
+INFO  15:56:58,769 - #2 2
+INFO  15:56:58,769 - #46 ]
+INFO  15:56:58,769 - #39 ;
+INFO  15:56:58,770 - #5 arr
+INFO  15:56:58,770 - #42 .
+INFO  15:56:58,770 - #22 foreach
+INFO  15:56:58,770 - #43 (
+INFO  15:56:58,770 - #5 x
+INFO  15:56:58,770 - #49 =>
+INFO  15:56:58,770 - #47 {
+INFO  15:56:58,771 - #48 }
+INFO  15:56:58,772 - #44 )
+INFO  15:56:58,772 - #39 ;
+INFO  15:56:58,772 - #48 }
+INFO  15:56:58,773 - #48 }
+INFO  15:56:58,782 - Program(
+  NamePro(
+   Osn1
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          ArrayDeclarationItem(
+           arr
+          ) [ArrayDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               i
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             x
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          NoStatementListM(
+          ) [NoStatementListM]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               arr
+              ) [ScalarDesignator]
+              AssignOperation(
+              ) [AssignOperation]
+              ExprTerm(
+                TermFactor(
+                  FactorArray(
+                    Type(
+                     int
+                    ) [Type]
+                    ExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         2
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [FactorArray]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [FullStatementListM]
+        ImplicationStmt(
+          ScalarDesignator(
+           arr
+          ) [ScalarDesignator]
+         x
+          BeginImplication(
+          ) [BeginImplication]
+          OneMoreStmt(
+            EmptySHNI(
+            ) [EmptySHNI]
+          ) [OneMoreStmt]
+        ) [ImplicationStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:56:58,782 - ===================================
+INFO  15:56:58,786 - Obradjuje se tip int na liniji 2
+INFO  15:56:58,786 - Deklarisan niz arr na liniji 2
+INFO  15:56:58,786 - obradjuje se metoda main na liniji 4
+INFO  15:56:58,786 - Obradjuje se tip int na liniji 4
+INFO  15:56:58,786 - Deklarisana promenljiva i na liniji 4
+INFO  15:56:58,787 - Deklarisana promenljiva x na liniji 4
+INFO  15:56:58,787 - Obradjuje se tip int na liniji 5
+INFO  15:56:58,787 - uspesna dodela na liniji 5
+INFO  15:56:58,787 - ===================================
+INFO  15:56:58,795 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,95 @@
+INFO  20:10:47,737 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:10:47,750 - #8 program
+INFO  20:10:47,750 - #5 Test
+INFO  20:10:47,750 - #12 const
+INFO  20:10:47,751 - #5 char
+INFO  20:10:47,751 - #5 x
+INFO  20:10:47,752 - #37 =
+INFO  20:10:47,752 - #3 x
+INFO  20:10:47,752 - #42 ,
+INFO  20:10:47,753 - #5 s
+INFO  20:10:47,753 - #37 =
+INFO  20:10:47,753 - #3 5
+INFO  20:10:47,753 - #40 ;
+INFO  20:10:47,753 - #12 const
+INFO  20:10:47,754 - #5 int
+INFO  20:10:47,754 - #5 s
+INFO  20:10:47,754 - #37 =
+INFO  20:10:47,754 - #2 0
+INFO  20:10:47,754 - #40 ;
+INFO  20:10:47,754 - #5 int
+INFO  20:10:47,755 - #5 x
+INFO  20:10:47,755 - #46 [
+INFO  20:10:47,755 - #47 ]
+INFO  20:10:47,755 - #42 ,
+INFO  20:10:47,756 - #5 k
+INFO  20:10:47,756 - #40 ;
+INFO  20:10:47,756 - #48 {
+INFO  20:10:47,757 - #49 }
+INFO  20:10:47,758 - Program(
+ Test
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        NoGlobalDeclarationsList(
+        ) [NoGlobalDeclarationsList]
+        GlobalConstDecl(
+          ConstDeclarations(
+            Type(
+             char
+            ) [Type]
+            ConstDeclarationsList(
+              OneConstDeclarationItem(
+                ConstDeclarationItem(
+                 x
+                  ConstValueChar(
+                   x
+                  ) [ConstValueChar]
+                ) [ConstDeclarationItem]
+              ) [OneConstDeclarationItem]
+              ConstDeclarationItem(
+               s
+                ConstValueChar(
+                 5
+                ) [ConstValueChar]
+              ) [ConstDeclarationItem]
+            ) [ConstDeclarationsList]
+          ) [ConstDeclarations]
+        ) [GlobalConstDecl]
+      ) [GlobalDeclarationsList]
+      GlobalConstDecl(
+        ConstDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneConstDeclarationItem(
+            ConstDeclarationItem(
+             s
+              ConstValueNumber(
+               0
+              ) [ConstValueNumber]
+            ) [ConstDeclarationItem]
+          ) [OneConstDeclarationItem]
+        ) [ConstDeclarations]
+      ) [GlobalConstDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             x
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           k
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+) [Program]
+INFO  20:10:47,759 - ===================================

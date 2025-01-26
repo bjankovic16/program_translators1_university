@@ -1,0 +1,332 @@
+INFO  11:55:11,800 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  11:55:11,834 - #8 program
+INFO  11:55:11,834 - #5 ABC
+INFO  11:55:11,834 - #12 const
+INFO  11:55:11,835 - #5 int
+INFO  11:55:11,835 - #5 N
+INFO  11:55:11,835 - #36 =
+INFO  11:55:11,836 - #2 2
+INFO  11:55:11,836 - #39 ;
+INFO  11:55:11,836 - #47 {
+INFO  11:55:11,837 - #19 void
+INFO  11:55:11,838 - #5 main
+INFO  11:55:11,838 - #43 (
+INFO  11:55:11,839 - #44 )
+INFO  11:55:11,839 - #5 int
+INFO  11:55:11,839 - #5 x
+INFO  11:55:11,839 - #39 ;
+INFO  11:55:11,839 - #5 int
+INFO  11:55:11,840 - #5 niz
+INFO  11:55:11,840 - #45 [
+INFO  11:55:11,840 - #46 ]
+INFO  11:55:11,840 - #39 ;
+INFO  11:55:11,840 - #47 {
+INFO  11:55:11,842 - #5 niz
+INFO  11:55:11,842 - #36 =
+INFO  11:55:11,843 - #15 new
+INFO  11:55:11,843 - #5 int
+INFO  11:55:11,843 - #45 [
+INFO  11:55:11,843 - #2 10
+INFO  11:55:11,843 - #46 ]
+INFO  11:55:11,843 - #39 ;
+INFO  11:55:11,843 - #5 niz
+INFO  11:55:11,843 - #45 [
+INFO  11:55:11,843 - #2 0
+INFO  11:55:11,844 - #46 ]
+INFO  11:55:11,844 - #36 =
+INFO  11:55:11,844 - #2 1
+INFO  11:55:11,844 - #39 ;
+INFO  11:55:11,844 - #5 x
+INFO  11:55:11,844 - #36 =
+INFO  11:55:11,844 - #2 9
+INFO  11:55:11,844 - #39 ;
+INFO  11:55:11,844 - #14 while
+INFO  11:55:11,845 - #43 (
+INFO  11:55:11,845 - #5 x
+INFO  11:55:11,845 - #30 >
+INFO  11:55:11,845 - #2 5
+INFO  11:55:11,845 - #34 &&
+INFO  11:55:11,846 - #5 x
+INFO  11:55:11,846 - #28 ==
+INFO  11:55:11,846 - #2 0
+INFO  11:55:11,846 - #35 ||
+INFO  11:55:11,846 - #5 x
+INFO  11:55:11,847 - #30 >
+INFO  11:55:11,847 - #2 9
+INFO  11:55:11,847 - #44 )
+INFO  11:55:11,847 - #47 {
+INFO  11:55:11,847 - #5 x
+INFO  11:55:11,847 - #38 --
+INFO  11:55:11,847 - #39 ;
+INFO  11:55:11,848 - #48 }
+INFO  11:55:11,848 - #5 x
+INFO  11:55:11,848 - #36 =
+INFO  11:55:11,848 - #2 10
+INFO  11:55:11,848 - #39 ;
+INFO  11:55:11,848 - #48 }
+INFO  11:55:11,848 - #48 }
+INFO  11:55:11,855 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalConstDecl(
+      ConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneConstDeclarationItem(
+          ConstDeclarationItem(
+           N
+            ConstValueNumber(
+             2
+            ) [ConstValueNumber]
+          ) [ConstDeclarationItem]
+        ) [OneConstDeclarationItem]
+      ) [ConstDeclarations]
+    ) [GlobalConstDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               x
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             niz
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          FullStatementListM(
+            FullStatementListM(
+              FullStatementListM(
+                NoStatementListM(
+                ) [NoStatementListM]
+                AssignStmt(
+                  DesignatorAssignValue(
+                    ScalarDesignator(
+                     niz
+                    ) [ScalarDesignator]
+                    AssignOperation(
+                    ) [AssignOperation]
+                    ExprTerm(
+                      TermFactor(
+                        FactorArray(
+                          Type(
+                           int
+                          ) [Type]
+                          ExprTerm(
+                            TermFactor(
+                              FactorNumber(
+                               10
+                              ) [FactorNumber]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [FactorArray]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [DesignatorAssignValue]
+                ) [AssignStmt]
+              ) [FullStatementListM]
+              AssignStmt(
+                DesignatorAssignValue(
+                  ArrayDesignator(
+                    ScalarDesignator(
+                     niz
+                    ) [ScalarDesignator]
+                    ExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         0
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [ArrayDesignator]
+                  AssignOperation(
+                  ) [AssignOperation]
+                  ExprTerm(
+                    TermFactor(
+                      FactorNumber(
+                       1
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [DesignatorAssignValue]
+              ) [AssignStmt]
+            ) [FullStatementListM]
+            AssignStmt(
+              DesignatorAssignValue(
+                ScalarDesignator(
+                 x
+                ) [ScalarDesignator]
+                AssignOperation(
+                ) [AssignOperation]
+                ExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     9
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [DesignatorAssignValue]
+            ) [AssignStmt]
+          ) [FullStatementListM]
+          WhileStmt(
+            WhileEmpty(
+            ) [WhileEmpty]
+            ConditionOr(
+              ConditionTerm(
+                ConditionAnd(
+                  ConditionFact(
+                    ConFact(
+                      ExprTerm(
+                        TermFactor(
+                          FactorDesignator(
+                            ScalarDesignator(
+                             x
+                            ) [ScalarDesignator]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                      CondFactorPart(
+                        GreatOperation(
+                        ) [GreatOperation]
+                        ExprTerm(
+                          TermFactor(
+                            FactorNumber(
+                             5
+                            ) [FactorNumber]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [CondFactorPart]
+                    ) [ConFact]
+                  ) [ConditionFact]
+                  ConFact(
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          ScalarDesignator(
+                           x
+                          ) [ScalarDesignator]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                    CondFactorPart(
+                      EqualOperation(
+                      ) [EqualOperation]
+                      ExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           0
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [CondFactorPart]
+                  ) [ConFact]
+                ) [ConditionAnd]
+              ) [ConditionTerm]
+              ConditionPatching(
+              ) [ConditionPatching]
+              ConditionFact(
+                ConFact(
+                  ExprTerm(
+                    TermFactor(
+                      FactorDesignator(
+                        ScalarDesignator(
+                         x
+                        ) [ScalarDesignator]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                  CondFactorPart(
+                    GreatOperation(
+                    ) [GreatOperation]
+                    ExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         9
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [CondFactorPart]
+                ) [ConFact]
+              ) [ConditionFact]
+            ) [ConditionOr]
+            StatWhileBeg(
+            ) [StatWhileBeg]
+            OneMoreStmt(
+              StatementHNI(
+                EmptySHNI(
+                ) [EmptySHNI]
+                AssignStmt(
+                  DesignatorDecValue(
+                    ScalarDesignator(
+                     x
+                    ) [ScalarDesignator]
+                  ) [DesignatorDecValue]
+                ) [AssignStmt]
+              ) [StatementHNI]
+            ) [OneMoreStmt]
+          ) [WhileStmt]
+        ) [FullStatementListM]
+        AssignStmt(
+          DesignatorAssignValue(
+            ScalarDesignator(
+             x
+            ) [ScalarDesignator]
+            AssignOperation(
+            ) [AssignOperation]
+            ExprTerm(
+              TermFactor(
+                FactorNumber(
+                 10
+                ) [FactorNumber]
+              ) [TermFactor]
+            ) [ExprTerm]
+          ) [DesignatorAssignValue]
+        ) [AssignStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  11:55:11,856 - ===================================
+INFO  11:55:11,867 - Obradjuje se tip int na liniji 2
+INFO  11:55:11,868 - obradjuje se metoda main na liniji 4
+INFO  11:55:11,868 - Obradjuje se tip int na liniji 5
+INFO  11:55:11,868 - Deklarisana promenljiva x na liniji 5
+INFO  11:55:11,868 - Obradjuje se tip int na liniji 6
+INFO  11:55:11,868 - Deklarisan niz niz na liniji 6
+INFO  11:55:11,868 - Obradjuje se tip int na liniji 8
+INFO  11:55:11,868 - uspesno dodeljeno na liniji 8
+INFO  11:55:11,869 - uspesno dodeljeno na liniji 9
+INFO  11:55:11,869 - uspesno dodeljeno na liniji 10
+INFO  11:55:11,876 - uspesno dodeljeno na liniji 14
+INFO  11:55:11,876 - ===================================

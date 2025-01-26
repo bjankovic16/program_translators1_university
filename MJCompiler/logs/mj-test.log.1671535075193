@@ -1,0 +1,220 @@
+INFO  12:16:30,811 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  12:16:30,908 - #8 program
+INFO  12:16:30,908 - #5 Test
+INFO  12:16:30,908 - #12 const
+INFO  12:16:30,911 - #5 int
+INFO  12:16:30,911 - #5 s
+INFO  12:16:30,912 - #37 =
+INFO  12:16:30,912 - #2 0
+INFO  12:16:30,912 - #40 ;
+INFO  12:16:30,912 - #5 int
+INFO  12:16:30,912 - #5 l
+INFO  12:16:30,913 - #46 [
+INFO  12:16:30,913 - #47 ]
+INFO  12:16:30,913 - #42 ,
+INFO  12:16:30,913 - #5 k
+INFO  12:16:30,913 - #40 ;
+INFO  12:16:30,913 - #48 {
+INFO  12:16:30,913 - #5 bool
+INFO  12:16:30,914 - #5 fun1
+INFO  12:16:30,914 - #44 (
+INFO  12:16:30,915 - #5 int
+INFO  12:16:30,915 - #5 nn
+INFO  12:16:30,915 - #46 [
+INFO  12:16:30,915 - #47 ]
+INFO  12:16:30,917 - #42 ,
+INFO  12:16:30,917 - #5 int
+INFO  12:16:30,917 - #5 m
+INFO  12:16:30,917 - #45 )
+INFO  12:16:30,917 - #48 {
+INFO  12:16:30,919 - #14 while
+INFO  12:16:30,920 - #44 (
+INFO  12:16:30,920 - #5 m
+INFO  12:16:30,920 - #29 ==
+INFO  12:16:30,920 - #2 4
+INFO  12:16:30,922 - #45 )
+INFO  12:16:30,922 - #48 {
+INFO  12:16:30,922 - #5 m
+INFO  12:16:30,922 - #38 ++
+INFO  12:16:30,922 - #40 ;
+INFO  12:16:30,922 - #49 }
+INFO  12:16:30,923 - #18 return
+INFO  12:16:30,923 - #4 true
+INFO  12:16:30,923 - #40 ;
+INFO  12:16:30,923 - #49 }
+INFO  12:16:30,923 - #19 void
+INFO  12:16:30,924 - #5 fun2
+INFO  12:16:30,924 - #44 (
+INFO  12:16:30,925 - #5 int
+INFO  12:16:30,925 - #5 s
+INFO  12:16:30,925 - #45 )
+INFO  12:16:30,926 - #48 {
+INFO  12:16:30,926 - #49 }
+INFO  12:16:30,926 - #49 }
+INFO  12:16:30,933 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalConstDecl(
+        ConstDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneConstDeclarationItem(
+            ConstDeclarationItem(
+             s
+              ConstValueNumber(
+               0
+              ) [ConstValueNumber]
+            ) [ConstDeclarationItem]
+          ) [OneConstDeclarationItem]
+        ) [ConstDeclarations]
+      ) [GlobalConstDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             l
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           k
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclarationList(
+      ) [NoMethodDeclarationList]
+      MethodDeclaration(
+        MethodReturnType(
+          Type(
+           bool
+          ) [Type]
+         fun1
+        ) [MethodReturnType]
+        FormParams(
+          FormalParamDecls(
+            SingleFormalParamDecl(
+              ArrayParam(
+                Type(
+                 int
+                ) [Type]
+               nn
+              ) [ArrayParam]
+            ) [SingleFormalParamDecl]
+            ScalarParam(
+              Type(
+               int
+              ) [Type]
+             m
+            ) [ScalarParam]
+          ) [FormalParamDecls]
+        ) [FormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        FullStatementListM(
+          FullStatementListM(
+            NoStatementListM(
+            ) [NoStatementListM]
+            WhileStmt(
+              ConditionTerm(
+                ConditionFact(
+                  ConFact(
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          ScalarDesignator(
+                           m
+                          ) [ScalarDesignator]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                    CondFactorPart(
+                      EqualOperation(
+                      ) [EqualOperation]
+                      ExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           4
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [CondFactorPart]
+                  ) [ConFact]
+                ) [ConditionFact]
+              ) [ConditionTerm]
+              OneMoreStmt(
+                StatementHNI(
+                  AssignStmt(
+                    DesignatorIncValue(
+                      ScalarDesignator(
+                       m
+                      ) [ScalarDesignator]
+                    ) [DesignatorIncValue]
+                  ) [AssignStmt]
+                ) [StatementHNI]
+              ) [OneMoreStmt]
+            ) [WhileStmt]
+          ) [FullStatementListM]
+          ReturnStmt(
+            ExprStmtMl(
+              ExprTerm(
+                TermFactor(
+                  FactorBool(
+                   true
+                  ) [FactorBool]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [ExprStmtMl]
+          ) [ReturnStmt]
+        ) [FullStatementListM]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       fun2
+      ) [MethodReturnVoid]
+      FormParams(
+        SingleFormalParamDecl(
+          ScalarParam(
+            Type(
+             int
+            ) [Type]
+           s
+          ) [ScalarParam]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      NoStatementListM(
+      ) [NoStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  12:16:30,934 - ===================================
+INFO  12:16:30,938 - Obradjuje se tip int na liniji 2
+INFO  12:16:30,938 - Obradjuje se tip int na liniji 3
+INFO  12:16:30,938 - Deklarisan niz l na liniji 3
+INFO  12:16:30,938 - Deklarisana promenljiva k na liniji 3
+INFO  12:16:30,938 - Obradjuje se tip bool na liniji 4
+INFO  12:16:30,938 - obradjuje se metoda fun1 na liniji 4
+INFO  12:16:30,938 - Obradjuje se tip int na liniji 4
+INFO  12:16:30,938 - Obradjuje se tip int na liniji 4
+INFO  12:16:30,939 - aaabb1 na liniji 5
+ERROR 12:16:30,939 - Tipovi nisu kompatibilni! Semanticka greska na liniji 5
+ERROR 12:16:30,939 - Condition u do while petlji mora biti tipa bool! Semanticka greska na liniji 5
+INFO  12:16:30,939 - obradjuje se metoda fun2 na liniji 10
+INFO  12:16:30,939 - Obradjuje se tip int na liniji 10
+INFO  12:16:30,939 - ===================================

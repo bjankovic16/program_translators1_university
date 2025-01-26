@@ -1,0 +1,144 @@
+INFO  20:36:44,016 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:36:44,054 - #8 program
+INFO  20:36:44,055 - #5 ABC
+INFO  20:36:44,055 - #12 const
+INFO  20:36:44,055 - #5 int
+INFO  20:36:44,055 - #5 N
+INFO  20:36:44,056 - #36 =
+INFO  20:36:44,056 - #2 2
+INFO  20:36:44,056 - #39 ;
+INFO  20:36:44,056 - #5 int
+INFO  20:36:44,057 - #5 g
+INFO  20:36:44,057 - #39 ;
+INFO  20:36:44,057 - #5 int
+INFO  20:36:44,057 - #5 niz
+INFO  20:36:44,057 - #45 [
+INFO  20:36:44,057 - #46 ]
+INFO  20:36:44,057 - #39 ;
+INFO  20:36:44,057 - #47 {
+INFO  20:36:44,057 - #19 void
+INFO  20:36:44,058 - #5 main
+INFO  20:36:44,058 - #43 (
+INFO  20:36:44,058 - #44 )
+INFO  20:36:44,059 - #5 int
+INFO  20:36:44,059 - #5 x
+INFO  20:36:44,059 - #41 ,
+INFO  20:36:44,059 - #5 y
+INFO  20:36:44,059 - #39 ;
+INFO  20:36:44,060 - #5 int
+INFO  20:36:44,060 - #5 niz
+INFO  20:36:44,060 - #45 [
+INFO  20:36:44,060 - #46 ]
+INFO  20:36:44,060 - #39 ;
+INFO  20:36:44,060 - #47 {
+INFO  20:36:44,060 - #48 }
+INFO  20:36:44,061 - #48 }
+INFO  20:36:44,068 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        NoGlobalDeclarationsList(
+        ) [NoGlobalDeclarationsList]
+        GlobalConstDecl(
+          ConstDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneConstDeclarationItem(
+              ConstDeclarationItem(
+               N
+                ConstValueNumber(
+                 2
+                ) [ConstValueNumber]
+              ) [ConstDeclarationItem]
+            ) [OneConstDeclarationItem]
+          ) [ConstDeclarations]
+        ) [GlobalConstDecl]
+      ) [GlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             g
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          ArrayDeclarationItem(
+           niz
+          ) [ArrayDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsList(
+              OneVarDeclarationItem(
+                VarDeclarationItem(
+                 x
+                ) [VarDeclarationItem]
+              ) [OneVarDeclarationItem]
+              VarDeclarationItem(
+               y
+              ) [VarDeclarationItem]
+            ) [VarDeclarationsList]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             niz
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      NoStatementListM(
+      ) [NoStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  20:36:44,069 - ===================================
+INFO  20:36:44,072 - Obradjuje se tip int na liniji 2
+INFO  20:36:44,073 - Obradjuje se tip int na liniji 3
+INFO  20:36:44,073 - Deklarisana promenljiva g na liniji 3
+INFO  20:36:44,073 - Obradjuje se tip int na liniji 4
+INFO  20:36:44,073 - Deklarisan niz niz na liniji 4
+INFO  20:36:44,073 - obradjuje se metoda main na liniji 6
+INFO  20:36:44,073 - Obradjuje se tip int na liniji 7
+INFO  20:36:44,073 - Deklarisana promenljiva x na liniji 7
+INFO  20:36:44,073 - Deklarisana promenljiva y na liniji 7
+INFO  20:36:44,074 - Obradjuje se tip int na liniji 8
+INFO  20:36:44,074 - Deklarisan niz niz na liniji 8
+INFO  20:36:44,074 - ===================================

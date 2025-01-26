@@ -1,0 +1,156 @@
+INFO  17:02:07,136 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  17:02:07,168 - #8 program
+INFO  17:02:07,168 - #5 Test
+INFO  17:02:07,169 - #5 int
+INFO  17:02:07,169 - #5 niz
+INFO  17:02:07,169 - #46 [
+INFO  17:02:07,169 - #47 ]
+INFO  17:02:07,169 - #42 ,
+INFO  17:02:07,170 - #5 niz1
+INFO  17:02:07,170 - #46 [
+INFO  17:02:07,170 - #47 ]
+INFO  17:02:07,170 - #40 ;
+INFO  17:02:07,170 - #10 class
+INFO  17:02:07,170 - #5 Druga
+INFO  17:02:07,170 - #48 {
+INFO  17:02:07,171 - #48 {
+INFO  17:02:07,171 - #19 void
+INFO  17:02:07,172 - #5 putp
+INFO  17:02:07,172 - #44 (
+INFO  17:02:07,172 - #5 int
+INFO  17:02:07,172 - #5 a
+INFO  17:02:07,172 - #42 ,
+INFO  17:02:07,172 - #5 int
+INFO  17:02:07,174 - #5 idx
+INFO  17:02:07,174 - #45 )
+INFO  17:02:07,175 - #48 {
+INFO  17:02:07,176 - #5 niz
+INFO  17:02:07,177 - #37 =
+INFO  17:02:07,177 - #5 niz1
+INFO  17:02:07,177 - #40 ;
+INFO  17:02:07,178 - #18 return
+INFO  17:02:07,178 - #2 4
+INFO  17:02:07,178 - #40 ;
+INFO  17:02:07,178 - #49 }
+INFO  17:02:07,178 - #49 }
+INFO  17:02:07,179 - #49 }
+INFO  17:02:07,179 - #48 {
+INFO  17:02:07,179 - #49 }
+INFO  17:02:07,184 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              ArrayDeclarationItem(
+               niz
+              ) [ArrayDeclarationItem]
+            ) [OneVarDeclarationItem]
+            ArrayDeclarationItem(
+             niz1
+            ) [ArrayDeclarationItem]
+          ) [VarDeclarationsList]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+        ClassFirst(
+         Druga
+          NoClassExtends(
+          ) [NoClassExtends]
+        ) [ClassFirst]
+        NoClassVarDeclaration(
+        ) [NoClassVarDeclaration]
+        ClassMethDeclaration(
+          ClassMethodDeclaration(
+            NoClassMethodDeclaration(
+            ) [NoClassMethodDeclaration]
+            MethodDeclaration(
+              MethodReturnVoid(
+               putp
+              ) [MethodReturnVoid]
+              FormParams(
+                FormalParamDecls(
+                  SingleFormalParamDecl(
+                    ScalarParam(
+                      Type(
+                       int
+                      ) [Type]
+                     a
+                    ) [ScalarParam]
+                  ) [SingleFormalParamDecl]
+                  ScalarParam(
+                    Type(
+                     int
+                    ) [Type]
+                   idx
+                  ) [ScalarParam]
+                ) [FormalParamDecls]
+              ) [FormParams]
+              NoLocalVarDeclarationsList(
+              ) [NoLocalVarDeclarationsList]
+              FullStatementListM(
+                FullStatementListM(
+                  NoStatementListM(
+                  ) [NoStatementListM]
+                  AssignStmt(
+                    DesignatorAssignValue(
+                      ScalarDesignator(
+                       niz
+                      ) [ScalarDesignator]
+                      AssignOperation(
+                      ) [AssignOperation]
+                      ExprTerm(
+                        TermFactor(
+                          FactorDesignator(
+                            ScalarDesignator(
+                             niz1
+                            ) [ScalarDesignator]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [DesignatorAssignValue]
+                  ) [AssignStmt]
+                ) [FullStatementListM]
+                ReturnStmt(
+                  ExprStmtMl(
+                    ExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         4
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [ExprStmtMl]
+                ) [ReturnStmt]
+              ) [FullStatementListM]
+            ) [MethodDeclaration]
+          ) [ClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  17:02:07,185 - ===================================
+INFO  17:02:07,188 - Obradjuje se tip int na liniji 2
+INFO  17:02:07,188 - Deklarisan niz niz na liniji 2
+INFO  17:02:07,188 - Deklarisan niz niz1 na liniji 2
+INFO  17:02:07,188 - Kreirana je klasa Druga na liniji 3
+INFO  17:02:07,188 - obradjuje se metoda putp na liniji 4
+INFO  17:02:07,188 - Obradjuje se tip int na liniji 4
+INFO  17:02:07,189 - Obradjuje se tip int na liniji 4
+INFO  17:02:07,189 - uspesno dodeljeno na liniji 4
+ERROR 17:02:07,189 - Metoda tipa void ne vraca nikakvu vrednost! Semanticka greska na liniji 4
+INFO  17:02:07,189 - ===================================

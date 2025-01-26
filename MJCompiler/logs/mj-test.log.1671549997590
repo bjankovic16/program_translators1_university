@@ -1,0 +1,94 @@
+INFO  16:19:24,452 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:19:24,530 - #8 program
+INFO  16:19:24,530 - #5 Test
+INFO  16:19:24,530 - #10 class
+INFO  16:19:24,533 - #5 Prva
+INFO  16:19:24,533 - #48 {
+INFO  16:19:24,535 - #5 int
+INFO  16:19:24,535 - #5 s
+INFO  16:19:24,536 - #42 ,
+INFO  16:19:24,536 - #5 k
+INFO  16:19:24,536 - #40 ;
+INFO  16:19:24,537 - #48 {
+INFO  16:19:24,537 - #49 }
+INFO  16:19:24,537 - #49 }
+INFO  16:19:24,538 - #5 bool
+INFO  16:19:24,538 - #5 l
+INFO  16:19:24,538 - #46 [
+INFO  16:19:24,538 - #47 ]
+INFO  16:19:24,539 - #42 ,
+INFO  16:19:24,539 - #5 k
+INFO  16:19:24,539 - #40 ;
+INFO  16:19:24,539 - #48 {
+INFO  16:19:24,539 - #49 }
+INFO  16:19:24,549 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalClassDecl(
+        ClassDeclaration(
+          ClassFirst(
+           Prva
+            NoClassExtends(
+            ) [NoClassExtends]
+          ) [ClassFirst]
+          ClassVarDeclaration(
+            NoClassVarDeclaration(
+            ) [NoClassVarDeclaration]
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsList(
+                OneVarDeclarationItem(
+                  VarDeclarationItem(
+                   s
+                  ) [VarDeclarationItem]
+                ) [OneVarDeclarationItem]
+                VarDeclarationItem(
+                 k
+                ) [VarDeclarationItem]
+              ) [VarDeclarationsList]
+            ) [VarDeclarations]
+          ) [ClassVarDeclaration]
+          ClassMethDeclaration(
+            NoClassMethodDeclaration(
+            ) [NoClassMethodDeclaration]
+          ) [ClassMethDeclaration]
+        ) [ClassDeclaration]
+      ) [GlobalClassDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         bool
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             l
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           k
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  16:19:24,552 - ===================================
+INFO  16:19:24,554 - Kreirana je klasa Prva na liniji 2
+INFO  16:19:24,555 - Obradjuje se tip int na liniji 2
+INFO  16:19:24,555 - Deklarisana promenljiva s na liniji 2
+INFO  16:19:24,555 - Deklarisana promenljiva k na liniji 2
+INFO  16:19:24,555 - Obradjuje se tip bool na liniji 3
+INFO  16:19:24,555 - Deklarisan niz l na liniji 3
+INFO  16:19:24,555 - Deklarisana promenljiva k na liniji 3
+INFO  16:19:24,555 - ===================================

@@ -1,0 +1,139 @@
+INFO  17:02:16,135 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  17:02:16,172 - #8 program
+INFO  17:02:16,172 - #5 Test
+INFO  17:02:16,172 - #5 int
+INFO  17:02:16,173 - #5 niz
+INFO  17:02:16,173 - #46 [
+INFO  17:02:16,173 - #47 ]
+INFO  17:02:16,173 - #42 ,
+INFO  17:02:16,173 - #5 niz1
+INFO  17:02:16,173 - #46 [
+INFO  17:02:16,173 - #47 ]
+INFO  17:02:16,173 - #40 ;
+INFO  17:02:16,174 - #10 class
+INFO  17:02:16,174 - #5 Druga
+INFO  17:02:16,174 - #48 {
+INFO  17:02:16,174 - #48 {
+INFO  17:02:16,175 - #19 void
+INFO  17:02:16,175 - #5 putp
+INFO  17:02:16,175 - #44 (
+INFO  17:02:16,175 - #5 int
+INFO  17:02:16,175 - #5 a
+INFO  17:02:16,175 - #42 ,
+INFO  17:02:16,176 - #5 int
+INFO  17:02:16,178 - #5 idx
+INFO  17:02:16,178 - #45 )
+INFO  17:02:16,178 - #48 {
+INFO  17:02:16,178 - #5 niz
+INFO  17:02:16,179 - #37 =
+INFO  17:02:16,179 - #5 niz1
+INFO  17:02:16,180 - #40 ;
+INFO  17:02:16,180 - #49 }
+INFO  17:02:16,180 - #49 }
+INFO  17:02:16,181 - #49 }
+INFO  17:02:16,181 - #48 {
+INFO  17:02:16,181 - #49 }
+INFO  17:02:16,187 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              ArrayDeclarationItem(
+               niz
+              ) [ArrayDeclarationItem]
+            ) [OneVarDeclarationItem]
+            ArrayDeclarationItem(
+             niz1
+            ) [ArrayDeclarationItem]
+          ) [VarDeclarationsList]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+        ClassFirst(
+         Druga
+          NoClassExtends(
+          ) [NoClassExtends]
+        ) [ClassFirst]
+        NoClassVarDeclaration(
+        ) [NoClassVarDeclaration]
+        ClassMethDeclaration(
+          ClassMethodDeclaration(
+            NoClassMethodDeclaration(
+            ) [NoClassMethodDeclaration]
+            MethodDeclaration(
+              MethodReturnVoid(
+               putp
+              ) [MethodReturnVoid]
+              FormParams(
+                FormalParamDecls(
+                  SingleFormalParamDecl(
+                    ScalarParam(
+                      Type(
+                       int
+                      ) [Type]
+                     a
+                    ) [ScalarParam]
+                  ) [SingleFormalParamDecl]
+                  ScalarParam(
+                    Type(
+                     int
+                    ) [Type]
+                   idx
+                  ) [ScalarParam]
+                ) [FormalParamDecls]
+              ) [FormParams]
+              NoLocalVarDeclarationsList(
+              ) [NoLocalVarDeclarationsList]
+              FullStatementListM(
+                NoStatementListM(
+                ) [NoStatementListM]
+                AssignStmt(
+                  DesignatorAssignValue(
+                    ScalarDesignator(
+                     niz
+                    ) [ScalarDesignator]
+                    AssignOperation(
+                    ) [AssignOperation]
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          ScalarDesignator(
+                           niz1
+                          ) [ScalarDesignator]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [DesignatorAssignValue]
+                ) [AssignStmt]
+              ) [FullStatementListM]
+            ) [MethodDeclaration]
+          ) [ClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  17:02:16,187 - ===================================
+INFO  17:02:16,190 - Obradjuje se tip int na liniji 2
+INFO  17:02:16,190 - Deklarisan niz niz na liniji 2
+INFO  17:02:16,191 - Deklarisan niz niz1 na liniji 2
+INFO  17:02:16,191 - Kreirana je klasa Druga na liniji 3
+INFO  17:02:16,191 - obradjuje se metoda putp na liniji 4
+INFO  17:02:16,191 - Obradjuje se tip int na liniji 4
+INFO  17:02:16,191 - Obradjuje se tip int na liniji 4
+INFO  17:02:16,191 - uspesno dodeljeno na liniji 4
+INFO  17:02:16,191 - ===================================

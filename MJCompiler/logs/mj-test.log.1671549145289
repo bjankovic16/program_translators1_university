@@ -1,0 +1,67 @@
+INFO  16:11:33,603 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:11:33,633 - #8 program
+INFO  16:11:33,633 - #5 Test
+INFO  16:11:33,633 - #10 class
+INFO  16:11:33,634 - #5 Prva
+INFO  16:11:33,634 - #48 {
+INFO  16:11:33,634 - #48 {
+INFO  16:11:33,634 - #49 }
+INFO  16:11:33,635 - #49 }
+INFO  16:11:33,635 - #5 bool
+INFO  16:11:33,635 - #5 l
+INFO  16:11:33,635 - #46 [
+INFO  16:11:33,635 - #47 ]
+INFO  16:11:33,635 - #42 ,
+INFO  16:11:33,636 - #5 k
+INFO  16:11:33,636 - #40 ;
+INFO  16:11:33,636 - #48 {
+INFO  16:11:33,636 - #49 }
+INFO  16:11:33,640 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalClassDecl(
+        ClassDeclaration(
+         Prva
+          NoClassExtends(
+          ) [NoClassExtends]
+          NoClassVarDeclaration(
+          ) [NoClassVarDeclaration]
+          ClassMethDeclaration(
+            NoClassMethodDeclaration(
+            ) [NoClassMethodDeclaration]
+          ) [ClassMethDeclaration]
+        ) [ClassDeclaration]
+      ) [GlobalClassDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         bool
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             l
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           k
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  16:11:33,641 - ===================================
+INFO  16:11:33,643 - Kreirana je klasa Prva na liniji 2
+INFO  16:11:33,643 - Obradjuje se tip bool na liniji 3
+INFO  16:11:33,643 - Deklarisan niz l na liniji 3
+INFO  16:11:33,643 - Deklarisana promenljiva k na liniji 3
+INFO  16:11:33,643 - ===================================

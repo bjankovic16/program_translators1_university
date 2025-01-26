@@ -1,0 +1,78 @@
+INFO  16:55:40,980 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:55:41,018 - #8 program
+INFO  16:55:41,019 - #5 Test
+INFO  16:55:41,019 - #5 int
+INFO  16:55:41,019 - #5 niz
+INFO  16:55:41,019 - #46 [
+INFO  16:55:41,019 - #47 ]
+INFO  16:55:41,019 - #40 ;
+INFO  16:55:41,019 - #10 class
+INFO  16:55:41,020 - #5 Druga
+INFO  16:55:41,020 - #48 {
+INFO  16:55:41,020 - #5 int
+INFO  16:55:41,021 - #5 l
+INFO  16:55:41,021 - #40 ;
+INFO  16:55:41,021 - #48 {
+INFO  16:55:41,021 - #49 }
+INFO  16:55:41,021 - #49 }
+INFO  16:55:41,021 - #48 {
+INFO  16:55:41,022 - #49 }
+INFO  16:55:41,026 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             niz
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+        ClassFirst(
+         Druga
+          NoClassExtends(
+          ) [NoClassExtends]
+        ) [ClassFirst]
+        ClassVarDeclaration(
+          NoClassVarDeclaration(
+          ) [NoClassVarDeclaration]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               l
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [ClassVarDeclaration]
+        ClassMethDeclaration(
+          NoClassMethodDeclaration(
+          ) [NoClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  16:55:41,029 - ===================================
+INFO  16:55:41,032 - Obradjuje se tip int na liniji 2
+INFO  16:55:41,032 - Deklarisan niz niz na liniji 2
+INFO  16:55:41,032 - Kreirana je klasa Druga na liniji 3
+INFO  16:55:41,032 - Obradjuje se tip int na liniji 3
+INFO  16:55:41,033 - Deklarisana promenljiva l na liniji 3
+INFO  16:55:41,033 - ===================================

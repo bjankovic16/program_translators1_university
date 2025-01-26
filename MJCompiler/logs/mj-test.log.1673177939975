@@ -1,0 +1,64 @@
+INFO  12:38:45,637 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  12:38:45,675 - #8 program
+INFO  12:38:45,675 - #5 ABC
+INFO  12:38:45,675 - #5 int
+INFO  12:38:45,677 - #5 x
+INFO  12:38:45,677 - #41 ,
+INFO  12:38:45,677 - #5 y
+INFO  12:38:45,677 - #39 ;
+INFO  12:38:45,677 - #47 {
+INFO  12:38:45,678 - #19 void
+INFO  12:38:45,679 - #5 main
+INFO  12:38:45,679 - #43 (
+INFO  12:38:45,680 - #44 )
+INFO  12:38:45,682 - #47 {
+INFO  12:38:45,682 - #48 }
+INFO  12:38:45,682 - #48 }
+INFO  12:38:45,688 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             x
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           y
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      NoStatementListM(
+      ) [NoStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  12:38:45,690 - ===================================
+INFO  12:38:45,693 - Obradjuje se tip int na liniji 2
+INFO  12:38:45,693 - Deklarisana promenljiva x na liniji 2
+INFO  12:38:45,693 - Deklarisana promenljiva y na liniji 2
+INFO  12:38:45,693 - obradjuje se metoda main na liniji 3
+INFO  12:38:45,693 - ===================================
+INFO  12:38:45,700 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,57 @@
+INFO  16:52:21,124 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:52:21,160 - #8 program
+INFO  16:52:21,161 - #5 Test
+INFO  16:52:21,161 - #10 class
+INFO  16:52:21,161 - #5 Druga
+INFO  16:52:21,161 - #48 {
+INFO  16:52:21,162 - #5 int
+INFO  16:52:21,162 - #5 l
+INFO  16:52:21,163 - #40 ;
+INFO  16:52:21,163 - #48 {
+INFO  16:52:21,164 - #49 }
+INFO  16:52:21,165 - #49 }
+INFO  16:52:21,165 - #48 {
+INFO  16:52:21,166 - #49 }
+INFO  16:52:21,170 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+        ClassFirst(
+         Druga
+          NoClassExtends(
+          ) [NoClassExtends]
+        ) [ClassFirst]
+        ClassVarDeclaration(
+          NoClassVarDeclaration(
+          ) [NoClassVarDeclaration]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               l
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [ClassVarDeclaration]
+        ClassMethDeclaration(
+          NoClassMethodDeclaration(
+          ) [NoClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  16:52:21,173 - ===================================
+INFO  16:52:21,177 - Kreirana je klasa Druga na liniji 2
+INFO  16:52:21,177 - Obradjuje se tip int na liniji 2
+INFO  16:52:21,177 - Deklarisana promenljiva l na liniji 2
+INFO  16:52:21,177 - ===================================

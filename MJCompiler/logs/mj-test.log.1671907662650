@@ -1,0 +1,281 @@
+INFO  19:38:48,645 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  19:38:48,689 - #8 program
+INFO  19:38:48,689 - #5 test_303
+INFO  19:38:48,689 - #12 const
+INFO  19:38:48,692 - #5 int
+INFO  19:38:48,693 - #5 cinilac
+INFO  19:38:48,695 - #36 =
+INFO  19:38:48,695 - #2 4
+INFO  19:38:48,695 - #41 ,
+INFO  19:38:48,695 - #5 delilac
+INFO  19:38:48,696 - #36 =
+INFO  19:38:48,696 - #2 3
+INFO  19:38:48,696 - #39 ;
+INFO  19:38:48,696 - #10 class
+INFO  19:38:48,696 - #5 Predmet
+INFO  19:38:48,696 - #47 {
+INFO  19:38:48,698 - #5 int
+INFO  19:38:48,698 - #5 tezina
+INFO  19:38:48,699 - #39 ;
+INFO  19:38:48,699 - #47 {
+INFO  19:38:48,699 - #48 }
+INFO  19:38:48,700 - #48 }
+INFO  19:38:48,700 - #10 class
+INFO  19:38:48,700 - #5 Sfera
+INFO  19:38:48,700 - #20 extends
+INFO  19:38:48,701 - #5 Predmet
+INFO  19:38:48,701 - #47 {
+INFO  19:38:48,701 - #5 int
+INFO  19:38:48,701 - #5 r
+INFO  19:38:48,701 - #39 ;
+INFO  19:38:48,701 - #5 Predmet
+INFO  19:38:48,701 - #5 p
+INFO  19:38:48,701 - #39 ;
+INFO  19:38:48,701 - #47 {
+INFO  19:38:48,701 - #19 void
+INFO  19:38:48,701 - #5 postaviPoluprecnik
+INFO  19:38:48,701 - #43 (
+INFO  19:38:48,701 - #5 int
+INFO  19:38:48,702 - #5 r
+INFO  19:38:48,702 - #44 )
+INFO  19:38:48,702 - #47 {
+INFO  19:38:48,702 - #5 this
+INFO  19:38:48,703 - #42 .
+INFO  19:38:48,703 - #5 r
+INFO  19:38:48,703 - #36 =
+INFO  19:38:48,703 - #5 r
+INFO  19:38:48,704 - #39 ;
+INFO  19:38:48,705 - #5 super
+INFO  19:38:48,705 - #42 .
+INFO  19:38:48,705 - #5 tezina
+INFO  19:38:48,705 - #36 =
+INFO  19:38:48,705 - #3 s
+INFO  19:38:48,705 - #39 ;
+INFO  19:38:48,706 - #5 p
+INFO  19:38:48,706 - #36 =
+INFO  19:38:48,706 - #15 new
+INFO  19:38:48,706 - #5 Predmet
+INFO  19:38:48,706 - #43 (
+INFO  19:38:48,706 - #44 )
+INFO  19:38:48,706 - #39 ;
+INFO  19:38:48,707 - #48 }
+INFO  19:38:48,707 - #48 }
+INFO  19:38:48,707 - #48 }
+INFO  19:38:48,707 - #47 {
+INFO  19:38:48,707 - #48 }
+INFO  19:38:48,717 - Program(
+  NamePro(
+   test_303
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        NoGlobalDeclarationsList(
+        ) [NoGlobalDeclarationsList]
+        GlobalConstDecl(
+          ConstDeclarations(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsList(
+              OneConstDeclarationItem(
+                ConstDeclarationItem(
+                 cinilac
+                  ConstValueNumber(
+                   4
+                  ) [ConstValueNumber]
+                ) [ConstDeclarationItem]
+              ) [OneConstDeclarationItem]
+              ConstDeclarationItem(
+               delilac
+                ConstValueNumber(
+                 3
+                ) [ConstValueNumber]
+              ) [ConstDeclarationItem]
+            ) [ConstDeclarationsList]
+          ) [ConstDeclarations]
+        ) [GlobalConstDecl]
+      ) [GlobalDeclarationsList]
+      GlobalClassDecl(
+        ClassDeclaration(
+          ClassFirst(
+           Predmet
+            NoClassExtends(
+            ) [NoClassExtends]
+          ) [ClassFirst]
+          ClassVarDeclaration(
+            NoClassVarDeclaration(
+            ) [NoClassVarDeclaration]
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclarationItem(
+                VarDeclarationItem(
+                 tezina
+                ) [VarDeclarationItem]
+              ) [OneVarDeclarationItem]
+            ) [VarDeclarations]
+          ) [ClassVarDeclaration]
+          ClassMethDeclaration(
+            NoClassMethodDeclaration(
+            ) [NoClassMethodDeclaration]
+          ) [ClassMethDeclaration]
+        ) [ClassDeclaration]
+      ) [GlobalClassDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+        ClassFirst(
+         Sfera
+          ClassExtends(
+            Type(
+             Predmet
+            ) [Type]
+          ) [ClassExtends]
+        ) [ClassFirst]
+        ClassVarDeclaration(
+          ClassVarDeclaration(
+            NoClassVarDeclaration(
+            ) [NoClassVarDeclaration]
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclarationItem(
+                VarDeclarationItem(
+                 r
+                ) [VarDeclarationItem]
+              ) [OneVarDeclarationItem]
+            ) [VarDeclarations]
+          ) [ClassVarDeclaration]
+          VarDeclarations(
+            Type(
+             Predmet
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               p
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [ClassVarDeclaration]
+        ClassMethDeclaration(
+          ClassMethodDeclaration(
+            NoClassMethodDeclaration(
+            ) [NoClassMethodDeclaration]
+            MethodDeclaration(
+              MethodReturnVoid(
+               postaviPoluprecnik
+              ) [MethodReturnVoid]
+              FormParams(
+                SingleFormalParamDecl(
+                  ScalarParam(
+                    Type(
+                     int
+                    ) [Type]
+                   r
+                  ) [ScalarParam]
+                ) [SingleFormalParamDecl]
+              ) [FormParams]
+              NoLocalVarDeclarationsList(
+              ) [NoLocalVarDeclarationsList]
+              FullStatementListM(
+                FullStatementListM(
+                  FullStatementListM(
+                    NoStatementListM(
+                    ) [NoStatementListM]
+                    AssignStmt(
+                      DesignatorAssignValue(
+                        ClassDesignator(
+                          ScalarDesignator(
+                           this
+                          ) [ScalarDesignator]
+                         r
+                        ) [ClassDesignator]
+                        AssignOperation(
+                        ) [AssignOperation]
+                        ExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              ScalarDesignator(
+                               r
+                              ) [ScalarDesignator]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [DesignatorAssignValue]
+                    ) [AssignStmt]
+                  ) [FullStatementListM]
+                  AssignStmt(
+                    DesignatorAssignValue(
+                      ClassDesignator(
+                        ScalarDesignator(
+                         super
+                        ) [ScalarDesignator]
+                       tezina
+                      ) [ClassDesignator]
+                      AssignOperation(
+                      ) [AssignOperation]
+                      ExprTerm(
+                        TermFactor(
+                          FactorChar(
+                           s
+                          ) [FactorChar]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [DesignatorAssignValue]
+                  ) [AssignStmt]
+                ) [FullStatementListM]
+                AssignStmt(
+                  DesignatorAssignValue(
+                    ScalarDesignator(
+                     p
+                    ) [ScalarDesignator]
+                    AssignOperation(
+                    ) [AssignOperation]
+                    ExprTerm(
+                      TermFactor(
+                        FactorParams(
+                          Type(
+                           Predmet
+                          ) [Type]
+                          NoActualPars(
+                          ) [NoActualPars]
+                        ) [FactorParams]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [DesignatorAssignValue]
+                ) [AssignStmt]
+              ) [FullStatementListM]
+            ) [MethodDeclaration]
+          ) [ClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  19:38:48,717 - ===================================
+INFO  19:38:48,720 - Obradjuje se tip int na liniji 6
+INFO  19:38:48,720 - Kreirana je klasa Predmet na liniji 8
+INFO  19:38:48,721 - Obradjuje se tip int na liniji 10
+INFO  19:38:48,721 - Deklarisana promenljiva tezina na liniji 10
+INFO  19:38:48,722 - Obradjuje se tip Predmet na liniji 16
+INFO  19:38:48,722 - Kreirana je klasa Sfera na liniji 16
+INFO  19:38:48,722 - Ubacen je simbol tezina na liniji 16
+INFO  19:38:48,722 - Obradjuje se tip int na liniji 18
+INFO  19:38:48,722 - Deklarisana promenljiva r na liniji 18
+INFO  19:38:48,722 - Obradjuje se tip Predmet na liniji 19
+INFO  19:38:48,722 - Deklarisana promenljiva p na liniji 19
+INFO  19:38:48,722 - obradjuje se metoda postaviPoluprecnik na liniji 22
+INFO  19:38:48,722 - Obradjuje se tip int na liniji 22
+INFO  19:38:48,722 - poziva se r na liniji 22
+INFO  19:38:48,722 - uspesno dodeljeno na liniji 22
+ERROR 19:38:48,722 - Ime super nije deklarisano! Semanticka greska na liniji 22
+ERROR 19:38:48,722 - Izraz mora biti tipa Class! Semanticka greska na liniji 22
+ERROR 19:38:48,723 - Nisu kompatibilni tipovi u naredbi dodele 0 na liniji 22
+INFO  19:38:48,723 - Obradjuje se tip Predmet na liniji 22
+INFO  19:38:48,723 - uspesno dodeljeno na liniji 22
+INFO  19:38:48,723 - ===================================

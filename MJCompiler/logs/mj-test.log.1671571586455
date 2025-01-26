@@ -1,0 +1,159 @@
+INFO  22:24:01,927 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  22:24:01,973 - #8 program
+INFO  22:24:01,973 - #5 Test
+INFO  22:24:01,973 - #5 int
+INFO  22:24:01,974 - #5 niz
+INFO  22:24:01,975 - #46 [
+INFO  22:24:01,975 - #47 ]
+INFO  22:24:01,975 - #40 ;
+INFO  22:24:01,975 - #5 int
+INFO  22:24:01,976 - #5 c
+INFO  22:24:01,976 - #40 ;
+INFO  22:24:01,976 - #10 class
+INFO  22:24:01,976 - #5 Druga
+INFO  22:24:01,976 - #48 {
+INFO  22:24:01,978 - #5 int
+INFO  22:24:01,978 - #5 l
+INFO  22:24:01,978 - #40 ;
+INFO  22:24:01,979 - #48 {
+INFO  22:24:01,979 - #19 void
+INFO  22:24:01,980 - #5 met
+INFO  22:24:01,980 - #44 (
+INFO  22:24:01,980 - #5 char
+INFO  22:24:01,981 - #5 s
+INFO  22:24:01,982 - #45 )
+INFO  22:24:01,983 - #48 {
+INFO  22:24:01,984 - #49 }
+INFO  22:24:01,985 - #49 }
+INFO  22:24:01,985 - #49 }
+INFO  22:24:01,986 - #10 class
+INFO  22:24:01,986 - #5 Extendovana
+INFO  22:24:01,986 - #20 extends
+INFO  22:24:01,986 - #5 Druga
+INFO  22:24:01,986 - #48 {
+INFO  22:24:01,986 - #48 {
+INFO  22:24:01,987 - #49 }
+INFO  22:24:01,987 - #49 }
+INFO  22:24:01,987 - #48 {
+INFO  22:24:01,987 - #49 }
+INFO  22:24:01,997 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        GlobalDeclarationsList(
+          NoGlobalDeclarationsList(
+          ) [NoGlobalDeclarationsList]
+          GlobalVarDecl(
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclarationItem(
+                ArrayDeclarationItem(
+                 niz
+                ) [ArrayDeclarationItem]
+              ) [OneVarDeclarationItem]
+            ) [VarDeclarations]
+          ) [GlobalVarDecl]
+        ) [GlobalDeclarationsList]
+        GlobalVarDecl(
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               c
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [GlobalVarDecl]
+      ) [GlobalDeclarationsList]
+      GlobalClassDecl(
+        ClassDeclaration(
+          ClassFirst(
+           Druga
+            NoClassExtends(
+            ) [NoClassExtends]
+          ) [ClassFirst]
+          ClassVarDeclaration(
+            NoClassVarDeclaration(
+            ) [NoClassVarDeclaration]
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclarationItem(
+                VarDeclarationItem(
+                 l
+                ) [VarDeclarationItem]
+              ) [OneVarDeclarationItem]
+            ) [VarDeclarations]
+          ) [ClassVarDeclaration]
+          ClassMethDeclaration(
+            ClassMethodDeclaration(
+              NoClassMethodDeclaration(
+              ) [NoClassMethodDeclaration]
+              MethodDeclaration(
+                MethodReturnVoid(
+                 met
+                ) [MethodReturnVoid]
+                FormParams(
+                  SingleFormalParamDecl(
+                    ScalarParam(
+                      Type(
+                       char
+                      ) [Type]
+                     s
+                    ) [ScalarParam]
+                  ) [SingleFormalParamDecl]
+                ) [FormParams]
+                NoLocalVarDeclarationsList(
+                ) [NoLocalVarDeclarationsList]
+                NoStatementListM(
+                ) [NoStatementListM]
+              ) [MethodDeclaration]
+            ) [ClassMethodDeclaration]
+          ) [ClassMethDeclaration]
+        ) [ClassDeclaration]
+      ) [GlobalClassDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+        ClassFirst(
+         Extendovana
+          ClassExtends(
+            Type(
+             Druga
+            ) [Type]
+          ) [ClassExtends]
+        ) [ClassFirst]
+        NoClassVarDeclaration(
+        ) [NoClassVarDeclaration]
+        ClassMethDeclaration(
+          NoClassMethodDeclaration(
+          ) [NoClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  22:24:01,997 - ===================================
+INFO  22:24:02,000 - Obradjuje se tip int na liniji 2
+INFO  22:24:02,001 - Deklarisan niz niz na liniji 2
+INFO  22:24:02,001 - Obradjuje se tip int na liniji 3
+INFO  22:24:02,001 - Deklarisana promenljiva c na liniji 3
+INFO  22:24:02,001 - Kreirana je klasa Druga na liniji 4
+INFO  22:24:02,001 - Obradjuje se tip int na liniji 4
+INFO  22:24:02,001 - Deklarisana promenljiva l na liniji 4
+INFO  22:24:02,001 - obradjuje se metoda met na liniji 5
+INFO  22:24:02,001 - Obradjuje se tip char na liniji 5
+INFO  22:24:02,002 - Obradjuje se tip Druga na liniji 8
+INFO  22:24:02,002 - Kreirana je klasa Extendovana na liniji 8
+INFO  22:24:02,002 - Ubacen je simbol l na liniji 8
+INFO  22:24:02,002 - ===================================

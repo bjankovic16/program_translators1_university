@@ -1,0 +1,164 @@
+INFO  18:16:59,078 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:16:59,119 - #8 program
+INFO  18:16:59,120 - #5 Test
+INFO  18:16:59,120 - #12 const
+INFO  18:16:59,121 - #5 int
+INFO  18:16:59,121 - #5 s
+INFO  18:16:59,123 - #37 =
+INFO  18:16:59,123 - #2 0
+INFO  18:16:59,123 - #40 ;
+INFO  18:16:59,124 - #5 int
+INFO  18:16:59,124 - #5 l
+INFO  18:16:59,124 - #46 [
+INFO  18:16:59,124 - #47 ]
+INFO  18:16:59,124 - #42 ,
+INFO  18:16:59,124 - #5 k
+INFO  18:16:59,125 - #40 ;
+INFO  18:16:59,125 - #48 {
+INFO  18:16:59,125 - #5 bool
+INFO  18:16:59,125 - #5 fun1
+INFO  18:16:59,125 - #44 (
+INFO  18:16:59,126 - #5 int
+INFO  18:16:59,126 - #46 [
+ERROR 18:16:59,126 - 
+Sintaksna greska na liniji 4
+INFO  18:16:59,128 - #47 ]
+INFO  18:16:59,128 - #5 s
+INFO  18:16:59,128 - #42 ,
+INFO  18:16:59,128 - #5 int
+INFO  18:16:59,128 - #5 m
+INFO  18:16:59,128 - #45 )
+ERROR 18:16:59,128 - Izvrsen oporavak od greske u deklaraciji formalnog parametra do , ili ). Greska je u liniji 4
+INFO  18:16:59,129 - #48 {
+INFO  18:16:59,129 - #18 return
+INFO  18:16:59,129 - #4 true
+INFO  18:16:59,129 - #40 ;
+INFO  18:16:59,129 - #49 }
+INFO  18:16:59,130 - #19 void
+INFO  18:16:59,130 - #5 fun2
+INFO  18:16:59,130 - #44 (
+INFO  18:16:59,130 - #5 int
+INFO  18:16:59,130 - #5 s
+INFO  18:16:59,130 - #45 )
+INFO  18:16:59,130 - #48 {
+INFO  18:16:59,130 - #49 }
+INFO  18:16:59,130 - #49 }
+INFO  18:16:59,136 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalConstDecl(
+        ConstDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneConstDeclarationItem(
+            ConstDeclarationItem(
+             s
+              ConstValueNumber(
+               0
+              ) [ConstValueNumber]
+            ) [ConstDeclarationItem]
+          ) [OneConstDeclarationItem]
+        ) [ConstDeclarations]
+      ) [GlobalConstDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             l
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           k
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclarationList(
+      ) [NoMethodDeclarationList]
+      MethodDeclaration(
+        MethodReturnType(
+          Type(
+           bool
+          ) [Type]
+         fun1
+        ) [MethodReturnType]
+        FormParams(
+          FormalParamDecls(
+            SingleFormalParamDecl(
+              ErrorInFormalParamDecl(
+              ) [ErrorInFormalParamDecl]
+            ) [SingleFormalParamDecl]
+            ScalarParam(
+              Type(
+               int
+              ) [Type]
+             m
+            ) [ScalarParam]
+          ) [FormalParamDecls]
+        ) [FormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        FullStatementListM(
+          NoStatementListM(
+          ) [NoStatementListM]
+          ReturnStmt(
+            ExprStmtMl(
+              ExprTerm(
+                TermFactor(
+                  FactorBool(
+                   true
+                  ) [FactorBool]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [ExprStmtMl]
+          ) [ReturnStmt]
+        ) [FullStatementListM]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       fun2
+      ) [MethodReturnVoid]
+      FormParams(
+        SingleFormalParamDecl(
+          ScalarParam(
+            Type(
+             int
+            ) [Type]
+           s
+          ) [ScalarParam]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      NoStatementListM(
+      ) [NoStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  18:16:59,137 - ===================================
+INFO  18:16:59,142 - Obradjuje se tip int na liniji 2
+INFO  18:16:59,142 - Obradjuje se tip int na liniji 3
+INFO  18:16:59,142 - Deklarisan niz l na liniji 3
+INFO  18:16:59,142 - Deklarisana promenljiva k na liniji 3
+INFO  18:16:59,142 - Obradjuje se tip bool na liniji 4
+INFO  18:16:59,142 - obradjuje se metoda fun1 na liniji 4
+INFO  18:16:59,143 - Obradjuje se tip int na liniji 4
+ERROR 18:16:59,143 - Izraz uz return nije ekvivalentan tipu tekuce metode! Semanticka greska na liniji 5
+INFO  18:16:59,143 - obradjuje se metoda fun2 na liniji 7
+INFO  18:16:59,143 - Obradjuje se tip int na liniji 7
+INFO  18:16:59,143 - ===================================

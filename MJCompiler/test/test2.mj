@@ -1,0 +1,25 @@
+program Osn1 // rad sa petljama i ucitavanje jednog karaktera
+int arr[];
+{
+	void main()int i,x; char c;{
+		if(arr==null)
+			arr=new int[2];
+		read(c);
+		print(c);
+		arr.foreach(x=>{
+			arr.foreach(x=>{
+			if(x==0) continue;
+				print(x);
+			});
+			arr.foreach(x=>{
+				while(x==0 && arr[0]!=1){
+					while(arr[1]!=2){
+						arr[1]++;
+					}
+					arr[0]++;
+				}
+				print(x);
+			});
+		});
+	}
+}

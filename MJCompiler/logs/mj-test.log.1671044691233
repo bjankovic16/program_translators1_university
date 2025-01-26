@@ -1,0 +1,46 @@
+INFO  20:04:00,207 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:04:00,235 - #8 program
+INFO  20:04:00,235 - #5 Test
+INFO  20:04:00,235 - #12 const
+INFO  20:04:00,236 - #5 char
+INFO  20:04:00,236 - #5 x
+INFO  20:04:00,236 - #37 =
+INFO  20:04:00,236 - #3 x
+INFO  20:04:00,236 - #42 ,
+INFO  20:04:00,237 - #5 s
+INFO  20:04:00,237 - #37 =
+INFO  20:04:00,237 - #3 5
+INFO  20:04:00,237 - #40 ;
+INFO  20:04:00,238 - #48 {
+INFO  20:04:00,238 - #49 }
+INFO  20:04:00,240 - Program(
+ Test
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalConstDecl(
+      ConstDeclarations(
+        Type(
+         char
+        ) [Type]
+        ConstDeclarationsList(
+          OneConstDeclarationItem(
+            ConstDeclarationItem(
+             x
+              ConstValueChar(
+               x
+              ) [ConstValueChar]
+            ) [ConstDeclarationItem]
+          ) [OneConstDeclarationItem]
+          ConstDeclarationItem(
+           s
+            ConstValueChar(
+             5
+            ) [ConstValueChar]
+          ) [ConstDeclarationItem]
+        ) [ConstDeclarationsList]
+      ) [ConstDeclarations]
+    ) [GlobalConstDecl]
+  ) [GlobalDeclarationsList]
+) [Program]
+INFO  20:04:00,242 - ===================================

@@ -1,0 +1,119 @@
+INFO  13:53:40,332 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:53:40,365 - #8 program
+INFO  13:53:40,365 - #5 ABC
+INFO  13:53:40,365 - #12 const
+INFO  13:53:40,366 - #5 int
+INFO  13:53:40,366 - #5 N
+INFO  13:53:40,366 - #36 =
+INFO  13:53:40,367 - #2 2
+INFO  13:53:40,367 - #39 ;
+INFO  13:53:40,367 - #47 {
+INFO  13:53:40,367 - #5 int
+INFO  13:53:40,367 - #5 fun
+INFO  13:53:40,368 - #43 (
+INFO  13:53:40,368 - #44 )
+INFO  13:53:40,368 - #47 {
+INFO  13:53:40,368 - #18 return
+INFO  13:53:40,369 - #5 N
+INFO  13:53:40,369 - #39 ;
+INFO  13:53:40,369 - #48 }
+INFO  13:53:40,369 - #19 void
+INFO  13:53:40,370 - #5 main
+INFO  13:53:40,370 - #43 (
+INFO  13:53:40,370 - #44 )
+INFO  13:53:40,372 - #5 int
+INFO  13:53:40,372 - #5 x
+INFO  13:53:40,373 - #39 ;
+INFO  13:53:40,373 - #47 {
+INFO  13:53:40,373 - #48 }
+INFO  13:53:40,373 - #48 }
+INFO  13:53:40,378 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalConstDecl(
+      ConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneConstDeclarationItem(
+          ConstDeclarationItem(
+           N
+            ConstValueNumber(
+             2
+            ) [ConstValueNumber]
+          ) [ConstDeclarationItem]
+        ) [OneConstDeclarationItem]
+      ) [ConstDeclarations]
+    ) [GlobalConstDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclarationList(
+      ) [NoMethodDeclarationList]
+      MethodDeclaration(
+        MethodReturnType(
+          Type(
+           int
+          ) [Type]
+         fun
+        ) [MethodReturnType]
+        NoFormParams(
+        ) [NoFormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        FullStatementListM(
+          NoStatementListM(
+          ) [NoStatementListM]
+          ReturnStmt(
+            ExprStmtMl(
+              ExprTerm(
+                TermFactor(
+                  FactorDesignator(
+                    ScalarDesignator(
+                     N
+                    ) [ScalarDesignator]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [ExprStmtMl]
+          ) [ReturnStmt]
+        ) [FullStatementListM]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             x
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      NoStatementListM(
+      ) [NoStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:53:40,379 - ===================================
+INFO  13:53:40,381 - Obradjuje se tip int na liniji 2
+INFO  13:53:40,381 - Obradjuje se tip int na liniji 4
+INFO  13:53:40,382 - obradjuje se metoda fun na liniji 4
+INFO  13:53:40,382 - obradjuje se metoda main na liniji 7
+INFO  13:53:40,382 - Obradjuje se tip int na liniji 8
+INFO  13:53:40,382 - Deklarisana promenljiva x na liniji 8
+INFO  13:53:40,382 - ===================================

@@ -1,0 +1,143 @@
+INFO  16:37:36,551 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:37:36,628 - #8 program
+INFO  16:37:36,628 - #5 Test
+INFO  16:37:36,628 - #12 const
+INFO  16:37:36,629 - #5 int
+INFO  16:37:36,629 - #5 s
+INFO  16:37:36,630 - #37 =
+INFO  16:37:36,630 - #2 0
+INFO  16:37:36,630 - #40 ;
+INFO  16:37:36,630 - #5 int
+INFO  16:37:36,630 - #5 l
+INFO  16:37:36,630 - #46 [
+INFO  16:37:36,631 - #47 ]
+INFO  16:37:36,631 - #42 ,
+INFO  16:37:36,631 - #5 k
+INFO  16:37:36,631 - #40 ;
+INFO  16:37:36,631 - #48 {
+INFO  16:37:36,631 - #19 void
+INFO  16:37:36,632 - #5 fun1
+INFO  16:37:36,632 - #44 (
+INFO  16:37:36,632 - #5 int
+INFO  16:37:36,632 - #46 [
+ERROR 16:37:36,632 - 
+Sintaksna greska na liniji 4
+INFO  16:37:36,634 - #47 ]
+INFO  16:37:36,634 - #5 s
+INFO  16:37:36,634 - #42 ,
+INFO  16:37:36,634 - #5 bool
+INFO  16:37:36,635 - #5 m
+INFO  16:37:36,635 - #45 )
+ERROR 16:37:36,635 - Izvrsen oporavak od greske u deklaraciji formalnog parametra do , ili ). Greska je u liniji 4
+INFO  16:37:36,636 - #48 {
+INFO  16:37:36,636 - #49 }
+INFO  16:37:36,637 - #19 void
+INFO  16:37:36,637 - #5 fun2
+INFO  16:37:36,638 - #44 (
+INFO  16:37:36,638 - #5 int
+INFO  16:37:36,638 - #5 s
+INFO  16:37:36,638 - #45 )
+INFO  16:37:36,638 - #48 {
+INFO  16:37:36,638 - #49 }
+INFO  16:37:36,638 - #49 }
+INFO  16:37:36,644 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalConstDecl(
+        ConstDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneConstDeclarationItem(
+            ConstDeclarationItem(
+             s
+              ConstValueNumber(
+               0
+              ) [ConstValueNumber]
+            ) [ConstDeclarationItem]
+          ) [OneConstDeclarationItem]
+        ) [ConstDeclarations]
+      ) [GlobalConstDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             l
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           k
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclarationList(
+      ) [NoMethodDeclarationList]
+      MethodDeclaration(
+        MethodReturnVoid(
+         fun1
+        ) [MethodReturnVoid]
+        FormParams(
+          FormalParamDecls(
+            SingleFormalParamDecl(
+              ErrorInFormalParamDecl(
+              ) [ErrorInFormalParamDecl]
+            ) [SingleFormalParamDecl]
+            ScalarParam(
+              Type(
+               bool
+              ) [Type]
+             m
+            ) [ScalarParam]
+          ) [FormalParamDecls]
+        ) [FormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        NoStatementListM(
+        ) [NoStatementListM]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       fun2
+      ) [MethodReturnVoid]
+      FormParams(
+        SingleFormalParamDecl(
+          ScalarParam(
+            Type(
+             int
+            ) [Type]
+           s
+          ) [ScalarParam]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      NoStatementListM(
+      ) [NoStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  16:37:36,645 - ===================================
+INFO  16:37:36,648 - Obradjuje se tip int na liniji 2
+INFO  16:37:36,648 - Obradjuje se tip int na liniji 3
+INFO  16:37:36,648 - Deklarisan niz l na liniji 3
+INFO  16:37:36,648 - Deklarisana promenljiva k na liniji 3
+INFO  16:37:36,648 - obradjuje se metoda fun1 na liniji 4
+INFO  16:37:36,648 - Obradjuje se tip bool na liniji 4
+INFO  16:37:36,649 - obradjuje se metoda fun2 na liniji 7
+INFO  16:37:36,649 - Obradjuje se tip int na liniji 7
+INFO  16:37:36,649 - ===================================

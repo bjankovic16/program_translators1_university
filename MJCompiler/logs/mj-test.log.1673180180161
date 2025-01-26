@@ -1,0 +1,147 @@
+INFO  13:15:52,509 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:15:52,553 - #8 program
+INFO  13:15:52,553 - #5 ABC
+INFO  13:15:52,553 - #5 int
+INFO  13:15:52,553 - #5 x
+INFO  13:15:52,554 - #41 ,
+INFO  13:15:52,555 - #5 z
+INFO  13:15:52,555 - #39 ;
+INFO  13:15:52,556 - #12 const
+INFO  13:15:52,556 - #5 int
+INFO  13:15:52,556 - #5 y
+INFO  13:15:52,556 - #36 =
+INFO  13:15:52,556 - #2 0
+INFO  13:15:52,556 - #39 ;
+INFO  13:15:52,556 - #47 {
+INFO  13:15:52,557 - #19 void
+INFO  13:15:52,557 - #5 main
+INFO  13:15:52,557 - #43 (
+INFO  13:15:52,557 - #44 )
+INFO  13:15:52,558 - #47 {
+INFO  13:15:52,558 - #5 x
+INFO  13:15:52,559 - #36 =
+INFO  13:15:52,559 - #2 5
+INFO  13:15:52,559 - #39 ;
+INFO  13:15:52,561 - #5 y
+INFO  13:15:52,562 - #36 =
+INFO  13:15:52,562 - #2 7
+INFO  13:15:52,562 - #24 -
+INFO  13:15:52,562 - #5 x
+INFO  13:15:52,563 - #39 ;
+INFO  13:15:52,563 - #48 }
+INFO  13:15:52,563 - #48 }
+INFO  13:15:52,571 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               x
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             z
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalConstDecl(
+      ConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneConstDeclarationItem(
+          ConstDeclarationItem(
+           y
+            ConstValueNumber(
+             0
+            ) [ConstValueNumber]
+          ) [ConstDeclarationItem]
+        ) [OneConstDeclarationItem]
+      ) [ConstDeclarations]
+    ) [GlobalConstDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          NoStatementListM(
+          ) [NoStatementListM]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               x
+              ) [ScalarDesignator]
+              AssignOperation(
+              ) [AssignOperation]
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   5
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [FullStatementListM]
+        AssignStmt(
+          DesignatorAssignValue(
+            ScalarDesignator(
+             y
+            ) [ScalarDesignator]
+            AssignOperation(
+            ) [AssignOperation]
+            ExprAdd(
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   7
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+              MinusOperation(
+              ) [MinusOperation]
+              TermFactor(
+                FactorDesignator(
+                  ScalarDesignator(
+                   x
+                  ) [ScalarDesignator]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprAdd]
+          ) [DesignatorAssignValue]
+        ) [AssignStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:15:52,572 - ===================================
+INFO  13:15:52,576 - Obradjuje se tip int na liniji 2
+INFO  13:15:52,576 - Deklarisana promenljiva x na liniji 2
+INFO  13:15:52,576 - Deklarisana promenljiva z na liniji 2
+INFO  13:15:52,577 - Obradjuje se tip int na liniji 3
+INFO  13:15:52,577 - obradjuje se metoda main na liniji 5
+INFO  13:15:52,577 - uspesno dodeljeno na liniji 7
+INFO  13:15:52,577 - uspesno dodeljeno na liniji 8
+INFO  13:15:52,577 - ===================================
+INFO  13:15:52,582 - Parsiranje uspesno zavrseno!

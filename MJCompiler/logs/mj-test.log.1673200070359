@@ -1,0 +1,318 @@
+INFO  18:47:18,317 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:47:18,354 - #8 program
+INFO  18:47:18,354 - #5 test302
+INFO  18:47:18,354 - #12 const
+INFO  18:47:18,355 - #5 int
+INFO  18:47:18,355 - #5 jedan
+INFO  18:47:18,356 - #36 =
+INFO  18:47:18,356 - #2 1
+INFO  18:47:18,356 - #39 ;
+INFO  18:47:18,356 - #5 int
+INFO  18:47:18,356 - #5 i
+INFO  18:47:18,357 - #39 ;
+INFO  18:47:18,357 - #5 bool
+INFO  18:47:18,357 - #5 ibool
+INFO  18:47:18,357 - #39 ;
+INFO  18:47:18,357 - #5 int
+INFO  18:47:18,357 - #5 niz2
+INFO  18:47:18,358 - #39 ;
+INFO  18:47:18,358 - #5 int
+INFO  18:47:18,358 - #5 niz
+INFO  18:47:18,358 - #45 [
+INFO  18:47:18,358 - #46 ]
+INFO  18:47:18,358 - #39 ;
+INFO  18:47:18,360 - #5 int
+INFO  18:47:18,360 - #5 a
+INFO  18:47:18,360 - #41 ,
+INFO  18:47:18,360 - #5 curr
+INFO  18:47:18,360 - #39 ;
+INFO  18:47:18,360 - #47 {
+INFO  18:47:18,360 - #19 void
+INFO  18:47:18,361 - #5 main
+INFO  18:47:18,361 - #43 (
+INFO  18:47:18,361 - #44 )
+INFO  18:47:18,362 - #47 {
+INFO  18:47:18,362 - #5 a
+INFO  18:47:18,362 - #36 =
+INFO  18:47:18,362 - #2 0
+INFO  18:47:18,364 - #39 ;
+INFO  18:47:18,364 - #6 if
+INFO  18:47:18,367 - #43 (
+INFO  18:47:18,367 - #5 true||
+INFO  18:47:18,367 - #5 a
+ERROR 18:47:18,367 - 
+Sintaksna greska na liniji 22
+INFO  18:47:18,367 - #28 ==
+INFO  18:47:18,367 - #2 4
+INFO  18:47:18,367 - #44 )
+INFO  18:47:18,367 - #16 print
+INFO  18:47:18,367 - #43 (
+INFO  18:47:18,367 - #5 ord
+ERROR 18:47:18,368 - Izvrsen oporavak od greske u logickom izrazu unutar if naredbe. Greska je u liniji 22
+INFO  18:47:18,368 - #43 (
+INFO  18:47:18,368 - #3 A
+INFO  18:47:18,368 - #44 )
+INFO  18:47:18,368 - #44 )
+INFO  18:47:18,369 - #39 ;
+INFO  18:47:18,369 - #7 else
+INFO  18:47:18,369 - #16 print
+INFO  18:47:18,369 - #43 (
+INFO  18:47:18,369 - #5 ord
+INFO  18:47:18,370 - #43 (
+INFO  18:47:18,370 - #3 a
+INFO  18:47:18,370 - #44 )
+INFO  18:47:18,370 - #44 )
+INFO  18:47:18,370 - #39 ;
+INFO  18:47:18,370 - #16 print
+INFO  18:47:18,370 - #43 (
+INFO  18:47:18,370 - #5 eol
+INFO  18:47:18,370 - #44 )
+INFO  18:47:18,370 - #39 ;
+INFO  18:47:18,371 - #5 i
+INFO  18:47:18,371 - #36 =
+INFO  18:47:18,371 - #2 0
+INFO  18:47:18,371 - #39 ;
+INFO  18:47:18,372 - #48 }
+INFO  18:47:18,372 - #48 }
+INFO  18:47:18,380 - Program(
+  NamePro(
+   test302
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        GlobalDeclarationsList(
+          GlobalDeclarationsList(
+            GlobalDeclarationsList(
+              NoGlobalDeclarationsList(
+              ) [NoGlobalDeclarationsList]
+              GlobalConstDecl(
+                ConstDeclarations(
+                  Type(
+                   int
+                  ) [Type]
+                  OneConstDeclarationItem(
+                    ConstDeclarationItem(
+                     jedan
+                      ConstValueNumber(
+                       1
+                      ) [ConstValueNumber]
+                    ) [ConstDeclarationItem]
+                  ) [OneConstDeclarationItem]
+                ) [ConstDeclarations]
+              ) [GlobalConstDecl]
+            ) [GlobalDeclarationsList]
+            GlobalVarDecl(
+              VarDeclarations(
+                Type(
+                 int
+                ) [Type]
+                OneVarDeclarationItem(
+                  VarDeclarationItem(
+                   i
+                  ) [VarDeclarationItem]
+                ) [OneVarDeclarationItem]
+              ) [VarDeclarations]
+            ) [GlobalVarDecl]
+          ) [GlobalDeclarationsList]
+          GlobalVarDecl(
+            VarDeclarations(
+              Type(
+               bool
+              ) [Type]
+              OneVarDeclarationItem(
+                VarDeclarationItem(
+                 ibool
+                ) [VarDeclarationItem]
+              ) [OneVarDeclarationItem]
+            ) [VarDeclarations]
+          ) [GlobalVarDecl]
+        ) [GlobalDeclarationsList]
+        GlobalVarDecl(
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               niz2
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [GlobalVarDecl]
+      ) [GlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             niz
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             a
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           curr
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          FullStatementListM(
+            FullStatementListM(
+              NoStatementListM(
+              ) [NoStatementListM]
+              AssignStmt(
+                DesignatorAssignValue(
+                  ScalarDesignator(
+                   a
+                  ) [ScalarDesignator]
+                  AssignOperation(
+                  ) [AssignOperation]
+                  ExprTerm(
+                    TermFactor(
+                      FactorNumber(
+                       0
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [DesignatorAssignValue]
+              ) [AssignStmt]
+            ) [FullStatementListM]
+            IfStmtElse(
+              IfBegin(
+              ) [IfBegin]
+              ErrorInCondition(
+              ) [ErrorInCondition]
+              PrintStmt(
+                ExprTerm(
+                  TermFactor(
+                    FactorFuncCall(
+                      ScalarDesignator(
+                       ord
+                      ) [ScalarDesignator]
+                      YesActualPars(
+                        SingleActualParam(
+                          ActualParameter(
+                            ExprTerm(
+                              TermFactor(
+                                FactorChar(
+                                 A
+                                ) [FactorChar]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [ActualParameter]
+                        ) [SingleActualParam]
+                      ) [YesActualPars]
+                    ) [FactorFuncCall]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                ConstStatementEmpty(
+                ) [ConstStatementEmpty]
+              ) [PrintStmt]
+              EndIfEmpty(
+              ) [EndIfEmpty]
+              PrintStmt(
+                ExprTerm(
+                  TermFactor(
+                    FactorFuncCall(
+                      ScalarDesignator(
+                       ord
+                      ) [ScalarDesignator]
+                      YesActualPars(
+                        SingleActualParam(
+                          ActualParameter(
+                            ExprTerm(
+                              TermFactor(
+                                FactorChar(
+                                 a
+                                ) [FactorChar]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [ActualParameter]
+                        ) [SingleActualParam]
+                      ) [YesActualPars]
+                    ) [FactorFuncCall]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                ConstStatementEmpty(
+                ) [ConstStatementEmpty]
+              ) [PrintStmt]
+            ) [IfStmtElse]
+          ) [FullStatementListM]
+          PrintStmt(
+            ExprTerm(
+              TermFactor(
+                FactorDesignator(
+                  ScalarDesignator(
+                   eol
+                  ) [ScalarDesignator]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprTerm]
+            ConstStatementEmpty(
+            ) [ConstStatementEmpty]
+          ) [PrintStmt]
+        ) [FullStatementListM]
+        AssignStmt(
+          DesignatorAssignValue(
+            ScalarDesignator(
+             i
+            ) [ScalarDesignator]
+            AssignOperation(
+            ) [AssignOperation]
+            ExprTerm(
+              TermFactor(
+                FactorNumber(
+                 0
+                ) [FactorNumber]
+              ) [TermFactor]
+            ) [ExprTerm]
+          ) [DesignatorAssignValue]
+        ) [AssignStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  18:47:18,380 - ===================================
+INFO  18:47:18,384 - Obradjuje se tip int na liniji 5
+INFO  18:47:18,384 - Obradjuje se tip int na liniji 7
+INFO  18:47:18,384 - Deklarisana promenljiva i na liniji 7
+INFO  18:47:18,384 - Obradjuje se tip bool na liniji 8
+INFO  18:47:18,385 - Deklarisana promenljiva ibool na liniji 8
+INFO  18:47:18,385 - Obradjuje se tip int na liniji 10
+INFO  18:47:18,385 - Deklarisana promenljiva niz2 na liniji 10
+INFO  18:47:18,385 - Obradjuje se tip int na liniji 12
+INFO  18:47:18,385 - Deklarisan niz niz na liniji 12
+INFO  18:47:18,385 - Obradjuje se tip int na liniji 13
+INFO  18:47:18,385 - Deklarisana promenljiva a na liniji 13
+INFO  18:47:18,385 - Deklarisana promenljiva curr na liniji 13
+INFO  18:47:18,385 - obradjuje se metoda main na liniji 18
+INFO  18:47:18,385 - uspesno dodeljeno na liniji 20

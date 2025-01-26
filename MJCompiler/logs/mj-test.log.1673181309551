@@ -1,0 +1,199 @@
+INFO  13:25:55,242 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:25:55,285 - #8 program
+INFO  13:25:55,285 - #5 ABC
+INFO  13:25:55,286 - #5 int
+INFO  13:25:55,287 - #5 x
+INFO  13:25:55,287 - #41 ,
+INFO  13:25:55,287 - #5 z
+INFO  13:25:55,288 - #41 ,
+INFO  13:25:55,288 - #5 y
+INFO  13:25:55,288 - #39 ;
+INFO  13:25:55,288 - #12 const
+INFO  13:25:55,288 - #5 int
+INFO  13:25:55,288 - #5 ll
+INFO  13:25:55,288 - #36 =
+INFO  13:25:55,288 - #2 0
+INFO  13:25:55,288 - #41 ,
+INFO  13:25:55,289 - #5 mm
+INFO  13:25:55,289 - #36 =
+INFO  13:25:55,289 - #2 99
+INFO  13:25:55,289 - #39 ;
+INFO  13:25:55,289 - #47 {
+INFO  13:25:55,289 - #19 void
+INFO  13:25:55,290 - #5 main
+INFO  13:25:55,290 - #43 (
+INFO  13:25:55,292 - #44 )
+INFO  13:25:55,292 - #5 char
+INFO  13:25:55,292 - #5 niz
+INFO  13:25:55,293 - #45 [
+INFO  13:25:55,293 - #46 ]
+INFO  13:25:55,293 - #39 ;
+INFO  13:25:55,293 - #47 {
+INFO  13:25:55,293 - #5 niz
+INFO  13:25:55,293 - #36 =
+INFO  13:25:55,293 - #15 new
+INFO  13:25:55,294 - #5 char
+INFO  13:25:55,294 - #45 [
+INFO  13:25:55,294 - #2 3
+INFO  13:25:55,294 - #46 ]
+INFO  13:25:55,294 - #39 ;
+INFO  13:25:55,295 - #5 niz
+INFO  13:25:55,295 - #45 [
+INFO  13:25:55,295 - #2 0
+INFO  13:25:55,295 - #46 ]
+INFO  13:25:55,295 - #36 =
+INFO  13:25:55,295 - #3 4
+INFO  13:25:55,295 - #39 ;
+INFO  13:25:55,295 - #48 }
+INFO  13:25:55,295 - #48 }
+INFO  13:25:55,302 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsList(
+            VarDeclarationsList(
+              OneVarDeclarationItem(
+                VarDeclarationItem(
+                 x
+                ) [VarDeclarationItem]
+              ) [OneVarDeclarationItem]
+              VarDeclarationItem(
+               z
+              ) [VarDeclarationItem]
+            ) [VarDeclarationsList]
+            VarDeclarationItem(
+             y
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalConstDecl(
+      ConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        ConstDeclarationsList(
+          OneConstDeclarationItem(
+            ConstDeclarationItem(
+             ll
+              ConstValueNumber(
+               0
+              ) [ConstValueNumber]
+            ) [ConstDeclarationItem]
+          ) [OneConstDeclarationItem]
+          ConstDeclarationItem(
+           mm
+            ConstValueNumber(
+             99
+            ) [ConstValueNumber]
+          ) [ConstDeclarationItem]
+        ) [ConstDeclarationsList]
+      ) [ConstDeclarations]
+    ) [GlobalConstDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           char
+          ) [Type]
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             niz
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          NoStatementListM(
+          ) [NoStatementListM]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               niz
+              ) [ScalarDesignator]
+              AssignOperation(
+              ) [AssignOperation]
+              ExprTerm(
+                TermFactor(
+                  FactorArray(
+                    Type(
+                     char
+                    ) [Type]
+                    ExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         3
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [FactorArray]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [FullStatementListM]
+        AssignStmt(
+          DesignatorAssignValue(
+            ArrayDesignator(
+              ScalarDesignator(
+               niz
+              ) [ScalarDesignator]
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   0
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [ArrayDesignator]
+            AssignOperation(
+            ) [AssignOperation]
+            ExprTerm(
+              TermFactor(
+                FactorChar(
+                 4
+                ) [FactorChar]
+              ) [TermFactor]
+            ) [ExprTerm]
+          ) [DesignatorAssignValue]
+        ) [AssignStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:25:55,303 - ===================================
+INFO  13:25:55,307 - Obradjuje se tip int na liniji 2
+INFO  13:25:55,307 - Deklarisana promenljiva x na liniji 2
+INFO  13:25:55,307 - Deklarisana promenljiva z na liniji 2
+INFO  13:25:55,308 - Deklarisana promenljiva y na liniji 2
+INFO  13:25:55,308 - Obradjuje se tip int na liniji 3
+INFO  13:25:55,308 - obradjuje se metoda main na liniji 5
+INFO  13:25:55,308 - Obradjuje se tip char na liniji 5
+INFO  13:25:55,308 - Deklarisan niz niz na liniji 5
+INFO  13:25:55,308 - Obradjuje se tip char na liniji 7
+INFO  13:25:55,308 - uspesno dodeljeno na liniji 7
+INFO  13:25:55,308 - uspesno dodeljeno na liniji 8
+INFO  13:25:55,308 - ===================================
+INFO  13:25:55,314 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,249 @@
+INFO  14:43:25,675 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:43:25,726 - #8 program
+INFO  14:43:25,726 - #5 Osn1
+INFO  14:43:25,726 - #5 int
+INFO  14:43:25,727 - #5 arr
+INFO  14:43:25,728 - #45 [
+INFO  14:43:25,728 - #46 ]
+INFO  14:43:25,728 - #39 ;
+INFO  14:43:25,728 - #47 {
+INFO  14:43:25,729 - #19 void
+INFO  14:43:25,729 - #5 main
+INFO  14:43:25,729 - #43 (
+INFO  14:43:25,729 - #44 )
+INFO  14:43:25,730 - #47 {
+INFO  14:43:25,730 - #5 arr
+INFO  14:43:25,731 - #36 =
+INFO  14:43:25,731 - #15 new
+INFO  14:43:25,731 - #5 int
+INFO  14:43:25,731 - #45 [
+INFO  14:43:25,732 - #2 4
+INFO  14:43:25,732 - #46 ]
+INFO  14:43:25,732 - #39 ;
+INFO  14:43:25,732 - #6 if
+INFO  14:43:25,733 - #43 (
+INFO  14:43:25,733 - #5 arr
+INFO  14:43:25,733 - #28 ==
+INFO  14:43:25,734 - #5 null
+INFO  14:43:25,734 - #44 )
+INFO  14:43:25,735 - #47 {
+INFO  14:43:25,735 - #5 arr
+INFO  14:43:25,736 - #36 =
+INFO  14:43:25,736 - #15 new
+INFO  14:43:25,736 - #5 int
+INFO  14:43:25,736 - #45 [
+INFO  14:43:25,736 - #2 3
+INFO  14:43:25,736 - #46 ]
+INFO  14:43:25,736 - #39 ;
+INFO  14:43:25,737 - #48 }
+INFO  14:43:25,737 - #5 arr
+INFO  14:43:25,740 - #45 [
+INFO  14:43:25,740 - #2 3
+INFO  14:43:25,740 - #46 ]
+INFO  14:43:25,740 - #36 =
+INFO  14:43:25,740 - #2 1
+INFO  14:43:25,740 - #39 ;
+INFO  14:43:25,740 - #16 print
+INFO  14:43:25,740 - #43 (
+INFO  14:43:25,741 - #5 arr
+INFO  14:43:25,741 - #45 [
+INFO  14:43:25,741 - #2 0
+INFO  14:43:25,741 - #46 ]
+INFO  14:43:25,741 - #44 )
+INFO  14:43:25,742 - #39 ;
+INFO  14:43:25,742 - #48 }
+INFO  14:43:25,742 - #48 }
+INFO  14:43:25,753 - Program(
+  NamePro(
+   Osn1
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          ArrayDeclarationItem(
+           arr
+          ) [ArrayDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          FullStatementListM(
+            FullStatementListM(
+              NoStatementListM(
+              ) [NoStatementListM]
+              AssignStmt(
+                DesignatorAssignValue(
+                  ScalarDesignator(
+                   arr
+                  ) [ScalarDesignator]
+                  AssignOperation(
+                  ) [AssignOperation]
+                  ExprTerm(
+                    TermFactor(
+                      FactorArray(
+                        Type(
+                         int
+                        ) [Type]
+                        ExprTerm(
+                          TermFactor(
+                            FactorNumber(
+                             4
+                            ) [FactorNumber]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [FactorArray]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [DesignatorAssignValue]
+              ) [AssignStmt]
+            ) [FullStatementListM]
+            IfStmt(
+              IfBegin(
+              ) [IfBegin]
+              ConditionIFStat(
+                ConditionTerm(
+                  ConditionFact(
+                    ConFact(
+                      ExprTerm(
+                        TermFactor(
+                          FactorDesignator(
+                            ScalarDesignator(
+                             arr
+                            ) [ScalarDesignator]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                      CondFactorPart(
+                        EqualOperation(
+                        ) [EqualOperation]
+                        ExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              ScalarDesignator(
+                               null
+                              ) [ScalarDesignator]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [CondFactorPart]
+                    ) [ConFact]
+                  ) [ConditionFact]
+                ) [ConditionTerm]
+              ) [ConditionIFStat]
+              OneMoreStmt(
+                StatementHNI(
+                  EmptySHNI(
+                  ) [EmptySHNI]
+                  AssignStmt(
+                    DesignatorAssignValue(
+                      ScalarDesignator(
+                       arr
+                      ) [ScalarDesignator]
+                      AssignOperation(
+                      ) [AssignOperation]
+                      ExprTerm(
+                        TermFactor(
+                          FactorArray(
+                            Type(
+                             int
+                            ) [Type]
+                            ExprTerm(
+                              TermFactor(
+                                FactorNumber(
+                                 3
+                                ) [FactorNumber]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [FactorArray]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [DesignatorAssignValue]
+                  ) [AssignStmt]
+                ) [StatementHNI]
+              ) [OneMoreStmt]
+              EndIfEmpty(
+              ) [EndIfEmpty]
+            ) [IfStmt]
+          ) [FullStatementListM]
+          AssignStmt(
+            DesignatorAssignValue(
+              ArrayDesignator(
+                ScalarDesignator(
+                 arr
+                ) [ScalarDesignator]
+                ExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     3
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [ArrayDesignator]
+              AssignOperation(
+              ) [AssignOperation]
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [FullStatementListM]
+        PrintStmt(
+          ExprTerm(
+            TermFactor(
+              FactorDesignator(
+                ArrayDesignator(
+                  ScalarDesignator(
+                   arr
+                  ) [ScalarDesignator]
+                  ExprTerm(
+                    TermFactor(
+                      FactorNumber(
+                       0
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [ArrayDesignator]
+              ) [FactorDesignator]
+            ) [TermFactor]
+          ) [ExprTerm]
+          ConstStatementEmpty(
+          ) [ConstStatementEmpty]
+        ) [PrintStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:43:25,755 - ===================================
+INFO  14:43:25,760 - Obradjuje se tip int na liniji 2
+INFO  14:43:25,760 - Deklarisan niz arr na liniji 2
+INFO  14:43:25,761 - obradjuje se metoda main na liniji 4
+INFO  14:43:25,761 - Obradjuje se tip int na liniji 5
+INFO  14:43:25,762 - uspesna dodela na liniji 5
+INFO  14:43:25,762 - Obradjuje se tip int na liniji 7
+INFO  14:43:25,762 - uspesna dodela na liniji 7
+INFO  14:43:25,762 - uspesna dodela na liniji 9
+INFO  14:43:25,762 - ===================================
+INFO  14:43:25,767 - Parsiranje uspesno zavrseno!

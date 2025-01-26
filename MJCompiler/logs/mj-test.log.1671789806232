@@ -1,0 +1,260 @@
+INFO  10:50:26,825 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  10:50:26,873 - #8 program
+INFO  10:50:26,873 - #5 p
+INFO  10:50:26,873 - #12 const
+INFO  10:50:26,874 - #5 int
+INFO  10:50:26,874 - #5 size
+INFO  10:50:26,876 - #36 =
+INFO  10:50:26,876 - #2 10
+INFO  10:50:26,876 - #39 ;
+INFO  10:50:26,876 - #10 class
+INFO  10:50:26,876 - #5 Table
+INFO  10:50:26,876 - #47 {
+INFO  10:50:26,877 - #5 int
+INFO  10:50:26,878 - #5 pos
+INFO  10:50:26,878 - #45 [
+INFO  10:50:26,878 - #46 ]
+INFO  10:50:26,879 - #41 ,
+INFO  10:50:26,879 - #5 neg
+INFO  10:50:26,879 - #45 [
+INFO  10:50:26,879 - #46 ]
+INFO  10:50:26,879 - #41 ,
+INFO  10:50:26,879 - #5 factor
+INFO  10:50:26,879 - #39 ;
+INFO  10:50:26,879 - #48 }
+INFO  10:50:26,881 - #5 Table
+INFO  10:50:26,881 - #5 val
+INFO  10:50:26,881 - #39 ;
+INFO  10:50:26,881 - #5 int
+INFO  10:50:26,881 - #5 rows
+INFO  10:50:26,881 - #41 ,
+INFO  10:50:26,881 - #5 columns
+INFO  10:50:26,881 - #39 ;
+INFO  10:50:26,881 - #47 {
+INFO  10:50:26,881 - #19 void
+INFO  10:50:26,882 - #5 main
+INFO  10:50:26,882 - #43 (
+INFO  10:50:26,882 - #44 )
+INFO  10:50:26,883 - #5 int
+INFO  10:50:26,884 - #5 x
+INFO  10:50:26,884 - #41 ,
+INFO  10:50:26,884 - #5 i
+INFO  10:50:26,884 - #41 ,
+INFO  10:50:26,884 - #5 arr
+INFO  10:50:26,884 - #45 [
+INFO  10:50:26,884 - #46 ]
+INFO  10:50:26,884 - #39 ;
+INFO  10:50:26,884 - #5 char
+INFO  10:50:26,885 - #5 c
+INFO  10:50:26,885 - #39 ;
+INFO  10:50:26,885 - #47 {
+INFO  10:50:26,885 - #5 main
+INFO  10:50:26,886 - #43 (
+INFO  10:50:26,886 - #5 x
+INFO  10:50:26,886 - #41 ,
+INFO  10:50:26,886 - #5 c
+INFO  10:50:26,886 - #44 )
+INFO  10:50:26,886 - #39 ;
+INFO  10:50:26,886 - #48 }
+INFO  10:50:26,887 - #48 }
+INFO  10:50:26,894 - Program(
+  NamePro(
+   p
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        GlobalDeclarationsList(
+          NoGlobalDeclarationsList(
+          ) [NoGlobalDeclarationsList]
+          GlobalConstDecl(
+            ConstDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneConstDeclarationItem(
+                ConstDeclarationItem(
+                 size
+                  ConstValueNumber(
+                   10
+                  ) [ConstValueNumber]
+                ) [ConstDeclarationItem]
+              ) [OneConstDeclarationItem]
+            ) [ConstDeclarations]
+          ) [GlobalConstDecl]
+        ) [GlobalDeclarationsList]
+        GlobalClassDecl(
+          ClassDeclaration(
+            ClassFirst(
+             Table
+              NoClassExtends(
+              ) [NoClassExtends]
+            ) [ClassFirst]
+            ClassVarDeclaration(
+              NoClassVarDeclaration(
+              ) [NoClassVarDeclaration]
+              VarDeclarations(
+                Type(
+                 int
+                ) [Type]
+                VarDeclarationsList(
+                  VarDeclarationsList(
+                    OneVarDeclarationItem(
+                      ArrayDeclarationItem(
+                       pos
+                      ) [ArrayDeclarationItem]
+                    ) [OneVarDeclarationItem]
+                    ArrayDeclarationItem(
+                     neg
+                    ) [ArrayDeclarationItem]
+                  ) [VarDeclarationsList]
+                  VarDeclarationItem(
+                   factor
+                  ) [VarDeclarationItem]
+                ) [VarDeclarationsList]
+              ) [VarDeclarations]
+            ) [ClassVarDeclaration]
+            NoClassMethDeclaration(
+            ) [NoClassMethDeclaration]
+          ) [ClassDeclaration]
+        ) [GlobalClassDecl]
+      ) [GlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           Table
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             val
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             rows
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           columns
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsList(
+              VarDeclarationsList(
+                OneVarDeclarationItem(
+                  VarDeclarationItem(
+                   x
+                  ) [VarDeclarationItem]
+                ) [OneVarDeclarationItem]
+                VarDeclarationItem(
+                 i
+                ) [VarDeclarationItem]
+              ) [VarDeclarationsList]
+              ArrayDeclarationItem(
+               arr
+              ) [ArrayDeclarationItem]
+            ) [VarDeclarationsList]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           char
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             c
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        NoStatementListM(
+        ) [NoStatementListM]
+        AssignStmt(
+          DesignatorProcCall(
+            ScalarDesignator(
+             main
+            ) [ScalarDesignator]
+            YesActualPars(
+              ManyActualParam(
+                SingleActualParam(
+                  ActualParameter(
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          ScalarDesignator(
+                           x
+                          ) [ScalarDesignator]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [ActualParameter]
+                ) [SingleActualParam]
+                ActualParameter(
+                  ExprTerm(
+                    TermFactor(
+                      FactorDesignator(
+                        ScalarDesignator(
+                         c
+                        ) [ScalarDesignator]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [ActualParameter]
+              ) [ManyActualParam]
+            ) [YesActualPars]
+          ) [DesignatorProcCall]
+        ) [AssignStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  10:50:26,894 - ===================================
+INFO  10:50:26,897 - Obradjuje se tip int na liniji 2
+INFO  10:50:26,898 - Kreirana je klasa Table na liniji 3
+INFO  10:50:26,898 - Obradjuje se tip int na liniji 4
+INFO  10:50:26,898 - Deklarisan niz pos na liniji 4
+INFO  10:50:26,898 - Deklarisan niz neg na liniji 4
+INFO  10:50:26,898 - Deklarisana promenljiva factor na liniji 4
+INFO  10:50:26,898 - Obradjuje se tip Table na liniji 6
+INFO  10:50:26,898 - Deklarisana promenljiva val na liniji 6
+INFO  10:50:26,899 - Obradjuje se tip int na liniji 7
+INFO  10:50:26,899 - Deklarisana promenljiva rows na liniji 7
+INFO  10:50:26,899 - Deklarisana promenljiva columns na liniji 7
+INFO  10:50:26,899 - obradjuje se metoda main na liniji 9
+INFO  10:50:26,899 - Obradjuje se tip int na liniji 9
+INFO  10:50:26,899 - Deklarisana promenljiva x na liniji 9
+INFO  10:50:26,899 - Deklarisana promenljiva i na liniji 9
+INFO  10:50:26,899 - Deklarisan niz arr na liniji 9
+INFO  10:50:26,899 - Obradjuje se tip char na liniji 9
+INFO  10:50:26,899 - Deklarisana promenljiva c na liniji 9
+INFO  10:50:26,900 - Poziva se metoda main na liniji 11
+INFO  10:50:26,900 - ===================================

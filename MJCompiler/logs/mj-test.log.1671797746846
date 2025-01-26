@@ -1,0 +1,254 @@
+INFO  13:15:21,190 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:15:21,223 - #8 program
+INFO  13:15:21,223 - #5 test_303
+INFO  13:15:21,223 - #12 const
+INFO  13:15:21,224 - #5 int
+INFO  13:15:21,224 - #5 cinilac
+INFO  13:15:21,225 - #36 =
+INFO  13:15:21,225 - #2 4
+INFO  13:15:21,225 - #41 ,
+INFO  13:15:21,225 - #5 delilac
+INFO  13:15:21,225 - #36 =
+INFO  13:15:21,225 - #2 3
+INFO  13:15:21,225 - #39 ;
+INFO  13:15:21,225 - #10 class
+INFO  13:15:21,225 - #5 Predmet
+INFO  13:15:21,225 - #47 {
+INFO  13:15:21,226 - #47 {
+INFO  13:15:21,226 - #5 int
+INFO  13:15:21,227 - #5 zapremina
+INFO  13:15:21,227 - #43 (
+INFO  13:15:21,227 - #5 int
+INFO  13:15:21,227 - #5 z
+INFO  13:15:21,227 - #44 )
+INFO  13:15:21,229 - #47 {
+INFO  13:15:21,230 - #18 return
+INFO  13:15:21,230 - #2 0
+INFO  13:15:21,230 - #39 ;
+INFO  13:15:21,230 - #48 }
+INFO  13:15:21,231 - #48 }
+INFO  13:15:21,231 - #48 }
+INFO  13:15:21,231 - #10 class
+INFO  13:15:21,231 - #5 Sfera
+INFO  13:15:21,232 - #20 extends
+INFO  13:15:21,232 - #5 Predmet
+INFO  13:15:21,232 - #47 {
+INFO  13:15:21,232 - #47 {
+INFO  13:15:21,232 - #5 int
+INFO  13:15:21,232 - #5 zapremina
+INFO  13:15:21,232 - #43 (
+INFO  13:15:21,232 - #5 int
+INFO  13:15:21,233 - #5 z
+INFO  13:15:21,233 - #44 )
+INFO  13:15:21,233 - #5 int
+INFO  13:15:21,233 - #5 s
+INFO  13:15:21,233 - #39 ;
+INFO  13:15:21,233 - #47 {
+INFO  13:15:21,234 - #5 z
+INFO  13:15:21,234 - #36 =
+INFO  13:15:21,234 - #5 cinilac
+INFO  13:15:21,234 - #39 ;
+INFO  13:15:21,235 - #18 return
+INFO  13:15:21,235 - #5 z
+INFO  13:15:21,235 - #39 ;
+INFO  13:15:21,235 - #48 }
+INFO  13:15:21,235 - #48 }
+INFO  13:15:21,235 - #48 }
+INFO  13:15:21,235 - #47 {
+INFO  13:15:21,235 - #48 }
+INFO  13:15:21,241 - Program(
+  NamePro(
+   test_303
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        NoGlobalDeclarationsList(
+        ) [NoGlobalDeclarationsList]
+        GlobalConstDecl(
+          ConstDeclarations(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsList(
+              OneConstDeclarationItem(
+                ConstDeclarationItem(
+                 cinilac
+                  ConstValueNumber(
+                   4
+                  ) [ConstValueNumber]
+                ) [ConstDeclarationItem]
+              ) [OneConstDeclarationItem]
+              ConstDeclarationItem(
+               delilac
+                ConstValueNumber(
+                 3
+                ) [ConstValueNumber]
+              ) [ConstDeclarationItem]
+            ) [ConstDeclarationsList]
+          ) [ConstDeclarations]
+        ) [GlobalConstDecl]
+      ) [GlobalDeclarationsList]
+      GlobalClassDecl(
+        ClassDeclaration(
+          ClassFirst(
+           Predmet
+            NoClassExtends(
+            ) [NoClassExtends]
+          ) [ClassFirst]
+          NoClassVarDeclaration(
+          ) [NoClassVarDeclaration]
+          ClassMethDeclaration(
+            ClassMethodDeclaration(
+              NoClassMethodDeclaration(
+              ) [NoClassMethodDeclaration]
+              MethodDeclaration(
+                MethodReturnType(
+                  Type(
+                   int
+                  ) [Type]
+                 zapremina
+                ) [MethodReturnType]
+                FormParams(
+                  SingleFormalParamDecl(
+                    ScalarParam(
+                      Type(
+                       int
+                      ) [Type]
+                     z
+                    ) [ScalarParam]
+                  ) [SingleFormalParamDecl]
+                ) [FormParams]
+                NoLocalVarDeclarationsList(
+                ) [NoLocalVarDeclarationsList]
+                FullStatementListM(
+                  NoStatementListM(
+                  ) [NoStatementListM]
+                  ReturnStmt(
+                    ExprStmtMl(
+                      ExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           0
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [ExprStmtMl]
+                  ) [ReturnStmt]
+                ) [FullStatementListM]
+              ) [MethodDeclaration]
+            ) [ClassMethodDeclaration]
+          ) [ClassMethDeclaration]
+        ) [ClassDeclaration]
+      ) [GlobalClassDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+        ClassFirst(
+         Sfera
+          ClassExtends(
+            Type(
+             Predmet
+            ) [Type]
+          ) [ClassExtends]
+        ) [ClassFirst]
+        NoClassVarDeclaration(
+        ) [NoClassVarDeclaration]
+        ClassMethDeclaration(
+          ClassMethodDeclaration(
+            NoClassMethodDeclaration(
+            ) [NoClassMethodDeclaration]
+            MethodDeclaration(
+              MethodReturnType(
+                Type(
+                 int
+                ) [Type]
+               zapremina
+              ) [MethodReturnType]
+              FormParams(
+                SingleFormalParamDecl(
+                  ScalarParam(
+                    Type(
+                     int
+                    ) [Type]
+                   z
+                  ) [ScalarParam]
+                ) [SingleFormalParamDecl]
+              ) [FormParams]
+              LocalVarDeclarationsList(
+                NoLocalVarDeclarationsList(
+                ) [NoLocalVarDeclarationsList]
+                VarDeclarations(
+                  Type(
+                   int
+                  ) [Type]
+                  OneVarDeclarationItem(
+                    VarDeclarationItem(
+                     s
+                    ) [VarDeclarationItem]
+                  ) [OneVarDeclarationItem]
+                ) [VarDeclarations]
+              ) [LocalVarDeclarationsList]
+              FullStatementListM(
+                FullStatementListM(
+                  NoStatementListM(
+                  ) [NoStatementListM]
+                  AssignStmt(
+                    DesignatorAssignValue(
+                      ScalarDesignator(
+                       z
+                      ) [ScalarDesignator]
+                      AssignOperation(
+                      ) [AssignOperation]
+                      ExprTerm(
+                        TermFactor(
+                          FactorDesignator(
+                            ScalarDesignator(
+                             cinilac
+                            ) [ScalarDesignator]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [DesignatorAssignValue]
+                  ) [AssignStmt]
+                ) [FullStatementListM]
+                ReturnStmt(
+                  ExprStmtMl(
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          ScalarDesignator(
+                           z
+                          ) [ScalarDesignator]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [ExprStmtMl]
+                ) [ReturnStmt]
+              ) [FullStatementListM]
+            ) [MethodDeclaration]
+          ) [ClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  13:15:21,241 - ===================================
+INFO  13:15:21,244 - Obradjuje se tip int na liniji 6
+INFO  13:15:21,244 - Kreirana je klasa Predmet na liniji 8
+INFO  13:15:21,244 - Obradjuje se tip int na liniji 12
+INFO  13:15:21,244 - obradjuje se metoda zapremina na liniji 12
+INFO  13:15:21,244 - Obradjuje se tip int na liniji 12
+INFO  13:15:21,244 - Obradjuje se tip Predmet na liniji 17
+INFO  13:15:21,245 - Kreirana je klasa Sfera na liniji 17
+INFO  13:15:21,245 - Obradjuje se tip int na liniji 21
+INFO  13:15:21,245 - obradjuje se metoda zapremina na liniji 21
+INFO  13:15:21,245 - Obradjuje se tip int na liniji 21
+INFO  13:15:21,246 - Obradjuje se tip int na liniji 22
+INFO  13:15:21,246 - Deklarisana promenljiva s na liniji 22
+INFO  13:15:21,246 - uspesno dodeljeno na liniji 24
+INFO  13:15:21,246 - 2ss2
+ERROR 13:15:21,246 - Nemoguce redefinisati metodu, potpis metode nije isti! Semanticka greska!
+INFO  13:15:21,246 - ===================================

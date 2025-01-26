@@ -1,0 +1,269 @@
+INFO  12:10:32,399 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  12:10:32,434 - #8 program
+INFO  12:10:32,434 - #5 p
+INFO  12:10:32,434 - #12 const
+INFO  12:10:32,435 - #5 int
+INFO  12:10:32,435 - #5 size
+INFO  12:10:32,435 - #36 =
+INFO  12:10:32,435 - #2 10
+INFO  12:10:32,435 - #39 ;
+INFO  12:10:32,436 - #10 class
+INFO  12:10:32,436 - #5 Table
+INFO  12:10:32,436 - #47 {
+INFO  12:10:32,437 - #5 int
+INFO  12:10:32,437 - #5 pos
+INFO  12:10:32,437 - #45 [
+INFO  12:10:32,437 - #46 ]
+INFO  12:10:32,437 - #41 ,
+INFO  12:10:32,437 - #5 neg
+INFO  12:10:32,437 - #45 [
+INFO  12:10:32,438 - #46 ]
+INFO  12:10:32,438 - #41 ,
+INFO  12:10:32,438 - #5 factor
+INFO  12:10:32,438 - #39 ;
+INFO  12:10:32,440 - #48 }
+INFO  12:10:32,440 - #5 Table
+INFO  12:10:32,440 - #5 val
+INFO  12:10:32,440 - #39 ;
+INFO  12:10:32,440 - #5 int
+INFO  12:10:32,440 - #5 rows
+INFO  12:10:32,441 - #41 ,
+INFO  12:10:32,441 - #5 columns
+INFO  12:10:32,441 - #39 ;
+INFO  12:10:32,441 - #47 {
+INFO  12:10:32,441 - #19 void
+INFO  12:10:32,441 - #5 main
+INFO  12:10:32,441 - #43 (
+INFO  12:10:32,441 - #5 int
+INFO  12:10:32,441 - #5 m
+INFO  12:10:32,441 - #44 )
+INFO  12:10:32,442 - #5 int
+INFO  12:10:32,442 - #5 x
+INFO  12:10:32,442 - #41 ,
+INFO  12:10:32,442 - #5 i
+INFO  12:10:32,442 - #41 ,
+INFO  12:10:32,442 - #5 arr
+INFO  12:10:32,442 - #45 [
+INFO  12:10:32,442 - #46 ]
+INFO  12:10:32,442 - #39 ;
+INFO  12:10:32,442 - #5 char
+INFO  12:10:32,443 - #5 c
+INFO  12:10:32,443 - #39 ;
+INFO  12:10:32,443 - #47 {
+INFO  12:10:32,443 - #5 x
+INFO  12:10:32,444 - #36 =
+INFO  12:10:32,445 - #5 main
+INFO  12:10:32,446 - #43 (
+INFO  12:10:32,446 - #5 x
+INFO  12:10:32,446 - #44 )
+INFO  12:10:32,446 - #39 ;
+INFO  12:10:32,446 - #48 }
+INFO  12:10:32,447 - #48 }
+INFO  12:10:32,452 - Program(
+  NamePro(
+   p
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        GlobalDeclarationsList(
+          NoGlobalDeclarationsList(
+          ) [NoGlobalDeclarationsList]
+          GlobalConstDecl(
+            ConstDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneConstDeclarationItem(
+                ConstDeclarationItem(
+                 size
+                  ConstValueNumber(
+                   10
+                  ) [ConstValueNumber]
+                ) [ConstDeclarationItem]
+              ) [OneConstDeclarationItem]
+            ) [ConstDeclarations]
+          ) [GlobalConstDecl]
+        ) [GlobalDeclarationsList]
+        GlobalClassDecl(
+          ClassDeclaration(
+            ClassFirst(
+             Table
+              NoClassExtends(
+              ) [NoClassExtends]
+            ) [ClassFirst]
+            ClassVarDeclaration(
+              NoClassVarDeclaration(
+              ) [NoClassVarDeclaration]
+              VarDeclarations(
+                Type(
+                 int
+                ) [Type]
+                VarDeclarationsList(
+                  VarDeclarationsList(
+                    OneVarDeclarationItem(
+                      ArrayDeclarationItem(
+                       pos
+                      ) [ArrayDeclarationItem]
+                    ) [OneVarDeclarationItem]
+                    ArrayDeclarationItem(
+                     neg
+                    ) [ArrayDeclarationItem]
+                  ) [VarDeclarationsList]
+                  VarDeclarationItem(
+                   factor
+                  ) [VarDeclarationItem]
+                ) [VarDeclarationsList]
+              ) [VarDeclarations]
+            ) [ClassVarDeclaration]
+            NoClassMethDeclaration(
+            ) [NoClassMethDeclaration]
+          ) [ClassDeclaration]
+        ) [GlobalClassDecl]
+      ) [GlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           Table
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             val
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             rows
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           columns
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      FormParams(
+        SingleFormalParamDecl(
+          ScalarParam(
+            Type(
+             int
+            ) [Type]
+           m
+          ) [ScalarParam]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsList(
+              VarDeclarationsList(
+                OneVarDeclarationItem(
+                  VarDeclarationItem(
+                   x
+                  ) [VarDeclarationItem]
+                ) [OneVarDeclarationItem]
+                VarDeclarationItem(
+                 i
+                ) [VarDeclarationItem]
+              ) [VarDeclarationsList]
+              ArrayDeclarationItem(
+               arr
+              ) [ArrayDeclarationItem]
+            ) [VarDeclarationsList]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           char
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             c
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        NoStatementListM(
+        ) [NoStatementListM]
+        AssignStmt(
+          DesignatorAssignValue(
+            ScalarDesignator(
+             x
+            ) [ScalarDesignator]
+            AssignOperation(
+            ) [AssignOperation]
+            ExprTerm(
+              TermFactor(
+                FactorFuncCall(
+                  ScalarDesignator(
+                   main
+                  ) [ScalarDesignator]
+                  YesActualPars(
+                    SingleActualParam(
+                      ActualParameter(
+                        ExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              ScalarDesignator(
+                               x
+                              ) [ScalarDesignator]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [ActualParameter]
+                    ) [SingleActualParam]
+                  ) [YesActualPars]
+                ) [FactorFuncCall]
+              ) [TermFactor]
+            ) [ExprTerm]
+          ) [DesignatorAssignValue]
+        ) [AssignStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  12:10:32,453 - ===================================
+INFO  12:10:32,456 - Obradjuje se tip int na liniji 2
+INFO  12:10:32,456 - Kreirana je klasa Table na liniji 3
+INFO  12:10:32,456 - Obradjuje se tip int na liniji 4
+INFO  12:10:32,456 - Deklarisan niz pos na liniji 4
+INFO  12:10:32,457 - Deklarisan niz neg na liniji 4
+INFO  12:10:32,457 - Deklarisana promenljiva factor na liniji 4
+INFO  12:10:32,458 - Obradjuje se tip Table na liniji 6
+INFO  12:10:32,458 - Deklarisana promenljiva val na liniji 6
+INFO  12:10:32,458 - Obradjuje se tip int na liniji 7
+INFO  12:10:32,458 - Deklarisana promenljiva rows na liniji 7
+INFO  12:10:32,458 - Deklarisana promenljiva columns na liniji 7
+INFO  12:10:32,458 - obradjuje se metoda main na liniji 9
+INFO  12:10:32,459 - Obradjuje se tip int na liniji 9
+INFO  12:10:32,459 - Obradjuje se tip int na liniji 9
+INFO  12:10:32,459 - Deklarisana promenljiva x na liniji 9
+INFO  12:10:32,459 - Deklarisana promenljiva i na liniji 9
+INFO  12:10:32,459 - Deklarisan niz arr na liniji 9
+INFO  12:10:32,459 - Obradjuje se tip char na liniji 9
+INFO  12:10:32,459 - Deklarisana promenljiva c na liniji 9
+ERROR 12:10:32,459 - Nisu kompatibilni tipovi u naredbi dodele 1 na liniji 11
+INFO  12:10:32,459 - ===================================

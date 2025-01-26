@@ -1,0 +1,121 @@
+INFO  21:00:43,746 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  21:00:43,760 - #8 program
+INFO  21:00:43,761 - #5 Test
+INFO  21:00:43,761 - #12 const
+INFO  21:00:43,761 - #5 char
+INFO  21:00:43,761 - #5 x
+INFO  21:00:43,761 - #37 =
+INFO  21:00:43,761 - #3 x
+INFO  21:00:43,761 - #42 ,
+INFO  21:00:43,762 - #5 s
+INFO  21:00:43,762 - #37 =
+INFO  21:00:43,762 - #3 5
+INFO  21:00:43,762 - #40 ;
+INFO  21:00:43,762 - #12 const
+INFO  21:00:43,763 - #5 int
+INFO  21:00:43,763 - #5 s
+INFO  21:00:43,763 - #37 =
+INFO  21:00:43,763 - #2 0
+INFO  21:00:43,763 - #40 ;
+INFO  21:00:43,763 - #5 int
+INFO  21:00:43,763 - #5 x
+INFO  21:00:43,763 - #46 [
+INFO  21:00:43,763 - #47 ]
+INFO  21:00:43,763 - #42 ,
+INFO  21:00:43,764 - #5 k
+INFO  21:00:43,764 - #40 ;
+INFO  21:00:43,764 - #10 class
+INFO  21:00:43,765 - #5 X
+INFO  21:00:43,765 - #20 extends
+INFO  21:00:43,765 - #5 P
+INFO  21:00:43,765 - #48 {
+INFO  21:00:43,765 - #48 {
+INFO  21:00:43,766 - #49 }
+INFO  21:00:43,766 - #49 }
+INFO  21:00:43,767 - #48 {
+INFO  21:00:43,767 - #49 }
+INFO  21:00:43,768 - Program(
+ Test
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        GlobalDeclarationsList(
+          NoGlobalDeclarationsList(
+          ) [NoGlobalDeclarationsList]
+          GlobalConstDecl(
+            ConstDeclarations(
+              Type(
+               char
+              ) [Type]
+              ConstDeclarationsList(
+                OneConstDeclarationItem(
+                  ConstDeclarationItem(
+                   x
+                    ConstValueChar(
+                     x
+                    ) [ConstValueChar]
+                  ) [ConstDeclarationItem]
+                ) [OneConstDeclarationItem]
+                ConstDeclarationItem(
+                 s
+                  ConstValueChar(
+                   5
+                  ) [ConstValueChar]
+                ) [ConstDeclarationItem]
+              ) [ConstDeclarationsList]
+            ) [ConstDeclarations]
+          ) [GlobalConstDecl]
+        ) [GlobalDeclarationsList]
+        GlobalConstDecl(
+          ConstDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneConstDeclarationItem(
+              ConstDeclarationItem(
+               s
+                ConstValueNumber(
+                 0
+                ) [ConstValueNumber]
+              ) [ConstDeclarationItem]
+            ) [OneConstDeclarationItem]
+          ) [ConstDeclarations]
+        ) [GlobalConstDecl]
+      ) [GlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              ArrayDeclarationItem(
+               x
+              ) [ArrayDeclarationItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             k
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+       X
+        ClassExtends(
+          Type(
+           P
+          ) [Type]
+        ) [ClassExtends]
+        NoClassVarDeclaration(
+        ) [NoClassVarDeclaration]
+        ClassMethDeclaration(
+          ClassMethodDeclaration(
+          ) [ClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+) [Program]
+INFO  21:00:43,768 - ===================================

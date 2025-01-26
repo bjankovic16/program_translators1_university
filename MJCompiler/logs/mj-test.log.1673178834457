@@ -1,0 +1,134 @@
+INFO  12:51:59,615 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  12:51:59,654 - #8 program
+INFO  12:51:59,654 - #5 ABC
+INFO  12:51:59,654 - #5 int
+INFO  12:51:59,655 - #5 x
+INFO  12:51:59,656 - #39 ;
+INFO  12:51:59,657 - #5 int
+INFO  12:51:59,657 - #5 y
+INFO  12:51:59,657 - #39 ;
+INFO  12:51:59,657 - #47 {
+INFO  12:51:59,657 - #19 void
+INFO  12:51:59,658 - #5 main
+INFO  12:51:59,658 - #43 (
+INFO  12:51:59,658 - #44 )
+INFO  12:51:59,659 - #47 {
+INFO  12:51:59,659 - #5 x
+INFO  12:51:59,659 - #36 =
+INFO  12:51:59,660 - #2 5
+INFO  12:51:59,660 - #39 ;
+INFO  12:51:59,662 - #5 y
+INFO  12:51:59,662 - #36 =
+INFO  12:51:59,662 - #2 7
+INFO  12:51:59,662 - #24 -
+INFO  12:51:59,662 - #5 x
+INFO  12:51:59,664 - #39 ;
+INFO  12:51:59,664 - #48 }
+INFO  12:51:59,664 - #48 }
+INFO  12:51:59,671 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             x
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          VarDeclarationItem(
+           y
+          ) [VarDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          NoStatementListM(
+          ) [NoStatementListM]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               x
+              ) [ScalarDesignator]
+              AssignOperation(
+              ) [AssignOperation]
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   5
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [FullStatementListM]
+        AssignStmt(
+          DesignatorAssignValue(
+            ScalarDesignator(
+             y
+            ) [ScalarDesignator]
+            AssignOperation(
+            ) [AssignOperation]
+            ExprAdd(
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   7
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+              MinusOperation(
+              ) [MinusOperation]
+              TermFactor(
+                FactorDesignator(
+                  ScalarDesignator(
+                   x
+                  ) [ScalarDesignator]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprAdd]
+          ) [DesignatorAssignValue]
+        ) [AssignStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  12:51:59,672 - ===================================
+INFO  12:51:59,676 - Obradjuje se tip int na liniji 2
+INFO  12:51:59,677 - Deklarisana promenljiva x na liniji 2
+INFO  12:51:59,677 - Obradjuje se tip int na liniji 3
+INFO  12:51:59,677 - Deklarisana promenljiva y na liniji 3
+INFO  12:51:59,677 - obradjuje se metoda main na liniji 5
+INFO  12:51:59,677 - uspesno dodeljeno na liniji 7
+INFO  12:51:59,677 - uspesno dodeljeno na liniji 8
+INFO  12:51:59,677 - ===================================
+INFO  12:51:59,683 - Parsiranje uspesno zavrseno!

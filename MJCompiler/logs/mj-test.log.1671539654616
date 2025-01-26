@@ -1,0 +1,202 @@
+INFO  13:33:39,923 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:33:39,991 - #8 program
+INFO  13:33:39,991 - #5 Test
+INFO  13:33:39,991 - #12 const
+INFO  13:33:39,994 - #5 int
+INFO  13:33:39,994 - #5 s
+INFO  13:33:39,995 - #37 =
+INFO  13:33:39,996 - #2 0
+INFO  13:33:39,996 - #40 ;
+INFO  13:33:39,996 - #5 int
+INFO  13:33:39,996 - #5 l
+INFO  13:33:39,996 - #46 [
+INFO  13:33:39,996 - #47 ]
+INFO  13:33:39,996 - #42 ,
+INFO  13:33:39,997 - #5 k
+INFO  13:33:39,997 - #40 ;
+INFO  13:33:39,997 - #48 {
+INFO  13:33:39,997 - #5 int
+INFO  13:33:39,998 - #5 fun1
+INFO  13:33:39,998 - #44 (
+INFO  13:33:39,999 - #5 int
+INFO  13:33:39,999 - #5 nn
+INFO  13:33:39,999 - #46 [
+INFO  13:33:39,999 - #47 ]
+INFO  13:33:40,000 - #42 ,
+INFO  13:33:40,000 - #5 int
+INFO  13:33:40,000 - #5 m
+INFO  13:33:40,000 - #45 )
+INFO  13:33:40,001 - #48 {
+INFO  13:33:40,001 - #6 if
+INFO  13:33:40,002 - #44 (
+INFO  13:33:40,002 - #4 true
+INFO  13:33:40,002 - #45 )
+INFO  13:33:40,003 - #5 m
+INFO  13:33:40,003 - #38 ++
+INFO  13:33:40,003 - #40 ;
+INFO  13:33:40,004 - #18 return
+INFO  13:33:40,004 - #2 8
+INFO  13:33:40,004 - #40 ;
+INFO  13:33:40,004 - #49 }
+INFO  13:33:40,004 - #19 void
+INFO  13:33:40,004 - #5 fun2
+INFO  13:33:40,005 - #44 (
+INFO  13:33:40,005 - #5 int
+INFO  13:33:40,005 - #5 s
+INFO  13:33:40,005 - #45 )
+INFO  13:33:40,005 - #48 {
+INFO  13:33:40,005 - #49 }
+INFO  13:33:40,005 - #49 }
+INFO  13:33:40,012 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalConstDecl(
+        ConstDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneConstDeclarationItem(
+            ConstDeclarationItem(
+             s
+              ConstValueNumber(
+               0
+              ) [ConstValueNumber]
+            ) [ConstDeclarationItem]
+          ) [OneConstDeclarationItem]
+        ) [ConstDeclarations]
+      ) [GlobalConstDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             l
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           k
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclarationList(
+      ) [NoMethodDeclarationList]
+      MethodDeclaration(
+        MethodReturnType(
+          Type(
+           int
+          ) [Type]
+         fun1
+        ) [MethodReturnType]
+        FormParams(
+          FormalParamDecls(
+            SingleFormalParamDecl(
+              ArrayParam(
+                Type(
+                 int
+                ) [Type]
+               nn
+              ) [ArrayParam]
+            ) [SingleFormalParamDecl]
+            ScalarParam(
+              Type(
+               int
+              ) [Type]
+             m
+            ) [ScalarParam]
+          ) [FormalParamDecls]
+        ) [FormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        FullStatementListM(
+          FullStatementListM(
+            NoStatementListM(
+            ) [NoStatementListM]
+            IfStmt(
+              ConditionIFStat(
+                ConditionTerm(
+                  ConditionFact(
+                    ConFact(
+                      ExprTerm(
+                        TermFactor(
+                          FactorBool(
+                           true
+                          ) [FactorBool]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                      NoCondFactorPart(
+                      ) [NoCondFactorPart]
+                    ) [ConFact]
+                  ) [ConditionFact]
+                ) [ConditionTerm]
+              ) [ConditionIFStat]
+              AssignStmt(
+                DesignatorIncValue(
+                  ScalarDesignator(
+                   m
+                  ) [ScalarDesignator]
+                ) [DesignatorIncValue]
+              ) [AssignStmt]
+            ) [IfStmt]
+          ) [FullStatementListM]
+          ReturnStmt(
+            ExprStmtMl(
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   8
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [ExprStmtMl]
+          ) [ReturnStmt]
+        ) [FullStatementListM]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       fun2
+      ) [MethodReturnVoid]
+      FormParams(
+        SingleFormalParamDecl(
+          ScalarParam(
+            Type(
+             int
+            ) [Type]
+           s
+          ) [ScalarParam]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      NoStatementListM(
+      ) [NoStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:33:40,013 - ===================================
+INFO  13:33:40,017 - Obradjuje se tip int na liniji 2
+INFO  13:33:40,018 - Obradjuje se tip int na liniji 3
+INFO  13:33:40,018 - Deklarisan niz l na liniji 3
+INFO  13:33:40,018 - Deklarisana promenljiva k na liniji 3
+INFO  13:33:40,018 - Obradjuje se tip int na liniji 4
+INFO  13:33:40,018 - obradjuje se metoda fun1 na liniji 4
+INFO  13:33:40,018 - Obradjuje se tip int na liniji 4
+INFO  13:33:40,018 - Obradjuje se tip int na liniji 4
+ERROR 13:33:40,018 - Tipovi nisu kompatibilni! Semanticka greska na liniji 5
+ERROR 13:33:40,018 - Condition u do if petlji mora biti tipa bool! Semanticka greska na liniji 5
+INFO  13:33:40,018 - obradjuje se metoda fun2 na liniji 8
+INFO  13:33:40,019 - Obradjuje se tip int na liniji 8
+INFO  13:33:40,019 - ===================================

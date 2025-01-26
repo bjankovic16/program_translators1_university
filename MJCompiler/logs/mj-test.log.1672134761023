@@ -1,0 +1,202 @@
+INFO  10:51:02,088 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  10:51:02,147 - #8 program
+INFO  10:51:02,147 - #5 ABC
+INFO  10:51:02,147 - #12 const
+INFO  10:51:02,149 - #5 int
+INFO  10:51:02,149 - #5 N
+INFO  10:51:02,149 - #36 =
+INFO  10:51:02,149 - #2 2
+INFO  10:51:02,149 - #39 ;
+INFO  10:51:02,150 - #5 int
+INFO  10:51:02,150 - #5 g
+INFO  10:51:02,150 - #39 ;
+INFO  10:51:02,151 - #5 int
+INFO  10:51:02,151 - #5 niz1
+INFO  10:51:02,151 - #45 [
+INFO  10:51:02,151 - #46 ]
+INFO  10:51:02,151 - #39 ;
+INFO  10:51:02,151 - #47 {
+INFO  10:51:02,151 - #19 void
+INFO  10:51:02,152 - #5 main
+INFO  10:51:02,152 - #43 (
+INFO  10:51:02,153 - #44 )
+INFO  10:51:02,153 - #5 int
+INFO  10:51:02,156 - #5 x
+INFO  10:51:02,156 - #41 ,
+INFO  10:51:02,156 - #5 y
+INFO  10:51:02,156 - #39 ;
+INFO  10:51:02,156 - #5 int
+INFO  10:51:02,157 - #5 niz
+INFO  10:51:02,157 - #45 [
+INFO  10:51:02,157 - #46 ]
+INFO  10:51:02,157 - #39 ;
+INFO  10:51:02,157 - #47 {
+INFO  10:51:02,157 - #5 y
+INFO  10:51:02,158 - #36 =
+INFO  10:51:02,158 - #2 53
+INFO  10:51:02,159 - #39 ;
+INFO  10:51:02,159 - #16 print
+INFO  10:51:02,159 - #43 (
+INFO  10:51:02,160 - #5 y
+INFO  10:51:02,160 - #41 ,
+INFO  10:51:02,160 - #2 3
+INFO  10:51:02,160 - #41 ,
+INFO  10:51:02,161 - #2 32
+INFO  10:51:02,161 - #41 ,
+INFO  10:51:02,161 - #2 32
+INFO  10:51:02,161 - #44 )
+INFO  10:51:02,161 - #39 ;
+INFO  10:51:02,161 - #48 }
+INFO  10:51:02,161 - #48 }
+INFO  10:51:02,169 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        NoGlobalDeclarationsList(
+        ) [NoGlobalDeclarationsList]
+        GlobalConstDecl(
+          ConstDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneConstDeclarationItem(
+              ConstDeclarationItem(
+               N
+                ConstValueNumber(
+                 2
+                ) [ConstValueNumber]
+              ) [ConstDeclarationItem]
+            ) [OneConstDeclarationItem]
+          ) [ConstDeclarations]
+        ) [GlobalConstDecl]
+      ) [GlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             g
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          ArrayDeclarationItem(
+           niz1
+          ) [ArrayDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsList(
+              OneVarDeclarationItem(
+                VarDeclarationItem(
+                 x
+                ) [VarDeclarationItem]
+              ) [OneVarDeclarationItem]
+              VarDeclarationItem(
+               y
+              ) [VarDeclarationItem]
+            ) [VarDeclarationsList]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             niz
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          NoStatementListM(
+          ) [NoStatementListM]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               y
+              ) [ScalarDesignator]
+              AssignOperation(
+              ) [AssignOperation]
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   53
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [FullStatementListM]
+        PrintStmt(
+          ExprTerm(
+            TermFactor(
+              FactorDesignator(
+                ScalarDesignator(
+                 y
+                ) [ScalarDesignator]
+              ) [FactorDesignator]
+            ) [TermFactor]
+          ) [ExprTerm]
+          ConstantStatement(
+            ConstantStatement(
+              ConstantStatement(
+                ConstStatementEmpty(
+                ) [ConstStatementEmpty]
+               3
+              ) [ConstantStatement]
+             32
+            ) [ConstantStatement]
+           32
+          ) [ConstantStatement]
+        ) [PrintStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  10:51:02,170 - ===================================
+INFO  10:51:02,175 - Obradjuje se tip int na liniji 2
+INFO  10:51:02,175 - Obradjuje se tip int na liniji 3
+INFO  10:51:02,175 - Deklarisana promenljiva g na liniji 3
+INFO  10:51:02,175 - Obradjuje se tip int na liniji 4
+INFO  10:51:02,175 - Deklarisan niz niz1 na liniji 4
+INFO  10:51:02,175 - obradjuje se metoda main na liniji 6
+INFO  10:51:02,175 - Obradjuje se tip int na liniji 7
+INFO  10:51:02,175 - Deklarisana promenljiva x na liniji 7
+INFO  10:51:02,175 - Deklarisana promenljiva y na liniji 7
+INFO  10:51:02,176 - Obradjuje se tip int na liniji 8
+INFO  10:51:02,176 - Deklarisan niz niz na liniji 8
+INFO  10:51:02,176 - uspesno dodeljeno na liniji 10
+INFO  10:51:02,176 - ===================================

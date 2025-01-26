@@ -1,0 +1,105 @@
+INFO  14:47:37,090 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:47:37,131 - #8 program
+INFO  14:47:37,131 - #5 Test
+INFO  14:47:37,132 - #12 const
+INFO  14:47:37,132 - #5 char
+INFO  14:47:37,132 - #5 x
+INFO  14:47:37,133 - #37 =
+INFO  14:47:37,133 - #3 x
+INFO  14:47:37,133 - #42 ,
+INFO  14:47:37,134 - #5 s
+INFO  14:47:37,134 - #37 =
+INFO  14:47:37,134 - #3 5
+INFO  14:47:37,134 - #40 ;
+INFO  14:47:37,134 - #48 {
+INFO  14:47:37,134 - #5 int
+INFO  14:47:37,135 - #5 fun
+INFO  14:47:37,135 - #44 (
+INFO  14:47:37,136 - #5 int
+INFO  14:47:37,137 - #5 a
+INFO  14:47:37,137 - #45 )
+INFO  14:47:37,137 - #48 {
+INFO  14:47:37,137 - #18 return
+INFO  14:47:37,137 - #25 -
+INFO  14:47:37,140 - #2 1
+INFO  14:47:37,140 - #40 ;
+INFO  14:47:37,140 - #49 }
+INFO  14:47:37,140 - #49 }
+INFO  14:47:37,149 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalConstDecl(
+      ConstDeclarations(
+        Type(
+         char
+        ) [Type]
+        ConstDeclarationsList(
+          OneConstDeclarationItem(
+            ConstDeclarationItem(
+             x
+              ConstValueChar(
+               x
+              ) [ConstValueChar]
+            ) [ConstDeclarationItem]
+          ) [OneConstDeclarationItem]
+          ConstDeclarationItem(
+           s
+            ConstValueChar(
+             5
+            ) [ConstValueChar]
+          ) [ConstDeclarationItem]
+        ) [ConstDeclarationsList]
+      ) [ConstDeclarations]
+    ) [GlobalConstDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnType(
+        Type(
+         int
+        ) [Type]
+       fun
+      ) [MethodReturnType]
+      FormParams(
+        SingleFormalParamDecl(
+          ScalarParam(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [ScalarParam]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      FullStatementListM(
+        NoStatementListM(
+        ) [NoStatementListM]
+        ReturnStmt(
+          ExprStmtMl(
+            ExprMTerm(
+              TermFactor(
+                FactorNumber(
+                 1
+                ) [FactorNumber]
+              ) [TermFactor]
+            ) [ExprMTerm]
+          ) [ExprStmtMl]
+        ) [ReturnStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:47:37,149 - ===================================
+INFO  14:47:37,152 - Obradjuje se tip char na liniji 2
+INFO  14:47:37,152 - Obradjuje se tip int na liniji 4
+INFO  14:47:37,152 - obradjuje se metoda fun na liniji 4
+INFO  14:47:37,152 - Obradjuje se tip int na liniji 4
+ERROR 14:47:37,152 - Izraz uz return nije ekvivalentan tipu tekuce metode! Semanticka greska na liniji 5
+INFO  14:47:37,152 - ===================================

@@ -1,0 +1,110 @@
+INFO  15:06:06,819 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:06:06,890 - #8 program
+INFO  15:06:06,890 - #5 Test
+INFO  15:06:06,890 - #12 const
+INFO  15:06:06,891 - #5 int
+INFO  15:06:06,891 - #5 s
+INFO  15:06:06,892 - #37 =
+INFO  15:06:06,892 - #2 0
+INFO  15:06:06,892 - #40 ;
+INFO  15:06:06,892 - #5 int
+INFO  15:06:06,893 - #5 x
+INFO  15:06:06,893 - #42 ,
+INFO  15:06:06,893 - #5 k
+INFO  15:06:06,893 - #40 ;
+INFO  15:06:06,893 - #48 {
+INFO  15:06:06,893 - #19 void
+INFO  15:06:06,894 - #5 fun1
+INFO  15:06:06,894 - #44 (
+INFO  15:06:06,895 - #5 int
+INFO  15:06:06,895 - #5 s
+INFO  15:06:06,895 - #42 ,
+INFO  15:06:06,895 - #5 bool
+INFO  15:06:06,895 - #5 m
+INFO  15:06:06,895 - #45 )
+INFO  15:06:06,897 - #48 {
+INFO  15:06:06,898 - #49 }
+INFO  15:06:06,900 - #49 }
+INFO  15:06:06,906 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalConstDecl(
+        ConstDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneConstDeclarationItem(
+            ConstDeclarationItem(
+             s
+              ConstValueNumber(
+               0
+              ) [ConstValueNumber]
+            ) [ConstDeclarationItem]
+          ) [OneConstDeclarationItem]
+        ) [ConstDeclarations]
+      ) [GlobalConstDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             x
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           k
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       fun1
+      ) [MethodReturnVoid]
+      FormParams(
+        FormalParamDecls(
+          SingleFormalParamDecl(
+            ScalarParam(
+              Type(
+               int
+              ) [Type]
+             s
+            ) [ScalarParam]
+          ) [SingleFormalParamDecl]
+          ScalarParam(
+            Type(
+             bool
+            ) [Type]
+           m
+          ) [ScalarParam]
+        ) [FormalParamDecls]
+      ) [FormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      NoStatementListM(
+      ) [NoStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:06:06,906 - ===================================
+INFO  15:06:06,909 - Obradjuje se tip int na liniji 2
+INFO  15:06:06,909 - Obradjuje se tip int na liniji 3
+INFO  15:06:06,909 - Deklarisana promenljiva x na liniji 3
+INFO  15:06:06,909 - Deklarisana promenljiva k na liniji 3
+INFO  15:06:06,909 - obradjuje se metoda fun1 na liniji 4
+INFO  15:06:06,909 - Obradjuje se tip int na liniji 4
+INFO  15:06:06,909 - Obradjuje se tip bool na liniji 4
+INFO  15:06:06,909 - ===================================

@@ -1,0 +1,200 @@
+INFO  13:44:09,395 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:44:09,435 - #8 program
+INFO  13:44:09,436 - #5 ABC
+INFO  13:44:09,436 - #5 int
+INFO  13:44:09,436 - #5 x
+INFO  13:44:09,437 - #41 ,
+INFO  13:44:09,437 - #5 z
+INFO  13:44:09,437 - #41 ,
+INFO  13:44:09,437 - #5 y
+INFO  13:44:09,437 - #39 ;
+INFO  13:44:09,438 - #47 {
+INFO  13:44:09,438 - #19 void
+INFO  13:44:09,438 - #5 main
+INFO  13:44:09,438 - #43 (
+INFO  13:44:09,438 - #44 )
+INFO  13:44:09,439 - #5 char
+INFO  13:44:09,439 - #5 niz
+INFO  13:44:09,439 - #45 [
+INFO  13:44:09,439 - #46 ]
+INFO  13:44:09,439 - #39 ;
+INFO  13:44:09,440 - #5 int
+INFO  13:44:09,440 - #5 dd
+INFO  13:44:09,440 - #39 ;
+INFO  13:44:09,440 - #47 {
+INFO  13:44:09,442 - #5 niz
+INFO  13:44:09,443 - #36 =
+INFO  13:44:09,443 - #15 new
+INFO  13:44:09,444 - #5 char
+INFO  13:44:09,444 - #45 [
+INFO  13:44:09,444 - #2 3
+INFO  13:44:09,444 - #46 ]
+INFO  13:44:09,444 - #39 ;
+INFO  13:44:09,445 - #5 niz
+INFO  13:44:09,445 - #45 [
+INFO  13:44:09,445 - #2 0
+INFO  13:44:09,445 - #46 ]
+INFO  13:44:09,445 - #36 =
+INFO  13:44:09,445 - #3 4
+INFO  13:44:09,445 - #39 ;
+INFO  13:44:09,445 - #16 print
+INFO  13:44:09,446 - #43 (
+INFO  13:44:09,446 - #5 y
+INFO  13:44:09,446 - #44 )
+INFO  13:44:09,446 - #39 ;
+INFO  13:44:09,446 - #48 }
+INFO  13:44:09,446 - #48 }
+INFO  13:44:09,454 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               x
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             z
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+          VarDeclarationItem(
+           y
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             char
+            ) [Type]
+            OneVarDeclarationItem(
+              ArrayDeclarationItem(
+               niz
+              ) [ArrayDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             dd
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          FullStatementListM(
+            NoStatementListM(
+            ) [NoStatementListM]
+            AssignStmt(
+              DesignatorAssignValue(
+                ScalarDesignator(
+                 niz
+                ) [ScalarDesignator]
+                AssignOperation(
+                ) [AssignOperation]
+                ExprTerm(
+                  TermFactor(
+                    FactorArray(
+                      Type(
+                       char
+                      ) [Type]
+                      ExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           3
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [FactorArray]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [DesignatorAssignValue]
+            ) [AssignStmt]
+          ) [FullStatementListM]
+          AssignStmt(
+            DesignatorAssignValue(
+              ArrayDesignator(
+                ScalarDesignator(
+                 niz
+                ) [ScalarDesignator]
+                ExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     0
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [ArrayDesignator]
+              AssignOperation(
+              ) [AssignOperation]
+              ExprTerm(
+                TermFactor(
+                  FactorChar(
+                   4
+                  ) [FactorChar]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [FullStatementListM]
+        PrintStmt(
+          ExprTerm(
+            TermFactor(
+              FactorDesignator(
+                ScalarDesignator(
+                 y
+                ) [ScalarDesignator]
+              ) [FactorDesignator]
+            ) [TermFactor]
+          ) [ExprTerm]
+          ConstStatementEmpty(
+          ) [ConstStatementEmpty]
+        ) [PrintStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:44:09,455 - ===================================
+INFO  13:44:09,460 - Obradjuje se tip int na liniji 2
+INFO  13:44:09,460 - Deklarisana promenljiva x na liniji 2
+INFO  13:44:09,461 - Deklarisana promenljiva z na liniji 2
+INFO  13:44:09,461 - Deklarisana promenljiva y na liniji 2
+INFO  13:44:09,461 - obradjuje se metoda main na liniji 4
+INFO  13:44:09,461 - Obradjuje se tip char na liniji 4
+INFO  13:44:09,461 - Deklarisan niz niz na liniji 4
+INFO  13:44:09,461 - Obradjuje se tip int na liniji 4
+INFO  13:44:09,461 - Deklarisana promenljiva dd na liniji 4
+INFO  13:44:09,461 - Obradjuje se tip char na liniji 6
+INFO  13:44:09,461 - uspesno dodeljeno na liniji 6
+INFO  13:44:09,462 - uspesno dodeljeno na liniji 7
+INFO  13:44:09,462 - ===================================
+INFO  13:44:09,466 - Parsiranje uspesno zavrseno!

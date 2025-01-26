@@ -1,0 +1,210 @@
+INFO  14:10:20,664 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:10:20,702 - #8 program
+INFO  14:10:20,702 - #5 ABC
+INFO  14:10:20,702 - #12 const
+INFO  14:10:20,704 - #5 int
+INFO  14:10:20,704 - #5 N
+INFO  14:10:20,704 - #36 =
+INFO  14:10:20,704 - #2 2
+INFO  14:10:20,704 - #39 ;
+INFO  14:10:20,705 - #47 {
+INFO  14:10:20,705 - #19 void
+INFO  14:10:20,705 - #5 fun
+INFO  14:10:20,705 - #43 (
+INFO  14:10:20,705 - #5 int
+INFO  14:10:20,705 - #5 s
+INFO  14:10:20,705 - #44 )
+INFO  14:10:20,706 - #47 {
+INFO  14:10:20,706 - #5 s
+INFO  14:10:20,706 - #37 ++
+INFO  14:10:20,707 - #39 ;
+INFO  14:10:20,707 - #18 return
+INFO  14:10:20,707 - #5 s
+INFO  14:10:20,707 - #39 ;
+INFO  14:10:20,709 - #48 }
+INFO  14:10:20,709 - #19 void
+INFO  14:10:20,709 - #5 main
+INFO  14:10:20,709 - #43 (
+INFO  14:10:20,710 - #44 )
+INFO  14:10:20,710 - #5 int
+INFO  14:10:20,710 - #5 x
+INFO  14:10:20,710 - #39 ;
+INFO  14:10:20,710 - #47 {
+INFO  14:10:20,711 - #5 x
+INFO  14:10:20,711 - #36 =
+INFO  14:10:20,711 - #2 10
+INFO  14:10:20,711 - #39 ;
+INFO  14:10:20,712 - #5 fun
+INFO  14:10:20,712 - #43 (
+INFO  14:10:20,712 - #2 4
+INFO  14:10:20,712 - #44 )
+INFO  14:10:20,712 - #39 ;
+INFO  14:10:20,712 - #16 print
+INFO  14:10:20,712 - #43 (
+INFO  14:10:20,712 - #5 x
+INFO  14:10:20,712 - #44 )
+INFO  14:10:20,713 - #39 ;
+INFO  14:10:20,713 - #48 }
+INFO  14:10:20,713 - #48 }
+INFO  14:10:20,718 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalConstDecl(
+      ConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneConstDeclarationItem(
+          ConstDeclarationItem(
+           N
+            ConstValueNumber(
+             2
+            ) [ConstValueNumber]
+          ) [ConstDeclarationItem]
+        ) [OneConstDeclarationItem]
+      ) [ConstDeclarations]
+    ) [GlobalConstDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclarationList(
+      ) [NoMethodDeclarationList]
+      MethodDeclaration(
+        MethodReturnVoid(
+         fun
+        ) [MethodReturnVoid]
+        FormParams(
+          SingleFormalParamDecl(
+            ScalarParam(
+              Type(
+               int
+              ) [Type]
+             s
+            ) [ScalarParam]
+          ) [SingleFormalParamDecl]
+        ) [FormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        FullStatementListM(
+          FullStatementListM(
+            NoStatementListM(
+            ) [NoStatementListM]
+            AssignStmt(
+              DesignatorIncValue(
+                ScalarDesignator(
+                 s
+                ) [ScalarDesignator]
+              ) [DesignatorIncValue]
+            ) [AssignStmt]
+          ) [FullStatementListM]
+          ReturnStmt(
+            ExprStmtMl(
+              ExprTerm(
+                TermFactor(
+                  FactorDesignator(
+                    ScalarDesignator(
+                     s
+                    ) [ScalarDesignator]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [ExprStmtMl]
+          ) [ReturnStmt]
+        ) [FullStatementListM]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             x
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          FullStatementListM(
+            NoStatementListM(
+            ) [NoStatementListM]
+            AssignStmt(
+              DesignatorAssignValue(
+                ScalarDesignator(
+                 x
+                ) [ScalarDesignator]
+                AssignOperation(
+                ) [AssignOperation]
+                ExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     10
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [DesignatorAssignValue]
+            ) [AssignStmt]
+          ) [FullStatementListM]
+          AssignStmt(
+            DesignatorProcCall(
+              ScalarDesignator(
+               fun
+              ) [ScalarDesignator]
+              YesActualPars(
+                SingleActualParam(
+                  ActualParameter(
+                    ExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         4
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [ActualParameter]
+                ) [SingleActualParam]
+              ) [YesActualPars]
+            ) [DesignatorProcCall]
+          ) [AssignStmt]
+        ) [FullStatementListM]
+        PrintStmt(
+          ExprTerm(
+            TermFactor(
+              FactorDesignator(
+                ScalarDesignator(
+                 x
+                ) [ScalarDesignator]
+              ) [FactorDesignator]
+            ) [TermFactor]
+          ) [ExprTerm]
+          ConstStatementEmpty(
+          ) [ConstStatementEmpty]
+        ) [PrintStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:10:20,718 - ===================================
+INFO  14:10:20,722 - Obradjuje se tip int na liniji 2
+INFO  14:10:20,723 - obradjuje se metoda fun na liniji 4
+INFO  14:10:20,723 - Obradjuje se tip int na liniji 4
+ERROR 14:10:20,723 - Metoda tipa void ne vraca nikakvu vrednost! Semanticka greska na liniji 6
+INFO  14:10:20,723 - obradjuje se metoda main na liniji 9
+INFO  14:10:20,723 - Obradjuje se tip int na liniji 10
+INFO  14:10:20,723 - Deklarisana promenljiva x na liniji 10
+INFO  14:10:20,723 - uspesno dodeljeno na liniji 12
+INFO  14:10:20,723 - Poziva se metoda fun na liniji 13
+INFO  14:10:20,724 - ===================================

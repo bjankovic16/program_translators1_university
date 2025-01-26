@@ -1,0 +1,3056 @@
+INFO  13:31:11,252 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:31:11,284 - #8 program
+INFO  13:31:11,285 - #5 test_303
+INFO  13:31:11,285 - #12 const
+INFO  13:31:11,285 - #5 int
+INFO  13:31:11,286 - #5 cinilac
+INFO  13:31:11,286 - #36 =
+INFO  13:31:11,286 - #2 4
+INFO  13:31:11,286 - #41 ,
+INFO  13:31:11,286 - #5 delilac
+INFO  13:31:11,287 - #36 =
+INFO  13:31:11,287 - #2 3
+INFO  13:31:11,287 - #39 ;
+INFO  13:31:11,287 - #10 class
+INFO  13:31:11,287 - #5 Predmet
+INFO  13:31:11,287 - #47 {
+INFO  13:31:11,288 - #5 int
+INFO  13:31:11,288 - #5 tezina
+INFO  13:31:11,288 - #39 ;
+INFO  13:31:11,288 - #5 int
+INFO  13:31:11,289 - #5 koefTezine
+INFO  13:31:11,289 - #39 ;
+INFO  13:31:11,291 - #5 char
+INFO  13:31:11,291 - #5 vrsta
+INFO  13:31:11,291 - #39 ;
+INFO  13:31:11,291 - #47 {
+INFO  13:31:11,291 - #19 void
+INFO  13:31:11,292 - #5 postaviTezinu
+INFO  13:31:11,293 - #43 (
+INFO  13:31:11,293 - #5 int
+INFO  13:31:11,293 - #5 tezina
+INFO  13:31:11,293 - #44 )
+INFO  13:31:11,293 - #47 {
+INFO  13:31:11,294 - #5 this
+INFO  13:31:11,295 - #42 .
+INFO  13:31:11,296 - #5 tezina
+INFO  13:31:11,296 - #36 =
+INFO  13:31:11,296 - #5 tezina
+INFO  13:31:11,297 - #25 *
+INFO  13:31:11,297 - #5 koefTezine
+INFO  13:31:11,297 - #39 ;
+INFO  13:31:11,298 - #48 }
+INFO  13:31:11,298 - #19 void
+INFO  13:31:11,298 - #5 ucitajTezinu
+INFO  13:31:11,298 - #43 (
+INFO  13:31:11,298 - #44 )
+INFO  13:31:11,299 - #47 {
+INFO  13:31:11,299 - #17 read
+INFO  13:31:11,299 - #43 (
+INFO  13:31:11,299 - #5 tezina
+INFO  13:31:11,299 - #44 )
+INFO  13:31:11,299 - #39 ;
+INFO  13:31:11,299 - #48 }
+INFO  13:31:11,299 - #5 int
+INFO  13:31:11,299 - #5 zapremina
+INFO  13:31:11,299 - #43 (
+INFO  13:31:11,299 - #5 int
+INFO  13:31:11,299 - #5 z
+INFO  13:31:11,299 - #44 )
+INFO  13:31:11,299 - #47 {
+INFO  13:31:11,299 - #18 return
+INFO  13:31:11,299 - #2 0
+INFO  13:31:11,299 - #39 ;
+INFO  13:31:11,300 - #48 }
+INFO  13:31:11,300 - #5 int
+INFO  13:31:11,300 - #5 Q
+INFO  13:31:11,300 - #43 (
+INFO  13:31:11,300 - #44 )
+INFO  13:31:11,300 - #47 {
+INFO  13:31:11,300 - #18 return
+INFO  13:31:11,300 - #5 zapremina
+INFO  13:31:11,300 - #43 (
+INFO  13:31:11,300 - #44 )
+INFO  13:31:11,300 - #25 *
+INFO  13:31:11,301 - #5 tezina
+INFO  13:31:11,301 - #39 ;
+INFO  13:31:11,301 - #48 }
+INFO  13:31:11,301 - #19 void
+INFO  13:31:11,301 - #5 postaviVrstu
+INFO  13:31:11,301 - #43 (
+INFO  13:31:11,301 - #5 char
+INFO  13:31:11,301 - #5 vrsta
+INFO  13:31:11,301 - #44 )
+INFO  13:31:11,301 - #47 {
+INFO  13:31:11,301 - #5 this
+INFO  13:31:11,301 - #42 .
+INFO  13:31:11,301 - #5 vrsta
+INFO  13:31:11,301 - #36 =
+INFO  13:31:11,301 - #5 vrsta
+INFO  13:31:11,301 - #39 ;
+INFO  13:31:11,301 - #48 }
+INFO  13:31:11,301 - #5 char
+INFO  13:31:11,301 - #5 dohvVrstu
+INFO  13:31:11,301 - #43 (
+INFO  13:31:11,301 - #44 )
+INFO  13:31:11,301 - #47 {
+INFO  13:31:11,301 - #18 return
+INFO  13:31:11,302 - #5 vrsta
+INFO  13:31:11,302 - #39 ;
+INFO  13:31:11,302 - #48 }
+INFO  13:31:11,302 - #5 int
+INFO  13:31:11,302 - #5 dohvTezinu
+INFO  13:31:11,302 - #43 (
+INFO  13:31:11,302 - #44 )
+INFO  13:31:11,302 - #47 {
+INFO  13:31:11,302 - #18 return
+INFO  13:31:11,302 - #5 tezina
+INFO  13:31:11,302 - #39 ;
+INFO  13:31:11,302 - #48 }
+INFO  13:31:11,302 - #19 void
+INFO  13:31:11,302 - #5 ispisi
+INFO  13:31:11,302 - #43 (
+INFO  13:31:11,302 - #44 )
+INFO  13:31:11,302 - #47 {
+INFO  13:31:11,302 - #16 print
+INFO  13:31:11,302 - #43 (
+INFO  13:31:11,303 - #5 vrsta
+INFO  13:31:11,303 - #44 )
+INFO  13:31:11,303 - #39 ;
+INFO  13:31:11,303 - #16 print
+INFO  13:31:11,303 - #43 (
+INFO  13:31:11,303 - #5 Q
+INFO  13:31:11,303 - #43 (
+INFO  13:31:11,304 - #44 )
+INFO  13:31:11,304 - #44 )
+INFO  13:31:11,304 - #39 ;
+INFO  13:31:11,304 - #48 }
+INFO  13:31:11,304 - #48 }
+INFO  13:31:11,304 - #48 }
+INFO  13:31:11,304 - #10 class
+INFO  13:31:11,304 - #5 Sfera
+INFO  13:31:11,304 - #20 extends
+INFO  13:31:11,304 - #5 Predmet
+INFO  13:31:11,304 - #47 {
+INFO  13:31:11,305 - #5 int
+INFO  13:31:11,305 - #5 r
+INFO  13:31:11,305 - #39 ;
+INFO  13:31:11,305 - #47 {
+INFO  13:31:11,305 - #19 void
+INFO  13:31:11,305 - #5 postaviPoluprecnik
+INFO  13:31:11,306 - #43 (
+INFO  13:31:11,306 - #5 int
+INFO  13:31:11,306 - #5 r
+INFO  13:31:11,306 - #44 )
+INFO  13:31:11,306 - #47 {
+INFO  13:31:11,306 - #5 this
+INFO  13:31:11,306 - #42 .
+INFO  13:31:11,306 - #5 r
+INFO  13:31:11,306 - #36 =
+INFO  13:31:11,306 - #5 r
+INFO  13:31:11,306 - #39 ;
+INFO  13:31:11,306 - #48 }
+INFO  13:31:11,306 - #5 int
+INFO  13:31:11,306 - #5 zapremina
+INFO  13:31:11,306 - #43 (
+INFO  13:31:11,306 - #5 int
+INFO  13:31:11,306 - #5 z
+INFO  13:31:11,306 - #44 )
+INFO  13:31:11,306 - #47 {
+INFO  13:31:11,306 - #5 z
+INFO  13:31:11,306 - #36 =
+INFO  13:31:11,306 - #5 cinilac
+INFO  13:31:11,306 - #39 ;
+INFO  13:31:11,306 - #18 return
+INFO  13:31:11,306 - #5 z
+INFO  13:31:11,306 - #25 *
+INFO  13:31:11,306 - #43 (
+INFO  13:31:11,306 - #5 r
+INFO  13:31:11,306 - #26 /
+INFO  13:31:11,306 - #5 delilac
+INFO  13:31:11,307 - #44 )
+INFO  13:31:11,307 - #39 ;
+INFO  13:31:11,307 - #48 }
+INFO  13:31:11,307 - #48 }
+INFO  13:31:11,307 - #48 }
+INFO  13:31:11,307 - #10 class
+INFO  13:31:11,307 - #5 Kvadar
+INFO  13:31:11,307 - #20 extends
+INFO  13:31:11,307 - #5 Predmet
+INFO  13:31:11,307 - #47 {
+INFO  13:31:11,307 - #5 int
+INFO  13:31:11,307 - #5 a
+INFO  13:31:11,307 - #41 ,
+INFO  13:31:11,307 - #5 b
+INFO  13:31:11,307 - #41 ,
+INFO  13:31:11,308 - #5 c
+INFO  13:31:11,308 - #39 ;
+INFO  13:31:11,308 - #47 {
+INFO  13:31:11,308 - #19 void
+INFO  13:31:11,308 - #5 postaviStranice
+INFO  13:31:11,308 - #43 (
+INFO  13:31:11,308 - #5 int
+INFO  13:31:11,308 - #5 a
+INFO  13:31:11,308 - #41 ,
+INFO  13:31:11,308 - #5 int
+INFO  13:31:11,308 - #5 b
+INFO  13:31:11,308 - #41 ,
+INFO  13:31:11,308 - #5 int
+INFO  13:31:11,308 - #5 c
+INFO  13:31:11,308 - #44 )
+INFO  13:31:11,308 - #47 {
+INFO  13:31:11,308 - #5 this
+INFO  13:31:11,308 - #42 .
+INFO  13:31:11,309 - #5 a
+INFO  13:31:11,309 - #36 =
+INFO  13:31:11,309 - #5 a
+INFO  13:31:11,309 - #39 ;
+INFO  13:31:11,309 - #5 this
+INFO  13:31:11,309 - #42 .
+INFO  13:31:11,309 - #5 b
+INFO  13:31:11,309 - #36 =
+INFO  13:31:11,309 - #5 b
+INFO  13:31:11,309 - #39 ;
+INFO  13:31:11,309 - #5 this
+INFO  13:31:11,309 - #42 .
+INFO  13:31:11,309 - #5 c
+INFO  13:31:11,309 - #36 =
+INFO  13:31:11,309 - #5 c
+INFO  13:31:11,309 - #39 ;
+INFO  13:31:11,309 - #48 }
+INFO  13:31:11,309 - #5 int
+INFO  13:31:11,309 - #5 zapremina
+INFO  13:31:11,310 - #43 (
+INFO  13:31:11,310 - #5 int
+INFO  13:31:11,310 - #5 z
+INFO  13:31:11,310 - #44 )
+INFO  13:31:11,310 - #47 {
+INFO  13:31:11,310 - #5 z
+INFO  13:31:11,310 - #36 =
+INFO  13:31:11,310 - #5 a
+INFO  13:31:11,310 - #25 *
+INFO  13:31:11,310 - #5 b
+INFO  13:31:11,310 - #25 *
+INFO  13:31:11,310 - #5 c
+INFO  13:31:11,310 - #39 ;
+INFO  13:31:11,310 - #18 return
+INFO  13:31:11,310 - #5 z
+INFO  13:31:11,310 - #39 ;
+INFO  13:31:11,310 - #48 }
+INFO  13:31:11,310 - #19 void
+INFO  13:31:11,310 - #5 ispisi
+INFO  13:31:11,310 - #43 (
+INFO  13:31:11,310 - #44 )
+INFO  13:31:11,310 - #47 {
+INFO  13:31:11,311 - #48 }
+INFO  13:31:11,311 - #48 }
+INFO  13:31:11,311 - #48 }
+INFO  13:31:11,311 - #5 int
+INFO  13:31:11,311 - #5 zapreminaK
+INFO  13:31:11,311 - #41 ,
+INFO  13:31:11,311 - #5 zapreminaS
+INFO  13:31:11,311 - #39 ;
+INFO  13:31:11,311 - #5 int
+INFO  13:31:11,312 - #5 tezinaK
+INFO  13:31:11,312 - #41 ,
+INFO  13:31:11,312 - #5 tezinaS
+INFO  13:31:11,312 - #39 ;
+INFO  13:31:11,312 - #47 {
+INFO  13:31:11,312 - #19 void
+INFO  13:31:11,313 - #5 ispis
+INFO  13:31:11,313 - #43 (
+INFO  13:31:11,313 - #5 Predmet
+INFO  13:31:11,313 - #5 p
+INFO  13:31:11,313 - #44 )
+INFO  13:31:11,313 - #47 {
+INFO  13:31:11,313 - #5 p
+INFO  13:31:11,313 - #42 .
+INFO  13:31:11,313 - #5 ispisi
+INFO  13:31:11,313 - #43 (
+INFO  13:31:11,313 - #44 )
+INFO  13:31:11,313 - #39 ;
+INFO  13:31:11,313 - #16 print
+INFO  13:31:11,313 - #43 (
+INFO  13:31:11,313 - #5 eol
+INFO  13:31:11,313 - #44 )
+INFO  13:31:11,313 - #39 ;
+INFO  13:31:11,313 - #16 print
+INFO  13:31:11,314 - #43 (
+INFO  13:31:11,314 - #5 p
+INFO  13:31:11,314 - #42 .
+INFO  13:31:11,314 - #5 dohvTezinu
+INFO  13:31:11,314 - #43 (
+INFO  13:31:11,314 - #44 )
+INFO  13:31:11,314 - #44 )
+INFO  13:31:11,314 - #39 ;
+INFO  13:31:11,314 - #48 }
+INFO  13:31:11,314 - #19 void
+INFO  13:31:11,314 - #5 main
+INFO  13:31:11,314 - #43 (
+INFO  13:31:11,314 - #44 )
+INFO  13:31:11,314 - #5 Predmet
+INFO  13:31:11,314 - #5 predmeti
+INFO  13:31:11,314 - #45 [
+INFO  13:31:11,314 - #46 ]
+INFO  13:31:11,314 - #39 ;
+INFO  13:31:11,314 - #5 int
+INFO  13:31:11,314 - #5 i
+INFO  13:31:11,314 - #39 ;
+INFO  13:31:11,314 - #5 Sfera
+INFO  13:31:11,314 - #5 s1
+INFO  13:31:11,314 - #41 ,
+INFO  13:31:11,314 - #5 s2
+INFO  13:31:11,314 - #41 ,
+INFO  13:31:11,314 - #5 s3
+INFO  13:31:11,314 - #39 ;
+INFO  13:31:11,314 - #5 Kvadar
+INFO  13:31:11,314 - #5 k1
+INFO  13:31:11,314 - #41 ,
+INFO  13:31:11,314 - #5 k2
+INFO  13:31:11,315 - #41 ,
+INFO  13:31:11,315 - #5 k3
+INFO  13:31:11,315 - #39 ;
+INFO  13:31:11,315 - #5 int
+INFO  13:31:11,315 - #5 t
+INFO  13:31:11,315 - #39 ;
+INFO  13:31:11,315 - #47 {
+INFO  13:31:11,315 - #5 predmeti
+INFO  13:31:11,315 - #36 =
+INFO  13:31:11,315 - #15 new
+INFO  13:31:11,315 - #5 Predmet
+INFO  13:31:11,315 - #45 [
+INFO  13:31:11,315 - #2 6
+INFO  13:31:11,315 - #46 ]
+INFO  13:31:11,315 - #39 ;
+INFO  13:31:11,315 - #5 s1
+INFO  13:31:11,315 - #42 .
+INFO  13:31:11,315 - #5 postaviPoluprecnik
+INFO  13:31:11,315 - #43 (
+INFO  13:31:11,315 - #2 1
+INFO  13:31:11,315 - #44 )
+INFO  13:31:11,315 - #39 ;
+INFO  13:31:11,315 - #5 s2
+INFO  13:31:11,315 - #42 .
+INFO  13:31:11,315 - #5 postaviPoluprecnik
+INFO  13:31:11,315 - #43 (
+INFO  13:31:11,315 - #2 2
+INFO  13:31:11,315 - #44 )
+INFO  13:31:11,315 - #39 ;
+INFO  13:31:11,316 - #5 s3
+INFO  13:31:11,316 - #42 .
+INFO  13:31:11,316 - #5 postaviPoluprecnik
+INFO  13:31:11,316 - #43 (
+INFO  13:31:11,316 - #2 3
+INFO  13:31:11,316 - #44 )
+INFO  13:31:11,316 - #39 ;
+INFO  13:31:11,316 - #5 k1
+INFO  13:31:11,316 - #42 .
+INFO  13:31:11,316 - #5 postaviStranice
+INFO  13:31:11,316 - #43 (
+INFO  13:31:11,316 - #2 1
+INFO  13:31:11,316 - #41 ,
+INFO  13:31:11,316 - #2 2
+INFO  13:31:11,316 - #41 ,
+INFO  13:31:11,316 - #2 3
+INFO  13:31:11,316 - #44 )
+INFO  13:31:11,316 - #39 ;
+INFO  13:31:11,316 - #5 k2
+INFO  13:31:11,316 - #42 .
+INFO  13:31:11,316 - #5 postaviStranice
+INFO  13:31:11,316 - #43 (
+INFO  13:31:11,316 - #2 2
+INFO  13:31:11,316 - #41 ,
+INFO  13:31:11,316 - #2 3
+INFO  13:31:11,316 - #41 ,
+INFO  13:31:11,316 - #2 4
+INFO  13:31:11,316 - #44 )
+INFO  13:31:11,318 - #39 ;
+INFO  13:31:11,318 - #5 k3
+INFO  13:31:11,318 - #42 .
+INFO  13:31:11,318 - #5 postaviStranice
+INFO  13:31:11,318 - #43 (
+INFO  13:31:11,318 - #2 3
+INFO  13:31:11,318 - #41 ,
+INFO  13:31:11,318 - #2 4
+INFO  13:31:11,318 - #41 ,
+INFO  13:31:11,318 - #2 5
+INFO  13:31:11,318 - #44 )
+INFO  13:31:11,318 - #39 ;
+INFO  13:31:11,318 - #5 predmeti
+INFO  13:31:11,319 - #45 [
+INFO  13:31:11,319 - #2 0
+INFO  13:31:11,319 - #46 ]
+INFO  13:31:11,319 - #36 =
+INFO  13:31:11,319 - #5 s1
+INFO  13:31:11,319 - #39 ;
+INFO  13:31:11,319 - #5 predmeti
+INFO  13:31:11,319 - #45 [
+INFO  13:31:11,319 - #2 2
+INFO  13:31:11,319 - #46 ]
+INFO  13:31:11,319 - #36 =
+INFO  13:31:11,319 - #5 s2
+INFO  13:31:11,319 - #39 ;
+INFO  13:31:11,319 - #5 predmeti
+INFO  13:31:11,319 - #45 [
+INFO  13:31:11,319 - #2 4
+INFO  13:31:11,319 - #46 ]
+INFO  13:31:11,319 - #36 =
+INFO  13:31:11,319 - #5 s3
+INFO  13:31:11,319 - #39 ;
+INFO  13:31:11,319 - #5 predmeti
+INFO  13:31:11,319 - #45 [
+INFO  13:31:11,319 - #2 1
+INFO  13:31:11,319 - #46 ]
+INFO  13:31:11,319 - #36 =
+INFO  13:31:11,319 - #5 k1
+INFO  13:31:11,319 - #39 ;
+INFO  13:31:11,319 - #5 predmeti
+INFO  13:31:11,319 - #45 [
+INFO  13:31:11,319 - #2 3
+INFO  13:31:11,319 - #46 ]
+INFO  13:31:11,319 - #36 =
+INFO  13:31:11,319 - #5 k2
+INFO  13:31:11,319 - #39 ;
+INFO  13:31:11,319 - #5 predmeti
+INFO  13:31:11,319 - #45 [
+INFO  13:31:11,319 - #2 5
+INFO  13:31:11,319 - #46 ]
+INFO  13:31:11,319 - #36 =
+INFO  13:31:11,320 - #5 k3
+INFO  13:31:11,320 - #39 ;
+INFO  13:31:11,320 - #17 read
+INFO  13:31:11,320 - #43 (
+INFO  13:31:11,320 - #5 t
+INFO  13:31:11,320 - #44 )
+INFO  13:31:11,320 - #39 ;
+INFO  13:31:11,320 - #5 i
+INFO  13:31:11,320 - #36 =
+INFO  13:31:11,320 - #2 0
+INFO  13:31:11,320 - #39 ;
+INFO  13:31:11,320 - #14 while
+INFO  13:31:11,320 - #43 (
+INFO  13:31:11,320 - #4 true
+INFO  13:31:11,320 - #44 )
+INFO  13:31:11,321 - #47 {
+INFO  13:31:11,321 - #5 predmeti
+INFO  13:31:11,321 - #45 [
+INFO  13:31:11,321 - #5 i
+INFO  13:31:11,321 - #46 ]
+INFO  13:31:11,321 - #42 .
+INFO  13:31:11,321 - #5 postaviTezinu
+INFO  13:31:11,321 - #43 (
+INFO  13:31:11,321 - #5 t
+INFO  13:31:11,321 - #44 )
+INFO  13:31:11,321 - #39 ;
+INFO  13:31:11,321 - #5 i
+INFO  13:31:11,321 - #37 ++
+INFO  13:31:11,321 - #39 ;
+INFO  13:31:11,321 - #48 }
+INFO  13:31:11,322 - #5 zapreminaS
+INFO  13:31:11,322 - #36 =
+INFO  13:31:11,322 - #2 0
+INFO  13:31:11,322 - #39 ;
+INFO  13:31:11,322 - #5 tezinaS
+INFO  13:31:11,322 - #36 =
+INFO  13:31:11,322 - #2 0
+INFO  13:31:11,322 - #39 ;
+INFO  13:31:11,322 - #5 i
+INFO  13:31:11,322 - #36 =
+INFO  13:31:11,322 - #2 1
+INFO  13:31:11,322 - #39 ;
+INFO  13:31:11,322 - #14 while
+INFO  13:31:11,322 - #43 (
+INFO  13:31:11,322 - #5 i
+INFO  13:31:11,322 - #33 <=
+INFO  13:31:11,322 - #2 6
+INFO  13:31:11,323 - #44 )
+INFO  13:31:11,323 - #47 {
+INFO  13:31:11,323 - #6 if
+INFO  13:31:11,323 - #43 (
+INFO  13:31:11,323 - #5 i
+INFO  13:31:11,323 - #27 %
+INFO  13:31:11,323 - #2 2
+INFO  13:31:11,323 - #28 ==
+INFO  13:31:11,323 - #2 0
+INFO  13:31:11,323 - #44 )
+INFO  13:31:11,323 - #47 {
+INFO  13:31:11,323 - #5 i
+INFO  13:31:11,323 - #37 ++
+INFO  13:31:11,323 - #39 ;
+INFO  13:31:11,323 - #21 continue
+INFO  13:31:11,324 - #39 ;
+INFO  13:31:11,324 - #48 }
+INFO  13:31:11,324 - #5 zapreminaS
+INFO  13:31:11,324 - #36 =
+INFO  13:31:11,324 - #5 zapreminaS
+INFO  13:31:11,324 - #23 +
+INFO  13:31:11,324 - #5 predmeti
+INFO  13:31:11,324 - #45 [
+INFO  13:31:11,324 - #5 i
+INFO  13:31:11,324 - #24 -
+INFO  13:31:11,324 - #2 1
+INFO  13:31:11,325 - #46 ]
+INFO  13:31:11,325 - #42 .
+INFO  13:31:11,325 - #5 zapremina
+INFO  13:31:11,325 - #43 (
+INFO  13:31:11,325 - #44 )
+INFO  13:31:11,325 - #39 ;
+INFO  13:31:11,325 - #5 tezinaS
+INFO  13:31:11,325 - #36 =
+INFO  13:31:11,325 - #5 tezinaS
+INFO  13:31:11,325 - #23 +
+INFO  13:31:11,325 - #5 predmeti
+INFO  13:31:11,325 - #45 [
+INFO  13:31:11,325 - #5 i
+INFO  13:31:11,325 - #24 -
+INFO  13:31:11,325 - #2 1
+INFO  13:31:11,325 - #46 ]
+INFO  13:31:11,325 - #42 .
+INFO  13:31:11,325 - #5 Q
+INFO  13:31:11,325 - #43 (
+INFO  13:31:11,325 - #44 )
+INFO  13:31:11,325 - #39 ;
+INFO  13:31:11,325 - #5 ispis
+INFO  13:31:11,325 - #43 (
+INFO  13:31:11,325 - #5 predmeti
+INFO  13:31:11,325 - #45 [
+INFO  13:31:11,325 - #5 i
+INFO  13:31:11,325 - #24 -
+INFO  13:31:11,325 - #2 1
+INFO  13:31:11,325 - #46 ]
+INFO  13:31:11,325 - #44 )
+INFO  13:31:11,326 - #39 ;
+INFO  13:31:11,326 - #5 i
+INFO  13:31:11,326 - #37 ++
+INFO  13:31:11,326 - #39 ;
+INFO  13:31:11,326 - #48 }
+INFO  13:31:11,326 - #5 zapreminaK
+INFO  13:31:11,326 - #36 =
+INFO  13:31:11,326 - #2 0
+INFO  13:31:11,326 - #39 ;
+INFO  13:31:11,326 - #5 tezinaK
+INFO  13:31:11,326 - #36 =
+INFO  13:31:11,326 - #2 0
+INFO  13:31:11,326 - #39 ;
+INFO  13:31:11,326 - #5 i
+INFO  13:31:11,326 - #36 =
+INFO  13:31:11,326 - #2 1
+INFO  13:31:11,326 - #39 ;
+INFO  13:31:11,326 - #14 while
+INFO  13:31:11,326 - #43 (
+INFO  13:31:11,326 - #5 i
+INFO  13:31:11,326 - #33 <=
+INFO  13:31:11,326 - #2 6
+INFO  13:31:11,326 - #44 )
+INFO  13:31:11,326 - #47 {
+INFO  13:31:11,326 - #6 if
+INFO  13:31:11,326 - #43 (
+INFO  13:31:11,327 - #5 i
+INFO  13:31:11,327 - #27 %
+INFO  13:31:11,327 - #2 2
+INFO  13:31:11,327 - #28 ==
+INFO  13:31:11,327 - #2 1
+INFO  13:31:11,327 - #44 )
+INFO  13:31:11,327 - #47 {
+INFO  13:31:11,327 - #5 i
+INFO  13:31:11,327 - #37 ++
+INFO  13:31:11,327 - #39 ;
+INFO  13:31:11,327 - #21 continue
+INFO  13:31:11,327 - #39 ;
+INFO  13:31:11,327 - #48 }
+INFO  13:31:11,328 - #5 zapreminaS
+INFO  13:31:11,328 - #36 =
+INFO  13:31:11,328 - #5 zapreminaS
+INFO  13:31:11,328 - #23 +
+INFO  13:31:11,328 - #5 predmeti
+INFO  13:31:11,328 - #45 [
+INFO  13:31:11,328 - #5 i
+INFO  13:31:11,328 - #24 -
+INFO  13:31:11,328 - #2 1
+INFO  13:31:11,328 - #46 ]
+INFO  13:31:11,328 - #42 .
+INFO  13:31:11,328 - #5 zapremina
+INFO  13:31:11,328 - #43 (
+INFO  13:31:11,329 - #44 )
+INFO  13:31:11,329 - #39 ;
+INFO  13:31:11,329 - #5 tezinaS
+INFO  13:31:11,329 - #36 =
+INFO  13:31:11,329 - #5 tezinaS
+INFO  13:31:11,329 - #23 +
+INFO  13:31:11,329 - #5 predmeti
+INFO  13:31:11,329 - #45 [
+INFO  13:31:11,329 - #5 i
+INFO  13:31:11,329 - #24 -
+INFO  13:31:11,329 - #2 1
+INFO  13:31:11,329 - #46 ]
+INFO  13:31:11,329 - #42 .
+INFO  13:31:11,329 - #5 Q
+INFO  13:31:11,329 - #43 (
+INFO  13:31:11,329 - #44 )
+INFO  13:31:11,329 - #39 ;
+INFO  13:31:11,329 - #5 ispis
+INFO  13:31:11,329 - #43 (
+INFO  13:31:11,329 - #5 predmeti
+INFO  13:31:11,329 - #45 [
+INFO  13:31:11,329 - #5 i
+INFO  13:31:11,329 - #24 -
+INFO  13:31:11,329 - #2 1
+INFO  13:31:11,329 - #46 ]
+INFO  13:31:11,329 - #44 )
+INFO  13:31:11,329 - #39 ;
+INFO  13:31:11,329 - #5 i
+INFO  13:31:11,329 - #37 ++
+INFO  13:31:11,329 - #39 ;
+INFO  13:31:11,329 - #48 }
+INFO  13:31:11,329 - #16 print
+INFO  13:31:11,329 - #43 (
+INFO  13:31:11,329 - #5 zapreminaS
+INFO  13:31:11,329 - #44 )
+INFO  13:31:11,329 - #39 ;
+INFO  13:31:11,329 - #16 print
+INFO  13:31:11,329 - #43 (
+INFO  13:31:11,329 - #5 eol
+INFO  13:31:11,329 - #44 )
+INFO  13:31:11,329 - #39 ;
+INFO  13:31:11,329 - #16 print
+INFO  13:31:11,330 - #43 (
+INFO  13:31:11,330 - #5 zapreminaK
+INFO  13:31:11,330 - #44 )
+INFO  13:31:11,330 - #39 ;
+INFO  13:31:11,330 - #16 print
+INFO  13:31:11,330 - #43 (
+INFO  13:31:11,330 - #5 eol
+INFO  13:31:11,330 - #44 )
+INFO  13:31:11,330 - #39 ;
+INFO  13:31:11,330 - #16 print
+INFO  13:31:11,330 - #43 (
+INFO  13:31:11,330 - #5 tezinaS
+INFO  13:31:11,330 - #44 )
+INFO  13:31:11,330 - #39 ;
+INFO  13:31:11,330 - #16 print
+INFO  13:31:11,330 - #43 (
+INFO  13:31:11,330 - #5 eol
+INFO  13:31:11,330 - #44 )
+INFO  13:31:11,330 - #39 ;
+INFO  13:31:11,330 - #16 print
+INFO  13:31:11,330 - #43 (
+INFO  13:31:11,330 - #5 tezinaK
+INFO  13:31:11,330 - #44 )
+INFO  13:31:11,330 - #39 ;
+INFO  13:31:11,330 - #16 print
+INFO  13:31:11,330 - #43 (
+INFO  13:31:11,330 - #5 eol
+INFO  13:31:11,330 - #44 )
+INFO  13:31:11,330 - #39 ;
+INFO  13:31:11,330 - #48 }
+INFO  13:31:11,330 - #48 }
+INFO  13:31:11,351 - Program(
+  NamePro(
+   test_303
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        GlobalDeclarationsList(
+          GlobalDeclarationsList(
+            GlobalDeclarationsList(
+              NoGlobalDeclarationsList(
+              ) [NoGlobalDeclarationsList]
+              GlobalConstDecl(
+                ConstDeclarations(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclarationsList(
+                    OneConstDeclarationItem(
+                      ConstDeclarationItem(
+                       cinilac
+                        ConstValueNumber(
+                         4
+                        ) [ConstValueNumber]
+                      ) [ConstDeclarationItem]
+                    ) [OneConstDeclarationItem]
+                    ConstDeclarationItem(
+                     delilac
+                      ConstValueNumber(
+                       3
+                      ) [ConstValueNumber]
+                    ) [ConstDeclarationItem]
+                  ) [ConstDeclarationsList]
+                ) [ConstDeclarations]
+              ) [GlobalConstDecl]
+            ) [GlobalDeclarationsList]
+            GlobalClassDecl(
+              ClassDeclaration(
+                ClassFirst(
+                 Predmet
+                  NoClassExtends(
+                  ) [NoClassExtends]
+                ) [ClassFirst]
+                ClassVarDeclaration(
+                  ClassVarDeclaration(
+                    ClassVarDeclaration(
+                      NoClassVarDeclaration(
+                      ) [NoClassVarDeclaration]
+                      VarDeclarations(
+                        Type(
+                         int
+                        ) [Type]
+                        OneVarDeclarationItem(
+                          VarDeclarationItem(
+                           tezina
+                          ) [VarDeclarationItem]
+                        ) [OneVarDeclarationItem]
+                      ) [VarDeclarations]
+                    ) [ClassVarDeclaration]
+                    VarDeclarations(
+                      Type(
+                       int
+                      ) [Type]
+                      OneVarDeclarationItem(
+                        VarDeclarationItem(
+                         koefTezine
+                        ) [VarDeclarationItem]
+                      ) [OneVarDeclarationItem]
+                    ) [VarDeclarations]
+                  ) [ClassVarDeclaration]
+                  VarDeclarations(
+                    Type(
+                     char
+                    ) [Type]
+                    OneVarDeclarationItem(
+                      VarDeclarationItem(
+                       vrsta
+                      ) [VarDeclarationItem]
+                    ) [OneVarDeclarationItem]
+                  ) [VarDeclarations]
+                ) [ClassVarDeclaration]
+                ClassMethDeclaration(
+                  ClassMethodDeclaration(
+                    ClassMethodDeclaration(
+                      ClassMethodDeclaration(
+                        ClassMethodDeclaration(
+                          ClassMethodDeclaration(
+                            ClassMethodDeclaration(
+                              ClassMethodDeclaration(
+                                ClassMethodDeclaration(
+                                  NoClassMethodDeclaration(
+                                  ) [NoClassMethodDeclaration]
+                                  MethodDeclaration(
+                                    MethodReturnVoid(
+                                     postaviTezinu
+                                    ) [MethodReturnVoid]
+                                    FormParams(
+                                      SingleFormalParamDecl(
+                                        ScalarParam(
+                                          Type(
+                                           int
+                                          ) [Type]
+                                         tezina
+                                        ) [ScalarParam]
+                                      ) [SingleFormalParamDecl]
+                                    ) [FormParams]
+                                    NoLocalVarDeclarationsList(
+                                    ) [NoLocalVarDeclarationsList]
+                                    FullStatementListM(
+                                      NoStatementListM(
+                                      ) [NoStatementListM]
+                                      AssignStmt(
+                                        DesignatorAssignValue(
+                                          ClassDesignator(
+                                            ScalarDesignator(
+                                             this
+                                            ) [ScalarDesignator]
+                                           tezina
+                                          ) [ClassDesignator]
+                                          AssignOperation(
+                                          ) [AssignOperation]
+                                          ExprTerm(
+                                            TermMul(
+                                              TermFactor(
+                                                FactorDesignator(
+                                                  ScalarDesignator(
+                                                   tezina
+                                                  ) [ScalarDesignator]
+                                                ) [FactorDesignator]
+                                              ) [TermFactor]
+                                              MulOperation(
+                                              ) [MulOperation]
+                                              FactorDesignator(
+                                                ScalarDesignator(
+                                                 koefTezine
+                                                ) [ScalarDesignator]
+                                              ) [FactorDesignator]
+                                            ) [TermMul]
+                                          ) [ExprTerm]
+                                        ) [DesignatorAssignValue]
+                                      ) [AssignStmt]
+                                    ) [FullStatementListM]
+                                  ) [MethodDeclaration]
+                                ) [ClassMethodDeclaration]
+                                MethodDeclaration(
+                                  MethodReturnVoid(
+                                   ucitajTezinu
+                                  ) [MethodReturnVoid]
+                                  NoFormParams(
+                                  ) [NoFormParams]
+                                  NoLocalVarDeclarationsList(
+                                  ) [NoLocalVarDeclarationsList]
+                                  FullStatementListM(
+                                    NoStatementListM(
+                                    ) [NoStatementListM]
+                                    ReadStmt(
+                                      ScalarDesignator(
+                                       tezina
+                                      ) [ScalarDesignator]
+                                    ) [ReadStmt]
+                                  ) [FullStatementListM]
+                                ) [MethodDeclaration]
+                              ) [ClassMethodDeclaration]
+                              MethodDeclaration(
+                                MethodReturnType(
+                                  Type(
+                                   int
+                                  ) [Type]
+                                 zapremina
+                                ) [MethodReturnType]
+                                FormParams(
+                                  SingleFormalParamDecl(
+                                    ScalarParam(
+                                      Type(
+                                       int
+                                      ) [Type]
+                                     z
+                                    ) [ScalarParam]
+                                  ) [SingleFormalParamDecl]
+                                ) [FormParams]
+                                NoLocalVarDeclarationsList(
+                                ) [NoLocalVarDeclarationsList]
+                                FullStatementListM(
+                                  NoStatementListM(
+                                  ) [NoStatementListM]
+                                  ReturnStmt(
+                                    ExprStmtMl(
+                                      ExprTerm(
+                                        TermFactor(
+                                          FactorNumber(
+                                           0
+                                          ) [FactorNumber]
+                                        ) [TermFactor]
+                                      ) [ExprTerm]
+                                    ) [ExprStmtMl]
+                                  ) [ReturnStmt]
+                                ) [FullStatementListM]
+                              ) [MethodDeclaration]
+                            ) [ClassMethodDeclaration]
+                            MethodDeclaration(
+                              MethodReturnType(
+                                Type(
+                                 int
+                                ) [Type]
+                               Q
+                              ) [MethodReturnType]
+                              NoFormParams(
+                              ) [NoFormParams]
+                              NoLocalVarDeclarationsList(
+                              ) [NoLocalVarDeclarationsList]
+                              FullStatementListM(
+                                NoStatementListM(
+                                ) [NoStatementListM]
+                                ReturnStmt(
+                                  ExprStmtMl(
+                                    ExprTerm(
+                                      TermMul(
+                                        TermFactor(
+                                          FactorFuncCall(
+                                            ScalarDesignator(
+                                             zapremina
+                                            ) [ScalarDesignator]
+                                            NoActualPars(
+                                            ) [NoActualPars]
+                                          ) [FactorFuncCall]
+                                        ) [TermFactor]
+                                        MulOperation(
+                                        ) [MulOperation]
+                                        FactorDesignator(
+                                          ScalarDesignator(
+                                           tezina
+                                          ) [ScalarDesignator]
+                                        ) [FactorDesignator]
+                                      ) [TermMul]
+                                    ) [ExprTerm]
+                                  ) [ExprStmtMl]
+                                ) [ReturnStmt]
+                              ) [FullStatementListM]
+                            ) [MethodDeclaration]
+                          ) [ClassMethodDeclaration]
+                          MethodDeclaration(
+                            MethodReturnVoid(
+                             postaviVrstu
+                            ) [MethodReturnVoid]
+                            FormParams(
+                              SingleFormalParamDecl(
+                                ScalarParam(
+                                  Type(
+                                   char
+                                  ) [Type]
+                                 vrsta
+                                ) [ScalarParam]
+                              ) [SingleFormalParamDecl]
+                            ) [FormParams]
+                            NoLocalVarDeclarationsList(
+                            ) [NoLocalVarDeclarationsList]
+                            FullStatementListM(
+                              NoStatementListM(
+                              ) [NoStatementListM]
+                              AssignStmt(
+                                DesignatorAssignValue(
+                                  ClassDesignator(
+                                    ScalarDesignator(
+                                     this
+                                    ) [ScalarDesignator]
+                                   vrsta
+                                  ) [ClassDesignator]
+                                  AssignOperation(
+                                  ) [AssignOperation]
+                                  ExprTerm(
+                                    TermFactor(
+                                      FactorDesignator(
+                                        ScalarDesignator(
+                                         vrsta
+                                        ) [ScalarDesignator]
+                                      ) [FactorDesignator]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                ) [DesignatorAssignValue]
+                              ) [AssignStmt]
+                            ) [FullStatementListM]
+                          ) [MethodDeclaration]
+                        ) [ClassMethodDeclaration]
+                        MethodDeclaration(
+                          MethodReturnType(
+                            Type(
+                             char
+                            ) [Type]
+                           dohvVrstu
+                          ) [MethodReturnType]
+                          NoFormParams(
+                          ) [NoFormParams]
+                          NoLocalVarDeclarationsList(
+                          ) [NoLocalVarDeclarationsList]
+                          FullStatementListM(
+                            NoStatementListM(
+                            ) [NoStatementListM]
+                            ReturnStmt(
+                              ExprStmtMl(
+                                ExprTerm(
+                                  TermFactor(
+                                    FactorDesignator(
+                                      ScalarDesignator(
+                                       vrsta
+                                      ) [ScalarDesignator]
+                                    ) [FactorDesignator]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                              ) [ExprStmtMl]
+                            ) [ReturnStmt]
+                          ) [FullStatementListM]
+                        ) [MethodDeclaration]
+                      ) [ClassMethodDeclaration]
+                      MethodDeclaration(
+                        MethodReturnType(
+                          Type(
+                           int
+                          ) [Type]
+                         dohvTezinu
+                        ) [MethodReturnType]
+                        NoFormParams(
+                        ) [NoFormParams]
+                        NoLocalVarDeclarationsList(
+                        ) [NoLocalVarDeclarationsList]
+                        FullStatementListM(
+                          NoStatementListM(
+                          ) [NoStatementListM]
+                          ReturnStmt(
+                            ExprStmtMl(
+                              ExprTerm(
+                                TermFactor(
+                                  FactorDesignator(
+                                    ScalarDesignator(
+                                     tezina
+                                    ) [ScalarDesignator]
+                                  ) [FactorDesignator]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [ExprStmtMl]
+                          ) [ReturnStmt]
+                        ) [FullStatementListM]
+                      ) [MethodDeclaration]
+                    ) [ClassMethodDeclaration]
+                    MethodDeclaration(
+                      MethodReturnVoid(
+                       ispisi
+                      ) [MethodReturnVoid]
+                      NoFormParams(
+                      ) [NoFormParams]
+                      NoLocalVarDeclarationsList(
+                      ) [NoLocalVarDeclarationsList]
+                      FullStatementListM(
+                        FullStatementListM(
+                          NoStatementListM(
+                          ) [NoStatementListM]
+                          PrintStmt(
+                            ExprTerm(
+                              TermFactor(
+                                FactorDesignator(
+                                  ScalarDesignator(
+                                   vrsta
+                                  ) [ScalarDesignator]
+                                ) [FactorDesignator]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                            ConstStatementEmpty(
+                            ) [ConstStatementEmpty]
+                          ) [PrintStmt]
+                        ) [FullStatementListM]
+                        PrintStmt(
+                          ExprTerm(
+                            TermFactor(
+                              FactorFuncCall(
+                                ScalarDesignator(
+                                 Q
+                                ) [ScalarDesignator]
+                                NoActualPars(
+                                ) [NoActualPars]
+                              ) [FactorFuncCall]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                          ConstStatementEmpty(
+                          ) [ConstStatementEmpty]
+                        ) [PrintStmt]
+                      ) [FullStatementListM]
+                    ) [MethodDeclaration]
+                  ) [ClassMethodDeclaration]
+                ) [ClassMethDeclaration]
+              ) [ClassDeclaration]
+            ) [GlobalClassDecl]
+          ) [GlobalDeclarationsList]
+          GlobalClassDecl(
+            ClassDeclaration(
+              ClassFirst(
+               Sfera
+                ClassExtends(
+                  Type(
+                   Predmet
+                  ) [Type]
+                ) [ClassExtends]
+              ) [ClassFirst]
+              ClassVarDeclaration(
+                NoClassVarDeclaration(
+                ) [NoClassVarDeclaration]
+                VarDeclarations(
+                  Type(
+                   int
+                  ) [Type]
+                  OneVarDeclarationItem(
+                    VarDeclarationItem(
+                     r
+                    ) [VarDeclarationItem]
+                  ) [OneVarDeclarationItem]
+                ) [VarDeclarations]
+              ) [ClassVarDeclaration]
+              ClassMethDeclaration(
+                ClassMethodDeclaration(
+                  ClassMethodDeclaration(
+                    NoClassMethodDeclaration(
+                    ) [NoClassMethodDeclaration]
+                    MethodDeclaration(
+                      MethodReturnVoid(
+                       postaviPoluprecnik
+                      ) [MethodReturnVoid]
+                      FormParams(
+                        SingleFormalParamDecl(
+                          ScalarParam(
+                            Type(
+                             int
+                            ) [Type]
+                           r
+                          ) [ScalarParam]
+                        ) [SingleFormalParamDecl]
+                      ) [FormParams]
+                      NoLocalVarDeclarationsList(
+                      ) [NoLocalVarDeclarationsList]
+                      FullStatementListM(
+                        NoStatementListM(
+                        ) [NoStatementListM]
+                        AssignStmt(
+                          DesignatorAssignValue(
+                            ClassDesignator(
+                              ScalarDesignator(
+                               this
+                              ) [ScalarDesignator]
+                             r
+                            ) [ClassDesignator]
+                            AssignOperation(
+                            ) [AssignOperation]
+                            ExprTerm(
+                              TermFactor(
+                                FactorDesignator(
+                                  ScalarDesignator(
+                                   r
+                                  ) [ScalarDesignator]
+                                ) [FactorDesignator]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [DesignatorAssignValue]
+                        ) [AssignStmt]
+                      ) [FullStatementListM]
+                    ) [MethodDeclaration]
+                  ) [ClassMethodDeclaration]
+                  MethodDeclaration(
+                    MethodReturnType(
+                      Type(
+                       int
+                      ) [Type]
+                     zapremina
+                    ) [MethodReturnType]
+                    FormParams(
+                      SingleFormalParamDecl(
+                        ScalarParam(
+                          Type(
+                           int
+                          ) [Type]
+                         z
+                        ) [ScalarParam]
+                      ) [SingleFormalParamDecl]
+                    ) [FormParams]
+                    NoLocalVarDeclarationsList(
+                    ) [NoLocalVarDeclarationsList]
+                    FullStatementListM(
+                      FullStatementListM(
+                        NoStatementListM(
+                        ) [NoStatementListM]
+                        AssignStmt(
+                          DesignatorAssignValue(
+                            ScalarDesignator(
+                             z
+                            ) [ScalarDesignator]
+                            AssignOperation(
+                            ) [AssignOperation]
+                            ExprTerm(
+                              TermFactor(
+                                FactorDesignator(
+                                  ScalarDesignator(
+                                   cinilac
+                                  ) [ScalarDesignator]
+                                ) [FactorDesignator]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [DesignatorAssignValue]
+                        ) [AssignStmt]
+                      ) [FullStatementListM]
+                      ReturnStmt(
+                        ExprStmtMl(
+                          ExprTerm(
+                            TermMul(
+                              TermFactor(
+                                FactorDesignator(
+                                  ScalarDesignator(
+                                   z
+                                  ) [ScalarDesignator]
+                                ) [FactorDesignator]
+                              ) [TermFactor]
+                              MulOperation(
+                              ) [MulOperation]
+                              FactorExpr(
+                                ExprTerm(
+                                  TermMul(
+                                    TermFactor(
+                                      FactorDesignator(
+                                        ScalarDesignator(
+                                         r
+                                        ) [ScalarDesignator]
+                                      ) [FactorDesignator]
+                                    ) [TermFactor]
+                                    DivOperation(
+                                    ) [DivOperation]
+                                    FactorDesignator(
+                                      ScalarDesignator(
+                                       delilac
+                                      ) [ScalarDesignator]
+                                    ) [FactorDesignator]
+                                  ) [TermMul]
+                                ) [ExprTerm]
+                              ) [FactorExpr]
+                            ) [TermMul]
+                          ) [ExprTerm]
+                        ) [ExprStmtMl]
+                      ) [ReturnStmt]
+                    ) [FullStatementListM]
+                  ) [MethodDeclaration]
+                ) [ClassMethodDeclaration]
+              ) [ClassMethDeclaration]
+            ) [ClassDeclaration]
+          ) [GlobalClassDecl]
+        ) [GlobalDeclarationsList]
+        GlobalClassDecl(
+          ClassDeclaration(
+            ClassFirst(
+             Kvadar
+              ClassExtends(
+                Type(
+                 Predmet
+                ) [Type]
+              ) [ClassExtends]
+            ) [ClassFirst]
+            ClassVarDeclaration(
+              NoClassVarDeclaration(
+              ) [NoClassVarDeclaration]
+              VarDeclarations(
+                Type(
+                 int
+                ) [Type]
+                VarDeclarationsList(
+                  VarDeclarationsList(
+                    OneVarDeclarationItem(
+                      VarDeclarationItem(
+                       a
+                      ) [VarDeclarationItem]
+                    ) [OneVarDeclarationItem]
+                    VarDeclarationItem(
+                     b
+                    ) [VarDeclarationItem]
+                  ) [VarDeclarationsList]
+                  VarDeclarationItem(
+                   c
+                  ) [VarDeclarationItem]
+                ) [VarDeclarationsList]
+              ) [VarDeclarations]
+            ) [ClassVarDeclaration]
+            ClassMethDeclaration(
+              ClassMethodDeclaration(
+                ClassMethodDeclaration(
+                  ClassMethodDeclaration(
+                    NoClassMethodDeclaration(
+                    ) [NoClassMethodDeclaration]
+                    MethodDeclaration(
+                      MethodReturnVoid(
+                       postaviStranice
+                      ) [MethodReturnVoid]
+                      FormParams(
+                        FormalParamDecls(
+                          FormalParamDecls(
+                            SingleFormalParamDecl(
+                              ScalarParam(
+                                Type(
+                                 int
+                                ) [Type]
+                               a
+                              ) [ScalarParam]
+                            ) [SingleFormalParamDecl]
+                            ScalarParam(
+                              Type(
+                               int
+                              ) [Type]
+                             b
+                            ) [ScalarParam]
+                          ) [FormalParamDecls]
+                          ScalarParam(
+                            Type(
+                             int
+                            ) [Type]
+                           c
+                          ) [ScalarParam]
+                        ) [FormalParamDecls]
+                      ) [FormParams]
+                      NoLocalVarDeclarationsList(
+                      ) [NoLocalVarDeclarationsList]
+                      FullStatementListM(
+                        FullStatementListM(
+                          FullStatementListM(
+                            NoStatementListM(
+                            ) [NoStatementListM]
+                            AssignStmt(
+                              DesignatorAssignValue(
+                                ClassDesignator(
+                                  ScalarDesignator(
+                                   this
+                                  ) [ScalarDesignator]
+                                 a
+                                ) [ClassDesignator]
+                                AssignOperation(
+                                ) [AssignOperation]
+                                ExprTerm(
+                                  TermFactor(
+                                    FactorDesignator(
+                                      ScalarDesignator(
+                                       a
+                                      ) [ScalarDesignator]
+                                    ) [FactorDesignator]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                              ) [DesignatorAssignValue]
+                            ) [AssignStmt]
+                          ) [FullStatementListM]
+                          AssignStmt(
+                            DesignatorAssignValue(
+                              ClassDesignator(
+                                ScalarDesignator(
+                                 this
+                                ) [ScalarDesignator]
+                               b
+                              ) [ClassDesignator]
+                              AssignOperation(
+                              ) [AssignOperation]
+                              ExprTerm(
+                                TermFactor(
+                                  FactorDesignator(
+                                    ScalarDesignator(
+                                     b
+                                    ) [ScalarDesignator]
+                                  ) [FactorDesignator]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [DesignatorAssignValue]
+                          ) [AssignStmt]
+                        ) [FullStatementListM]
+                        AssignStmt(
+                          DesignatorAssignValue(
+                            ClassDesignator(
+                              ScalarDesignator(
+                               this
+                              ) [ScalarDesignator]
+                             c
+                            ) [ClassDesignator]
+                            AssignOperation(
+                            ) [AssignOperation]
+                            ExprTerm(
+                              TermFactor(
+                                FactorDesignator(
+                                  ScalarDesignator(
+                                   c
+                                  ) [ScalarDesignator]
+                                ) [FactorDesignator]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [DesignatorAssignValue]
+                        ) [AssignStmt]
+                      ) [FullStatementListM]
+                    ) [MethodDeclaration]
+                  ) [ClassMethodDeclaration]
+                  MethodDeclaration(
+                    MethodReturnType(
+                      Type(
+                       int
+                      ) [Type]
+                     zapremina
+                    ) [MethodReturnType]
+                    FormParams(
+                      SingleFormalParamDecl(
+                        ScalarParam(
+                          Type(
+                           int
+                          ) [Type]
+                         z
+                        ) [ScalarParam]
+                      ) [SingleFormalParamDecl]
+                    ) [FormParams]
+                    NoLocalVarDeclarationsList(
+                    ) [NoLocalVarDeclarationsList]
+                    FullStatementListM(
+                      FullStatementListM(
+                        NoStatementListM(
+                        ) [NoStatementListM]
+                        AssignStmt(
+                          DesignatorAssignValue(
+                            ScalarDesignator(
+                             z
+                            ) [ScalarDesignator]
+                            AssignOperation(
+                            ) [AssignOperation]
+                            ExprTerm(
+                              TermMul(
+                                TermMul(
+                                  TermFactor(
+                                    FactorDesignator(
+                                      ScalarDesignator(
+                                       a
+                                      ) [ScalarDesignator]
+                                    ) [FactorDesignator]
+                                  ) [TermFactor]
+                                  MulOperation(
+                                  ) [MulOperation]
+                                  FactorDesignator(
+                                    ScalarDesignator(
+                                     b
+                                    ) [ScalarDesignator]
+                                  ) [FactorDesignator]
+                                ) [TermMul]
+                                MulOperation(
+                                ) [MulOperation]
+                                FactorDesignator(
+                                  ScalarDesignator(
+                                   c
+                                  ) [ScalarDesignator]
+                                ) [FactorDesignator]
+                              ) [TermMul]
+                            ) [ExprTerm]
+                          ) [DesignatorAssignValue]
+                        ) [AssignStmt]
+                      ) [FullStatementListM]
+                      ReturnStmt(
+                        ExprStmtMl(
+                          ExprTerm(
+                            TermFactor(
+                              FactorDesignator(
+                                ScalarDesignator(
+                                 z
+                                ) [ScalarDesignator]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [ExprStmtMl]
+                      ) [ReturnStmt]
+                    ) [FullStatementListM]
+                  ) [MethodDeclaration]
+                ) [ClassMethodDeclaration]
+                MethodDeclaration(
+                  MethodReturnVoid(
+                   ispisi
+                  ) [MethodReturnVoid]
+                  NoFormParams(
+                  ) [NoFormParams]
+                  NoLocalVarDeclarationsList(
+                  ) [NoLocalVarDeclarationsList]
+                  NoStatementListM(
+                  ) [NoStatementListM]
+                ) [MethodDeclaration]
+              ) [ClassMethodDeclaration]
+            ) [ClassMethDeclaration]
+          ) [ClassDeclaration]
+        ) [GlobalClassDecl]
+      ) [GlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               zapreminaK
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             zapreminaS
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             tezinaK
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           tezinaS
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclarationList(
+      ) [NoMethodDeclarationList]
+      MethodDeclaration(
+        MethodReturnVoid(
+         ispis
+        ) [MethodReturnVoid]
+        FormParams(
+          SingleFormalParamDecl(
+            ScalarParam(
+              Type(
+               Predmet
+              ) [Type]
+             p
+            ) [ScalarParam]
+          ) [SingleFormalParamDecl]
+        ) [FormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        FullStatementListM(
+          FullStatementListM(
+            FullStatementListM(
+              NoStatementListM(
+              ) [NoStatementListM]
+              AssignStmt(
+                DesignatorProcCall(
+                  ClassDesignator(
+                    ScalarDesignator(
+                     p
+                    ) [ScalarDesignator]
+                   ispisi
+                  ) [ClassDesignator]
+                  NoActualPars(
+                  ) [NoActualPars]
+                ) [DesignatorProcCall]
+              ) [AssignStmt]
+            ) [FullStatementListM]
+            PrintStmt(
+              ExprTerm(
+                TermFactor(
+                  FactorDesignator(
+                    ScalarDesignator(
+                     eol
+                    ) [ScalarDesignator]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprTerm]
+              ConstStatementEmpty(
+              ) [ConstStatementEmpty]
+            ) [PrintStmt]
+          ) [FullStatementListM]
+          PrintStmt(
+            ExprTerm(
+              TermFactor(
+                FactorFuncCall(
+                  ClassDesignator(
+                    ScalarDesignator(
+                     p
+                    ) [ScalarDesignator]
+                   dohvTezinu
+                  ) [ClassDesignator]
+                  NoActualPars(
+                  ) [NoActualPars]
+                ) [FactorFuncCall]
+              ) [TermFactor]
+            ) [ExprTerm]
+            ConstStatementEmpty(
+            ) [ConstStatementEmpty]
+          ) [PrintStmt]
+        ) [FullStatementListM]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          LocalVarDeclarationsList(
+            LocalVarDeclarationsList(
+              LocalVarDeclarationsList(
+                NoLocalVarDeclarationsList(
+                ) [NoLocalVarDeclarationsList]
+                VarDeclarations(
+                  Type(
+                   Predmet
+                  ) [Type]
+                  OneVarDeclarationItem(
+                    ArrayDeclarationItem(
+                     predmeti
+                    ) [ArrayDeclarationItem]
+                  ) [OneVarDeclarationItem]
+                ) [VarDeclarations]
+              ) [LocalVarDeclarationsList]
+              VarDeclarations(
+                Type(
+                 int
+                ) [Type]
+                OneVarDeclarationItem(
+                  VarDeclarationItem(
+                   i
+                  ) [VarDeclarationItem]
+                ) [OneVarDeclarationItem]
+              ) [VarDeclarations]
+            ) [LocalVarDeclarationsList]
+            VarDeclarations(
+              Type(
+               Sfera
+              ) [Type]
+              VarDeclarationsList(
+                VarDeclarationsList(
+                  OneVarDeclarationItem(
+                    VarDeclarationItem(
+                     s1
+                    ) [VarDeclarationItem]
+                  ) [OneVarDeclarationItem]
+                  VarDeclarationItem(
+                   s2
+                  ) [VarDeclarationItem]
+                ) [VarDeclarationsList]
+                VarDeclarationItem(
+                 s3
+                ) [VarDeclarationItem]
+              ) [VarDeclarationsList]
+            ) [VarDeclarations]
+          ) [LocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             Kvadar
+            ) [Type]
+            VarDeclarationsList(
+              VarDeclarationsList(
+                OneVarDeclarationItem(
+                  VarDeclarationItem(
+                   k1
+                  ) [VarDeclarationItem]
+                ) [OneVarDeclarationItem]
+                VarDeclarationItem(
+                 k2
+                ) [VarDeclarationItem]
+              ) [VarDeclarationsList]
+              VarDeclarationItem(
+               k3
+              ) [VarDeclarationItem]
+            ) [VarDeclarationsList]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             t
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          FullStatementListM(
+            FullStatementListM(
+              FullStatementListM(
+                FullStatementListM(
+                  FullStatementListM(
+                    FullStatementListM(
+                      FullStatementListM(
+                        FullStatementListM(
+                          FullStatementListM(
+                            FullStatementListM(
+                              FullStatementListM(
+                                FullStatementListM(
+                                  FullStatementListM(
+                                    FullStatementListM(
+                                      FullStatementListM(
+                                        FullStatementListM(
+                                          FullStatementListM(
+                                            FullStatementListM(
+                                              FullStatementListM(
+                                                FullStatementListM(
+                                                  FullStatementListM(
+                                                    FullStatementListM(
+                                                      FullStatementListM(
+                                                        FullStatementListM(
+                                                          FullStatementListM(
+                                                            FullStatementListM(
+                                                              FullStatementListM(
+                                                                FullStatementListM(
+                                                                  FullStatementListM(
+                                                                    FullStatementListM(
+                                                                      NoStatementListM(
+                                                                      ) [NoStatementListM]
+                                                                      AssignStmt(
+                                                                        DesignatorAssignValue(
+                                                                          ScalarDesignator(
+                                                                           predmeti
+                                                                          ) [ScalarDesignator]
+                                                                          AssignOperation(
+                                                                          ) [AssignOperation]
+                                                                          ExprTerm(
+                                                                            TermFactor(
+                                                                              FactorArray(
+                                                                                Type(
+                                                                                 Predmet
+                                                                                ) [Type]
+                                                                                ExprTerm(
+                                                                                  TermFactor(
+                                                                                    FactorNumber(
+                                                                                     6
+                                                                                    ) [FactorNumber]
+                                                                                  ) [TermFactor]
+                                                                                ) [ExprTerm]
+                                                                              ) [FactorArray]
+                                                                            ) [TermFactor]
+                                                                          ) [ExprTerm]
+                                                                        ) [DesignatorAssignValue]
+                                                                      ) [AssignStmt]
+                                                                    ) [FullStatementListM]
+                                                                    AssignStmt(
+                                                                      DesignatorProcCall(
+                                                                        ClassDesignator(
+                                                                          ScalarDesignator(
+                                                                           s1
+                                                                          ) [ScalarDesignator]
+                                                                         postaviPoluprecnik
+                                                                        ) [ClassDesignator]
+                                                                        YesActualPars(
+                                                                          SingleActualParam(
+                                                                            ActualParameter(
+                                                                              ExprTerm(
+                                                                                TermFactor(
+                                                                                  FactorNumber(
+                                                                                   1
+                                                                                  ) [FactorNumber]
+                                                                                ) [TermFactor]
+                                                                              ) [ExprTerm]
+                                                                            ) [ActualParameter]
+                                                                          ) [SingleActualParam]
+                                                                        ) [YesActualPars]
+                                                                      ) [DesignatorProcCall]
+                                                                    ) [AssignStmt]
+                                                                  ) [FullStatementListM]
+                                                                  AssignStmt(
+                                                                    DesignatorProcCall(
+                                                                      ClassDesignator(
+                                                                        ScalarDesignator(
+                                                                         s2
+                                                                        ) [ScalarDesignator]
+                                                                       postaviPoluprecnik
+                                                                      ) [ClassDesignator]
+                                                                      YesActualPars(
+                                                                        SingleActualParam(
+                                                                          ActualParameter(
+                                                                            ExprTerm(
+                                                                              TermFactor(
+                                                                                FactorNumber(
+                                                                                 2
+                                                                                ) [FactorNumber]
+                                                                              ) [TermFactor]
+                                                                            ) [ExprTerm]
+                                                                          ) [ActualParameter]
+                                                                        ) [SingleActualParam]
+                                                                      ) [YesActualPars]
+                                                                    ) [DesignatorProcCall]
+                                                                  ) [AssignStmt]
+                                                                ) [FullStatementListM]
+                                                                AssignStmt(
+                                                                  DesignatorProcCall(
+                                                                    ClassDesignator(
+                                                                      ScalarDesignator(
+                                                                       s3
+                                                                      ) [ScalarDesignator]
+                                                                     postaviPoluprecnik
+                                                                    ) [ClassDesignator]
+                                                                    YesActualPars(
+                                                                      SingleActualParam(
+                                                                        ActualParameter(
+                                                                          ExprTerm(
+                                                                            TermFactor(
+                                                                              FactorNumber(
+                                                                               3
+                                                                              ) [FactorNumber]
+                                                                            ) [TermFactor]
+                                                                          ) [ExprTerm]
+                                                                        ) [ActualParameter]
+                                                                      ) [SingleActualParam]
+                                                                    ) [YesActualPars]
+                                                                  ) [DesignatorProcCall]
+                                                                ) [AssignStmt]
+                                                              ) [FullStatementListM]
+                                                              AssignStmt(
+                                                                DesignatorProcCall(
+                                                                  ClassDesignator(
+                                                                    ScalarDesignator(
+                                                                     k1
+                                                                    ) [ScalarDesignator]
+                                                                   postaviStranice
+                                                                  ) [ClassDesignator]
+                                                                  YesActualPars(
+                                                                    ManyActualParam(
+                                                                      ManyActualParam(
+                                                                        SingleActualParam(
+                                                                          ActualParameter(
+                                                                            ExprTerm(
+                                                                              TermFactor(
+                                                                                FactorNumber(
+                                                                                 1
+                                                                                ) [FactorNumber]
+                                                                              ) [TermFactor]
+                                                                            ) [ExprTerm]
+                                                                          ) [ActualParameter]
+                                                                        ) [SingleActualParam]
+                                                                        ActualParameter(
+                                                                          ExprTerm(
+                                                                            TermFactor(
+                                                                              FactorNumber(
+                                                                               2
+                                                                              ) [FactorNumber]
+                                                                            ) [TermFactor]
+                                                                          ) [ExprTerm]
+                                                                        ) [ActualParameter]
+                                                                      ) [ManyActualParam]
+                                                                      ActualParameter(
+                                                                        ExprTerm(
+                                                                          TermFactor(
+                                                                            FactorNumber(
+                                                                             3
+                                                                            ) [FactorNumber]
+                                                                          ) [TermFactor]
+                                                                        ) [ExprTerm]
+                                                                      ) [ActualParameter]
+                                                                    ) [ManyActualParam]
+                                                                  ) [YesActualPars]
+                                                                ) [DesignatorProcCall]
+                                                              ) [AssignStmt]
+                                                            ) [FullStatementListM]
+                                                            AssignStmt(
+                                                              DesignatorProcCall(
+                                                                ClassDesignator(
+                                                                  ScalarDesignator(
+                                                                   k2
+                                                                  ) [ScalarDesignator]
+                                                                 postaviStranice
+                                                                ) [ClassDesignator]
+                                                                YesActualPars(
+                                                                  ManyActualParam(
+                                                                    ManyActualParam(
+                                                                      SingleActualParam(
+                                                                        ActualParameter(
+                                                                          ExprTerm(
+                                                                            TermFactor(
+                                                                              FactorNumber(
+                                                                               2
+                                                                              ) [FactorNumber]
+                                                                            ) [TermFactor]
+                                                                          ) [ExprTerm]
+                                                                        ) [ActualParameter]
+                                                                      ) [SingleActualParam]
+                                                                      ActualParameter(
+                                                                        ExprTerm(
+                                                                          TermFactor(
+                                                                            FactorNumber(
+                                                                             3
+                                                                            ) [FactorNumber]
+                                                                          ) [TermFactor]
+                                                                        ) [ExprTerm]
+                                                                      ) [ActualParameter]
+                                                                    ) [ManyActualParam]
+                                                                    ActualParameter(
+                                                                      ExprTerm(
+                                                                        TermFactor(
+                                                                          FactorNumber(
+                                                                           4
+                                                                          ) [FactorNumber]
+                                                                        ) [TermFactor]
+                                                                      ) [ExprTerm]
+                                                                    ) [ActualParameter]
+                                                                  ) [ManyActualParam]
+                                                                ) [YesActualPars]
+                                                              ) [DesignatorProcCall]
+                                                            ) [AssignStmt]
+                                                          ) [FullStatementListM]
+                                                          AssignStmt(
+                                                            DesignatorProcCall(
+                                                              ClassDesignator(
+                                                                ScalarDesignator(
+                                                                 k3
+                                                                ) [ScalarDesignator]
+                                                               postaviStranice
+                                                              ) [ClassDesignator]
+                                                              YesActualPars(
+                                                                ManyActualParam(
+                                                                  ManyActualParam(
+                                                                    SingleActualParam(
+                                                                      ActualParameter(
+                                                                        ExprTerm(
+                                                                          TermFactor(
+                                                                            FactorNumber(
+                                                                             3
+                                                                            ) [FactorNumber]
+                                                                          ) [TermFactor]
+                                                                        ) [ExprTerm]
+                                                                      ) [ActualParameter]
+                                                                    ) [SingleActualParam]
+                                                                    ActualParameter(
+                                                                      ExprTerm(
+                                                                        TermFactor(
+                                                                          FactorNumber(
+                                                                           4
+                                                                          ) [FactorNumber]
+                                                                        ) [TermFactor]
+                                                                      ) [ExprTerm]
+                                                                    ) [ActualParameter]
+                                                                  ) [ManyActualParam]
+                                                                  ActualParameter(
+                                                                    ExprTerm(
+                                                                      TermFactor(
+                                                                        FactorNumber(
+                                                                         5
+                                                                        ) [FactorNumber]
+                                                                      ) [TermFactor]
+                                                                    ) [ExprTerm]
+                                                                  ) [ActualParameter]
+                                                                ) [ManyActualParam]
+                                                              ) [YesActualPars]
+                                                            ) [DesignatorProcCall]
+                                                          ) [AssignStmt]
+                                                        ) [FullStatementListM]
+                                                        AssignStmt(
+                                                          DesignatorAssignValue(
+                                                            ArrayDesignator(
+                                                              ScalarDesignator(
+                                                               predmeti
+                                                              ) [ScalarDesignator]
+                                                              ExprTerm(
+                                                                TermFactor(
+                                                                  FactorNumber(
+                                                                   0
+                                                                  ) [FactorNumber]
+                                                                ) [TermFactor]
+                                                              ) [ExprTerm]
+                                                            ) [ArrayDesignator]
+                                                            AssignOperation(
+                                                            ) [AssignOperation]
+                                                            ExprTerm(
+                                                              TermFactor(
+                                                                FactorDesignator(
+                                                                  ScalarDesignator(
+                                                                   s1
+                                                                  ) [ScalarDesignator]
+                                                                ) [FactorDesignator]
+                                                              ) [TermFactor]
+                                                            ) [ExprTerm]
+                                                          ) [DesignatorAssignValue]
+                                                        ) [AssignStmt]
+                                                      ) [FullStatementListM]
+                                                      AssignStmt(
+                                                        DesignatorAssignValue(
+                                                          ArrayDesignator(
+                                                            ScalarDesignator(
+                                                             predmeti
+                                                            ) [ScalarDesignator]
+                                                            ExprTerm(
+                                                              TermFactor(
+                                                                FactorNumber(
+                                                                 2
+                                                                ) [FactorNumber]
+                                                              ) [TermFactor]
+                                                            ) [ExprTerm]
+                                                          ) [ArrayDesignator]
+                                                          AssignOperation(
+                                                          ) [AssignOperation]
+                                                          ExprTerm(
+                                                            TermFactor(
+                                                              FactorDesignator(
+                                                                ScalarDesignator(
+                                                                 s2
+                                                                ) [ScalarDesignator]
+                                                              ) [FactorDesignator]
+                                                            ) [TermFactor]
+                                                          ) [ExprTerm]
+                                                        ) [DesignatorAssignValue]
+                                                      ) [AssignStmt]
+                                                    ) [FullStatementListM]
+                                                    AssignStmt(
+                                                      DesignatorAssignValue(
+                                                        ArrayDesignator(
+                                                          ScalarDesignator(
+                                                           predmeti
+                                                          ) [ScalarDesignator]
+                                                          ExprTerm(
+                                                            TermFactor(
+                                                              FactorNumber(
+                                                               4
+                                                              ) [FactorNumber]
+                                                            ) [TermFactor]
+                                                          ) [ExprTerm]
+                                                        ) [ArrayDesignator]
+                                                        AssignOperation(
+                                                        ) [AssignOperation]
+                                                        ExprTerm(
+                                                          TermFactor(
+                                                            FactorDesignator(
+                                                              ScalarDesignator(
+                                                               s3
+                                                              ) [ScalarDesignator]
+                                                            ) [FactorDesignator]
+                                                          ) [TermFactor]
+                                                        ) [ExprTerm]
+                                                      ) [DesignatorAssignValue]
+                                                    ) [AssignStmt]
+                                                  ) [FullStatementListM]
+                                                  AssignStmt(
+                                                    DesignatorAssignValue(
+                                                      ArrayDesignator(
+                                                        ScalarDesignator(
+                                                         predmeti
+                                                        ) [ScalarDesignator]
+                                                        ExprTerm(
+                                                          TermFactor(
+                                                            FactorNumber(
+                                                             1
+                                                            ) [FactorNumber]
+                                                          ) [TermFactor]
+                                                        ) [ExprTerm]
+                                                      ) [ArrayDesignator]
+                                                      AssignOperation(
+                                                      ) [AssignOperation]
+                                                      ExprTerm(
+                                                        TermFactor(
+                                                          FactorDesignator(
+                                                            ScalarDesignator(
+                                                             k1
+                                                            ) [ScalarDesignator]
+                                                          ) [FactorDesignator]
+                                                        ) [TermFactor]
+                                                      ) [ExprTerm]
+                                                    ) [DesignatorAssignValue]
+                                                  ) [AssignStmt]
+                                                ) [FullStatementListM]
+                                                AssignStmt(
+                                                  DesignatorAssignValue(
+                                                    ArrayDesignator(
+                                                      ScalarDesignator(
+                                                       predmeti
+                                                      ) [ScalarDesignator]
+                                                      ExprTerm(
+                                                        TermFactor(
+                                                          FactorNumber(
+                                                           3
+                                                          ) [FactorNumber]
+                                                        ) [TermFactor]
+                                                      ) [ExprTerm]
+                                                    ) [ArrayDesignator]
+                                                    AssignOperation(
+                                                    ) [AssignOperation]
+                                                    ExprTerm(
+                                                      TermFactor(
+                                                        FactorDesignator(
+                                                          ScalarDesignator(
+                                                           k2
+                                                          ) [ScalarDesignator]
+                                                        ) [FactorDesignator]
+                                                      ) [TermFactor]
+                                                    ) [ExprTerm]
+                                                  ) [DesignatorAssignValue]
+                                                ) [AssignStmt]
+                                              ) [FullStatementListM]
+                                              AssignStmt(
+                                                DesignatorAssignValue(
+                                                  ArrayDesignator(
+                                                    ScalarDesignator(
+                                                     predmeti
+                                                    ) [ScalarDesignator]
+                                                    ExprTerm(
+                                                      TermFactor(
+                                                        FactorNumber(
+                                                         5
+                                                        ) [FactorNumber]
+                                                      ) [TermFactor]
+                                                    ) [ExprTerm]
+                                                  ) [ArrayDesignator]
+                                                  AssignOperation(
+                                                  ) [AssignOperation]
+                                                  ExprTerm(
+                                                    TermFactor(
+                                                      FactorDesignator(
+                                                        ScalarDesignator(
+                                                         k3
+                                                        ) [ScalarDesignator]
+                                                      ) [FactorDesignator]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                ) [DesignatorAssignValue]
+                                              ) [AssignStmt]
+                                            ) [FullStatementListM]
+                                            ReadStmt(
+                                              ScalarDesignator(
+                                               t
+                                              ) [ScalarDesignator]
+                                            ) [ReadStmt]
+                                          ) [FullStatementListM]
+                                          AssignStmt(
+                                            DesignatorAssignValue(
+                                              ScalarDesignator(
+                                               i
+                                              ) [ScalarDesignator]
+                                              AssignOperation(
+                                              ) [AssignOperation]
+                                              ExprTerm(
+                                                TermFactor(
+                                                  FactorNumber(
+                                                   0
+                                                  ) [FactorNumber]
+                                                ) [TermFactor]
+                                              ) [ExprTerm]
+                                            ) [DesignatorAssignValue]
+                                          ) [AssignStmt]
+                                        ) [FullStatementListM]
+                                        WhileStmt(
+                                          ConditionTerm(
+                                            ConditionFact(
+                                              ConFact(
+                                                ExprTerm(
+                                                  TermFactor(
+                                                    FactorBool(
+                                                     true
+                                                    ) [FactorBool]
+                                                  ) [TermFactor]
+                                                ) [ExprTerm]
+                                                NoCondFactorPart(
+                                                ) [NoCondFactorPart]
+                                              ) [ConFact]
+                                            ) [ConditionFact]
+                                          ) [ConditionTerm]
+                                          OneMoreStmt(
+                                            StatementHNI(
+                                              StatementHNI(
+                                                EmptySHNI(
+                                                ) [EmptySHNI]
+                                                AssignStmt(
+                                                  DesignatorProcCall(
+                                                    ClassDesignator(
+                                                      ArrayDesignator(
+                                                        ScalarDesignator(
+                                                         predmeti
+                                                        ) [ScalarDesignator]
+                                                        ExprTerm(
+                                                          TermFactor(
+                                                            FactorDesignator(
+                                                              ScalarDesignator(
+                                                               i
+                                                              ) [ScalarDesignator]
+                                                            ) [FactorDesignator]
+                                                          ) [TermFactor]
+                                                        ) [ExprTerm]
+                                                      ) [ArrayDesignator]
+                                                     postaviTezinu
+                                                    ) [ClassDesignator]
+                                                    YesActualPars(
+                                                      SingleActualParam(
+                                                        ActualParameter(
+                                                          ExprTerm(
+                                                            TermFactor(
+                                                              FactorDesignator(
+                                                                ScalarDesignator(
+                                                                 t
+                                                                ) [ScalarDesignator]
+                                                              ) [FactorDesignator]
+                                                            ) [TermFactor]
+                                                          ) [ExprTerm]
+                                                        ) [ActualParameter]
+                                                      ) [SingleActualParam]
+                                                    ) [YesActualPars]
+                                                  ) [DesignatorProcCall]
+                                                ) [AssignStmt]
+                                              ) [StatementHNI]
+                                              AssignStmt(
+                                                DesignatorIncValue(
+                                                  ScalarDesignator(
+                                                   i
+                                                  ) [ScalarDesignator]
+                                                ) [DesignatorIncValue]
+                                              ) [AssignStmt]
+                                            ) [StatementHNI]
+                                          ) [OneMoreStmt]
+                                        ) [WhileStmt]
+                                      ) [FullStatementListM]
+                                      AssignStmt(
+                                        DesignatorAssignValue(
+                                          ScalarDesignator(
+                                           zapreminaS
+                                          ) [ScalarDesignator]
+                                          AssignOperation(
+                                          ) [AssignOperation]
+                                          ExprTerm(
+                                            TermFactor(
+                                              FactorNumber(
+                                               0
+                                              ) [FactorNumber]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                        ) [DesignatorAssignValue]
+                                      ) [AssignStmt]
+                                    ) [FullStatementListM]
+                                    AssignStmt(
+                                      DesignatorAssignValue(
+                                        ScalarDesignator(
+                                         tezinaS
+                                        ) [ScalarDesignator]
+                                        AssignOperation(
+                                        ) [AssignOperation]
+                                        ExprTerm(
+                                          TermFactor(
+                                            FactorNumber(
+                                             0
+                                            ) [FactorNumber]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                      ) [DesignatorAssignValue]
+                                    ) [AssignStmt]
+                                  ) [FullStatementListM]
+                                  AssignStmt(
+                                    DesignatorAssignValue(
+                                      ScalarDesignator(
+                                       i
+                                      ) [ScalarDesignator]
+                                      AssignOperation(
+                                      ) [AssignOperation]
+                                      ExprTerm(
+                                        TermFactor(
+                                          FactorNumber(
+                                           1
+                                          ) [FactorNumber]
+                                        ) [TermFactor]
+                                      ) [ExprTerm]
+                                    ) [DesignatorAssignValue]
+                                  ) [AssignStmt]
+                                ) [FullStatementListM]
+                                WhileStmt(
+                                  ConditionTerm(
+                                    ConditionFact(
+                                      ConFact(
+                                        ExprTerm(
+                                          TermFactor(
+                                            FactorDesignator(
+                                              ScalarDesignator(
+                                               i
+                                              ) [ScalarDesignator]
+                                            ) [FactorDesignator]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                        CondFactorPart(
+                                          LessEqualOperation(
+                                          ) [LessEqualOperation]
+                                          ExprTerm(
+                                            TermFactor(
+                                              FactorNumber(
+                                               6
+                                              ) [FactorNumber]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                        ) [CondFactorPart]
+                                      ) [ConFact]
+                                    ) [ConditionFact]
+                                  ) [ConditionTerm]
+                                  OneMoreStmt(
+                                    StatementHNI(
+                                      StatementHNI(
+                                        StatementHNI(
+                                          StatementHNI(
+                                            StatementHNI(
+                                              EmptySHNI(
+                                              ) [EmptySHNI]
+                                              IfStmt(
+                                                ConditionIFStat(
+                                                  ConditionTerm(
+                                                    ConditionFact(
+                                                      ConFact(
+                                                        ExprTerm(
+                                                          TermMul(
+                                                            TermFactor(
+                                                              FactorDesignator(
+                                                                ScalarDesignator(
+                                                                 i
+                                                                ) [ScalarDesignator]
+                                                              ) [FactorDesignator]
+                                                            ) [TermFactor]
+                                                            RemOperation(
+                                                            ) [RemOperation]
+                                                            FactorNumber(
+                                                             2
+                                                            ) [FactorNumber]
+                                                          ) [TermMul]
+                                                        ) [ExprTerm]
+                                                        CondFactorPart(
+                                                          EqualOperation(
+                                                          ) [EqualOperation]
+                                                          ExprTerm(
+                                                            TermFactor(
+                                                              FactorNumber(
+                                                               0
+                                                              ) [FactorNumber]
+                                                            ) [TermFactor]
+                                                          ) [ExprTerm]
+                                                        ) [CondFactorPart]
+                                                      ) [ConFact]
+                                                    ) [ConditionFact]
+                                                  ) [ConditionTerm]
+                                                ) [ConditionIFStat]
+                                                OneMoreStmt(
+                                                  StatementHNI(
+                                                    StatementHNI(
+                                                      EmptySHNI(
+                                                      ) [EmptySHNI]
+                                                      AssignStmt(
+                                                        DesignatorIncValue(
+                                                          ScalarDesignator(
+                                                           i
+                                                          ) [ScalarDesignator]
+                                                        ) [DesignatorIncValue]
+                                                      ) [AssignStmt]
+                                                    ) [StatementHNI]
+                                                    ContinueStmt(
+                                                    ) [ContinueStmt]
+                                                  ) [StatementHNI]
+                                                ) [OneMoreStmt]
+                                              ) [IfStmt]
+                                            ) [StatementHNI]
+                                            AssignStmt(
+                                              DesignatorAssignValue(
+                                                ScalarDesignator(
+                                                 zapreminaS
+                                                ) [ScalarDesignator]
+                                                AssignOperation(
+                                                ) [AssignOperation]
+                                                ExprAdd(
+                                                  ExprTerm(
+                                                    TermFactor(
+                                                      FactorDesignator(
+                                                        ScalarDesignator(
+                                                         zapreminaS
+                                                        ) [ScalarDesignator]
+                                                      ) [FactorDesignator]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                  PlusOperation(
+                                                  ) [PlusOperation]
+                                                  TermFactor(
+                                                    FactorFuncCall(
+                                                      ClassDesignator(
+                                                        ArrayDesignator(
+                                                          ScalarDesignator(
+                                                           predmeti
+                                                          ) [ScalarDesignator]
+                                                          ExprAdd(
+                                                            ExprTerm(
+                                                              TermFactor(
+                                                                FactorDesignator(
+                                                                  ScalarDesignator(
+                                                                   i
+                                                                  ) [ScalarDesignator]
+                                                                ) [FactorDesignator]
+                                                              ) [TermFactor]
+                                                            ) [ExprTerm]
+                                                            MinusOperation(
+                                                            ) [MinusOperation]
+                                                            TermFactor(
+                                                              FactorNumber(
+                                                               1
+                                                              ) [FactorNumber]
+                                                            ) [TermFactor]
+                                                          ) [ExprAdd]
+                                                        ) [ArrayDesignator]
+                                                       zapremina
+                                                      ) [ClassDesignator]
+                                                      NoActualPars(
+                                                      ) [NoActualPars]
+                                                    ) [FactorFuncCall]
+                                                  ) [TermFactor]
+                                                ) [ExprAdd]
+                                              ) [DesignatorAssignValue]
+                                            ) [AssignStmt]
+                                          ) [StatementHNI]
+                                          AssignStmt(
+                                            DesignatorAssignValue(
+                                              ScalarDesignator(
+                                               tezinaS
+                                              ) [ScalarDesignator]
+                                              AssignOperation(
+                                              ) [AssignOperation]
+                                              ExprAdd(
+                                                ExprTerm(
+                                                  TermFactor(
+                                                    FactorDesignator(
+                                                      ScalarDesignator(
+                                                       tezinaS
+                                                      ) [ScalarDesignator]
+                                                    ) [FactorDesignator]
+                                                  ) [TermFactor]
+                                                ) [ExprTerm]
+                                                PlusOperation(
+                                                ) [PlusOperation]
+                                                TermFactor(
+                                                  FactorFuncCall(
+                                                    ClassDesignator(
+                                                      ArrayDesignator(
+                                                        ScalarDesignator(
+                                                         predmeti
+                                                        ) [ScalarDesignator]
+                                                        ExprAdd(
+                                                          ExprTerm(
+                                                            TermFactor(
+                                                              FactorDesignator(
+                                                                ScalarDesignator(
+                                                                 i
+                                                                ) [ScalarDesignator]
+                                                              ) [FactorDesignator]
+                                                            ) [TermFactor]
+                                                          ) [ExprTerm]
+                                                          MinusOperation(
+                                                          ) [MinusOperation]
+                                                          TermFactor(
+                                                            FactorNumber(
+                                                             1
+                                                            ) [FactorNumber]
+                                                          ) [TermFactor]
+                                                        ) [ExprAdd]
+                                                      ) [ArrayDesignator]
+                                                     Q
+                                                    ) [ClassDesignator]
+                                                    NoActualPars(
+                                                    ) [NoActualPars]
+                                                  ) [FactorFuncCall]
+                                                ) [TermFactor]
+                                              ) [ExprAdd]
+                                            ) [DesignatorAssignValue]
+                                          ) [AssignStmt]
+                                        ) [StatementHNI]
+                                        AssignStmt(
+                                          DesignatorProcCall(
+                                            ScalarDesignator(
+                                             ispis
+                                            ) [ScalarDesignator]
+                                            YesActualPars(
+                                              SingleActualParam(
+                                                ActualParameter(
+                                                  ExprTerm(
+                                                    TermFactor(
+                                                      FactorDesignator(
+                                                        ArrayDesignator(
+                                                          ScalarDesignator(
+                                                           predmeti
+                                                          ) [ScalarDesignator]
+                                                          ExprAdd(
+                                                            ExprTerm(
+                                                              TermFactor(
+                                                                FactorDesignator(
+                                                                  ScalarDesignator(
+                                                                   i
+                                                                  ) [ScalarDesignator]
+                                                                ) [FactorDesignator]
+                                                              ) [TermFactor]
+                                                            ) [ExprTerm]
+                                                            MinusOperation(
+                                                            ) [MinusOperation]
+                                                            TermFactor(
+                                                              FactorNumber(
+                                                               1
+                                                              ) [FactorNumber]
+                                                            ) [TermFactor]
+                                                          ) [ExprAdd]
+                                                        ) [ArrayDesignator]
+                                                      ) [FactorDesignator]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                ) [ActualParameter]
+                                              ) [SingleActualParam]
+                                            ) [YesActualPars]
+                                          ) [DesignatorProcCall]
+                                        ) [AssignStmt]
+                                      ) [StatementHNI]
+                                      AssignStmt(
+                                        DesignatorIncValue(
+                                          ScalarDesignator(
+                                           i
+                                          ) [ScalarDesignator]
+                                        ) [DesignatorIncValue]
+                                      ) [AssignStmt]
+                                    ) [StatementHNI]
+                                  ) [OneMoreStmt]
+                                ) [WhileStmt]
+                              ) [FullStatementListM]
+                              AssignStmt(
+                                DesignatorAssignValue(
+                                  ScalarDesignator(
+                                   zapreminaK
+                                  ) [ScalarDesignator]
+                                  AssignOperation(
+                                  ) [AssignOperation]
+                                  ExprTerm(
+                                    TermFactor(
+                                      FactorNumber(
+                                       0
+                                      ) [FactorNumber]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                ) [DesignatorAssignValue]
+                              ) [AssignStmt]
+                            ) [FullStatementListM]
+                            AssignStmt(
+                              DesignatorAssignValue(
+                                ScalarDesignator(
+                                 tezinaK
+                                ) [ScalarDesignator]
+                                AssignOperation(
+                                ) [AssignOperation]
+                                ExprTerm(
+                                  TermFactor(
+                                    FactorNumber(
+                                     0
+                                    ) [FactorNumber]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                              ) [DesignatorAssignValue]
+                            ) [AssignStmt]
+                          ) [FullStatementListM]
+                          AssignStmt(
+                            DesignatorAssignValue(
+                              ScalarDesignator(
+                               i
+                              ) [ScalarDesignator]
+                              AssignOperation(
+                              ) [AssignOperation]
+                              ExprTerm(
+                                TermFactor(
+                                  FactorNumber(
+                                   1
+                                  ) [FactorNumber]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [DesignatorAssignValue]
+                          ) [AssignStmt]
+                        ) [FullStatementListM]
+                        WhileStmt(
+                          ConditionTerm(
+                            ConditionFact(
+                              ConFact(
+                                ExprTerm(
+                                  TermFactor(
+                                    FactorDesignator(
+                                      ScalarDesignator(
+                                       i
+                                      ) [ScalarDesignator]
+                                    ) [FactorDesignator]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                                CondFactorPart(
+                                  LessEqualOperation(
+                                  ) [LessEqualOperation]
+                                  ExprTerm(
+                                    TermFactor(
+                                      FactorNumber(
+                                       6
+                                      ) [FactorNumber]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                ) [CondFactorPart]
+                              ) [ConFact]
+                            ) [ConditionFact]
+                          ) [ConditionTerm]
+                          OneMoreStmt(
+                            StatementHNI(
+                              StatementHNI(
+                                StatementHNI(
+                                  StatementHNI(
+                                    StatementHNI(
+                                      EmptySHNI(
+                                      ) [EmptySHNI]
+                                      IfStmt(
+                                        ConditionIFStat(
+                                          ConditionTerm(
+                                            ConditionFact(
+                                              ConFact(
+                                                ExprTerm(
+                                                  TermMul(
+                                                    TermFactor(
+                                                      FactorDesignator(
+                                                        ScalarDesignator(
+                                                         i
+                                                        ) [ScalarDesignator]
+                                                      ) [FactorDesignator]
+                                                    ) [TermFactor]
+                                                    RemOperation(
+                                                    ) [RemOperation]
+                                                    FactorNumber(
+                                                     2
+                                                    ) [FactorNumber]
+                                                  ) [TermMul]
+                                                ) [ExprTerm]
+                                                CondFactorPart(
+                                                  EqualOperation(
+                                                  ) [EqualOperation]
+                                                  ExprTerm(
+                                                    TermFactor(
+                                                      FactorNumber(
+                                                       1
+                                                      ) [FactorNumber]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                ) [CondFactorPart]
+                                              ) [ConFact]
+                                            ) [ConditionFact]
+                                          ) [ConditionTerm]
+                                        ) [ConditionIFStat]
+                                        OneMoreStmt(
+                                          StatementHNI(
+                                            StatementHNI(
+                                              EmptySHNI(
+                                              ) [EmptySHNI]
+                                              AssignStmt(
+                                                DesignatorIncValue(
+                                                  ScalarDesignator(
+                                                   i
+                                                  ) [ScalarDesignator]
+                                                ) [DesignatorIncValue]
+                                              ) [AssignStmt]
+                                            ) [StatementHNI]
+                                            ContinueStmt(
+                                            ) [ContinueStmt]
+                                          ) [StatementHNI]
+                                        ) [OneMoreStmt]
+                                      ) [IfStmt]
+                                    ) [StatementHNI]
+                                    AssignStmt(
+                                      DesignatorAssignValue(
+                                        ScalarDesignator(
+                                         zapreminaS
+                                        ) [ScalarDesignator]
+                                        AssignOperation(
+                                        ) [AssignOperation]
+                                        ExprAdd(
+                                          ExprTerm(
+                                            TermFactor(
+                                              FactorDesignator(
+                                                ScalarDesignator(
+                                                 zapreminaS
+                                                ) [ScalarDesignator]
+                                              ) [FactorDesignator]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                          PlusOperation(
+                                          ) [PlusOperation]
+                                          TermFactor(
+                                            FactorFuncCall(
+                                              ClassDesignator(
+                                                ArrayDesignator(
+                                                  ScalarDesignator(
+                                                   predmeti
+                                                  ) [ScalarDesignator]
+                                                  ExprAdd(
+                                                    ExprTerm(
+                                                      TermFactor(
+                                                        FactorDesignator(
+                                                          ScalarDesignator(
+                                                           i
+                                                          ) [ScalarDesignator]
+                                                        ) [FactorDesignator]
+                                                      ) [TermFactor]
+                                                    ) [ExprTerm]
+                                                    MinusOperation(
+                                                    ) [MinusOperation]
+                                                    TermFactor(
+                                                      FactorNumber(
+                                                       1
+                                                      ) [FactorNumber]
+                                                    ) [TermFactor]
+                                                  ) [ExprAdd]
+                                                ) [ArrayDesignator]
+                                               zapremina
+                                              ) [ClassDesignator]
+                                              NoActualPars(
+                                              ) [NoActualPars]
+                                            ) [FactorFuncCall]
+                                          ) [TermFactor]
+                                        ) [ExprAdd]
+                                      ) [DesignatorAssignValue]
+                                    ) [AssignStmt]
+                                  ) [StatementHNI]
+                                  AssignStmt(
+                                    DesignatorAssignValue(
+                                      ScalarDesignator(
+                                       tezinaS
+                                      ) [ScalarDesignator]
+                                      AssignOperation(
+                                      ) [AssignOperation]
+                                      ExprAdd(
+                                        ExprTerm(
+                                          TermFactor(
+                                            FactorDesignator(
+                                              ScalarDesignator(
+                                               tezinaS
+                                              ) [ScalarDesignator]
+                                            ) [FactorDesignator]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                        PlusOperation(
+                                        ) [PlusOperation]
+                                        TermFactor(
+                                          FactorFuncCall(
+                                            ClassDesignator(
+                                              ArrayDesignator(
+                                                ScalarDesignator(
+                                                 predmeti
+                                                ) [ScalarDesignator]
+                                                ExprAdd(
+                                                  ExprTerm(
+                                                    TermFactor(
+                                                      FactorDesignator(
+                                                        ScalarDesignator(
+                                                         i
+                                                        ) [ScalarDesignator]
+                                                      ) [FactorDesignator]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                  MinusOperation(
+                                                  ) [MinusOperation]
+                                                  TermFactor(
+                                                    FactorNumber(
+                                                     1
+                                                    ) [FactorNumber]
+                                                  ) [TermFactor]
+                                                ) [ExprAdd]
+                                              ) [ArrayDesignator]
+                                             Q
+                                            ) [ClassDesignator]
+                                            NoActualPars(
+                                            ) [NoActualPars]
+                                          ) [FactorFuncCall]
+                                        ) [TermFactor]
+                                      ) [ExprAdd]
+                                    ) [DesignatorAssignValue]
+                                  ) [AssignStmt]
+                                ) [StatementHNI]
+                                AssignStmt(
+                                  DesignatorProcCall(
+                                    ScalarDesignator(
+                                     ispis
+                                    ) [ScalarDesignator]
+                                    YesActualPars(
+                                      SingleActualParam(
+                                        ActualParameter(
+                                          ExprTerm(
+                                            TermFactor(
+                                              FactorDesignator(
+                                                ArrayDesignator(
+                                                  ScalarDesignator(
+                                                   predmeti
+                                                  ) [ScalarDesignator]
+                                                  ExprAdd(
+                                                    ExprTerm(
+                                                      TermFactor(
+                                                        FactorDesignator(
+                                                          ScalarDesignator(
+                                                           i
+                                                          ) [ScalarDesignator]
+                                                        ) [FactorDesignator]
+                                                      ) [TermFactor]
+                                                    ) [ExprTerm]
+                                                    MinusOperation(
+                                                    ) [MinusOperation]
+                                                    TermFactor(
+                                                      FactorNumber(
+                                                       1
+                                                      ) [FactorNumber]
+                                                    ) [TermFactor]
+                                                  ) [ExprAdd]
+                                                ) [ArrayDesignator]
+                                              ) [FactorDesignator]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                        ) [ActualParameter]
+                                      ) [SingleActualParam]
+                                    ) [YesActualPars]
+                                  ) [DesignatorProcCall]
+                                ) [AssignStmt]
+                              ) [StatementHNI]
+                              AssignStmt(
+                                DesignatorIncValue(
+                                  ScalarDesignator(
+                                   i
+                                  ) [ScalarDesignator]
+                                ) [DesignatorIncValue]
+                              ) [AssignStmt]
+                            ) [StatementHNI]
+                          ) [OneMoreStmt]
+                        ) [WhileStmt]
+                      ) [FullStatementListM]
+                      PrintStmt(
+                        ExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              ScalarDesignator(
+                               zapreminaS
+                              ) [ScalarDesignator]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                        ConstStatementEmpty(
+                        ) [ConstStatementEmpty]
+                      ) [PrintStmt]
+                    ) [FullStatementListM]
+                    PrintStmt(
+                      ExprTerm(
+                        TermFactor(
+                          FactorDesignator(
+                            ScalarDesignator(
+                             eol
+                            ) [ScalarDesignator]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                      ConstStatementEmpty(
+                      ) [ConstStatementEmpty]
+                    ) [PrintStmt]
+                  ) [FullStatementListM]
+                  PrintStmt(
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          ScalarDesignator(
+                           zapreminaK
+                          ) [ScalarDesignator]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                    ConstStatementEmpty(
+                    ) [ConstStatementEmpty]
+                  ) [PrintStmt]
+                ) [FullStatementListM]
+                PrintStmt(
+                  ExprTerm(
+                    TermFactor(
+                      FactorDesignator(
+                        ScalarDesignator(
+                         eol
+                        ) [ScalarDesignator]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                  ConstStatementEmpty(
+                  ) [ConstStatementEmpty]
+                ) [PrintStmt]
+              ) [FullStatementListM]
+              PrintStmt(
+                ExprTerm(
+                  TermFactor(
+                    FactorDesignator(
+                      ScalarDesignator(
+                       tezinaS
+                      ) [ScalarDesignator]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                ConstStatementEmpty(
+                ) [ConstStatementEmpty]
+              ) [PrintStmt]
+            ) [FullStatementListM]
+            PrintStmt(
+              ExprTerm(
+                TermFactor(
+                  FactorDesignator(
+                    ScalarDesignator(
+                     eol
+                    ) [ScalarDesignator]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprTerm]
+              ConstStatementEmpty(
+              ) [ConstStatementEmpty]
+            ) [PrintStmt]
+          ) [FullStatementListM]
+          PrintStmt(
+            ExprTerm(
+              TermFactor(
+                FactorDesignator(
+                  ScalarDesignator(
+                   tezinaK
+                  ) [ScalarDesignator]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprTerm]
+            ConstStatementEmpty(
+            ) [ConstStatementEmpty]
+          ) [PrintStmt]
+        ) [FullStatementListM]
+        PrintStmt(
+          ExprTerm(
+            TermFactor(
+              FactorDesignator(
+                ScalarDesignator(
+                 eol
+                ) [ScalarDesignator]
+              ) [FactorDesignator]
+            ) [TermFactor]
+          ) [ExprTerm]
+          ConstStatementEmpty(
+          ) [ConstStatementEmpty]
+        ) [PrintStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:31:11,356 - ===================================
+INFO  13:31:11,361 - Obradjuje se tip int na liniji 6
+INFO  13:31:11,361 - Kreirana je klasa Predmet na liniji 8
+INFO  13:31:11,361 - Obradjuje se tip int na liniji 10
+INFO  13:31:11,361 - Deklarisana promenljiva tezina na liniji 10
+INFO  13:31:11,361 - Obradjuje se tip int na liniji 11
+INFO  13:31:11,361 - Deklarisana promenljiva koefTezine na liniji 11
+INFO  13:31:11,361 - Obradjuje se tip char na liniji 12
+INFO  13:31:11,361 - Deklarisana promenljiva vrsta na liniji 12
+INFO  13:31:11,361 - obradjuje se metoda postaviTezinu na liniji 15
+INFO  13:31:11,361 - Obradjuje se tip int na liniji 15
+INFO  13:31:11,362 - poziva se tezina na liniji 15
+INFO  13:31:11,362 - ss1
+INFO  13:31:11,362 - uspesno dodeljeno na liniji 15
+INFO  13:31:11,362 - obradjuje se metoda ucitajTezinu na liniji 16
+INFO  13:31:11,362 - Obradjuje se tip int na liniji 17
+INFO  13:31:11,362 - obradjuje se metoda zapremina na liniji 17
+INFO  13:31:11,362 - Obradjuje se tip int na liniji 17
+INFO  13:31:11,362 - Obradjuje se tip int na liniji 18
+INFO  13:31:11,362 - obradjuje se metoda Q na liniji 18
+INFO  13:31:11,362 - obradjuje se metoda postaviVrstu na liniji 19
+INFO  13:31:11,362 - Obradjuje se tip char na liniji 19
+INFO  13:31:11,362 - poziva se vrsta na liniji 19
+INFO  13:31:11,362 - ss2
+INFO  13:31:11,362 - uspesno dodeljeno na liniji 19
+INFO  13:31:11,362 - Obradjuje se tip char na liniji 20
+INFO  13:31:11,362 - obradjuje se metoda dohvVrstu na liniji 20
+INFO  13:31:11,362 - Obradjuje se tip int na liniji 21
+INFO  13:31:11,362 - obradjuje se metoda dohvTezinu na liniji 21
+INFO  13:31:11,362 - obradjuje se metoda ispisi na liniji 22
+INFO  13:31:11,362 - Obradjuje se tip Predmet na liniji 29
+INFO  13:31:11,362 - Kreirana je klasa Sfera na liniji 29
+INFO  13:31:11,362 - Ubacen je simbol tezina na liniji 29
+INFO  13:31:11,362 - Ubacen je simbol koefTezine na liniji 29
+INFO  13:31:11,362 - Ubacen je simbol vrsta na liniji 29
+INFO  13:31:11,362 - Obradjuje se tip int na liniji 31
+INFO  13:31:11,362 - Deklarisana promenljiva r na liniji 31
+INFO  13:31:11,362 - obradjuje se metoda postaviPoluprecnik na liniji 34
+INFO  13:31:11,362 - Obradjuje se tip int na liniji 34
+INFO  13:31:11,362 - poziva se r na liniji 34
+INFO  13:31:11,362 - ss1
+INFO  13:31:11,362 - uspesno dodeljeno na liniji 34
+INFO  13:31:11,363 - Obradjuje se tip int na liniji 36
+INFO  13:31:11,363 - obradjuje se metoda zapremina na liniji 36
+INFO  13:31:11,363 - Obradjuje se tip int na liniji 36
+INFO  13:31:11,363 - ss1
+INFO  13:31:11,363 - uspesno dodeljeno na liniji 38
+INFO  13:31:11,363 - Obradjuje se tip Predmet na liniji 46
+INFO  13:31:11,363 - Kreirana je klasa Kvadar na liniji 46
+INFO  13:31:11,363 - Ubacen je simbol tezina na liniji 46
+INFO  13:31:11,363 - Ubacen je simbol koefTezine na liniji 46
+INFO  13:31:11,363 - Ubacen je simbol vrsta na liniji 46
+INFO  13:31:11,363 - Obradjuje se tip int na liniji 48
+INFO  13:31:11,363 - Deklarisana promenljiva a na liniji 48
+INFO  13:31:11,363 - Deklarisana promenljiva b na liniji 48
+INFO  13:31:11,363 - Deklarisana promenljiva c na liniji 48
+INFO  13:31:11,363 - obradjuje se metoda postaviStranice na liniji 52
+INFO  13:31:11,363 - Obradjuje se tip int na liniji 52
+INFO  13:31:11,363 - Obradjuje se tip int na liniji 52
+INFO  13:31:11,363 - Obradjuje se tip int na liniji 52
+INFO  13:31:11,363 - poziva se a na liniji 52
+INFO  13:31:11,363 - ss1
+INFO  13:31:11,363 - uspesno dodeljeno na liniji 52
+INFO  13:31:11,363 - poziva se b na liniji 52
+INFO  13:31:11,363 - ss1
+INFO  13:31:11,363 - uspesno dodeljeno na liniji 52
+INFO  13:31:11,363 - poziva se c na liniji 52
+INFO  13:31:11,363 - ss1
+INFO  13:31:11,363 - uspesno dodeljeno na liniji 52
+INFO  13:31:11,363 - Obradjuje se tip int na liniji 53
+INFO  13:31:11,363 - obradjuje se metoda zapremina na liniji 53
+INFO  13:31:11,363 - Obradjuje se tip int na liniji 53
+INFO  13:31:11,363 - ss1
+INFO  13:31:11,363 - uspesno dodeljeno na liniji 55
+INFO  13:31:11,363 - obradjuje se metoda ispisi na liniji 58
+INFO  13:31:11,363 - Obradjuje se tip int na liniji 64
+INFO  13:31:11,363 - Deklarisana promenljiva zapreminaK na liniji 64
+INFO  13:31:11,363 - Deklarisana promenljiva zapreminaS na liniji 64
+INFO  13:31:11,363 - Obradjuje se tip int na liniji 65
+INFO  13:31:11,363 - Deklarisana promenljiva tezinaK na liniji 65
+INFO  13:31:11,363 - Deklarisana promenljiva tezinaS na liniji 65
+INFO  13:31:11,363 - obradjuje se metoda ispis na liniji 68
+INFO  13:31:11,363 - Obradjuje se tip Predmet na liniji 68
+INFO  13:31:11,363 - poziva se ispisi na liniji 70
+INFO  13:31:11,363 - Poziva se metoda ispisi na liniji 70
+INFO  13:31:11,363 - poziva se dohvTezinu na liniji 72
+INFO  13:31:11,363 - obradjuje se metoda main na liniji 75
+INFO  13:31:11,363 - Obradjuje se tip Predmet na liniji 75
+INFO  13:31:11,364 - Deklarisan niz predmeti na liniji 75
+INFO  13:31:11,364 - Obradjuje se tip int na liniji 75
+INFO  13:31:11,364 - Deklarisana promenljiva i na liniji 75
+INFO  13:31:11,364 - Obradjuje se tip Sfera na liniji 75
+INFO  13:31:11,364 - Deklarisana promenljiva s1 na liniji 75
+INFO  13:31:11,364 - Deklarisana promenljiva s2 na liniji 75
+INFO  13:31:11,364 - Deklarisana promenljiva s3 na liniji 75
+INFO  13:31:11,364 - Obradjuje se tip Kvadar na liniji 75
+INFO  13:31:11,364 - Deklarisana promenljiva k1 na liniji 75
+INFO  13:31:11,364 - Deklarisana promenljiva k2 na liniji 75
+INFO  13:31:11,364 - Deklarisana promenljiva k3 na liniji 75
+INFO  13:31:11,364 - Obradjuje se tip int na liniji 75
+INFO  13:31:11,364 - Deklarisana promenljiva t na liniji 75
+INFO  13:31:11,364 - Obradjuje se tip Predmet na liniji 77
+INFO  13:31:11,364 - ss3
+INFO  13:31:11,364 - uspesno dodeljeno na liniji 77
+INFO  13:31:11,364 - poziva se postaviPoluprecnik na liniji 80
+INFO  13:31:11,364 - Poziva se metoda postaviPoluprecnik na liniji 80
+INFO  13:31:11,364 - poziva se postaviPoluprecnik na liniji 81
+INFO  13:31:11,364 - Poziva se metoda postaviPoluprecnik na liniji 81
+INFO  13:31:11,364 - poziva se postaviPoluprecnik na liniji 82
+INFO  13:31:11,364 - Poziva se metoda postaviPoluprecnik na liniji 82
+INFO  13:31:11,364 - poziva se postaviStranice na liniji 85
+INFO  13:31:11,364 - Poziva se metoda postaviStranice na liniji 85
+INFO  13:31:11,364 - poziva se postaviStranice na liniji 86
+INFO  13:31:11,364 - Poziva se metoda postaviStranice na liniji 86
+INFO  13:31:11,364 - poziva se postaviStranice na liniji 87
+INFO  13:31:11,364 - Poziva se metoda postaviStranice na liniji 87
+INFO  13:31:11,364 - Obradjuje se niz predmeti na liniji 89
+INFO  13:31:11,364 - ss4
+ERROR 13:31:11,364 - Nisu kompatibilni tipovi u naredbi dodele 4 na liniji 89
+INFO  13:31:11,364 - Obradjuje se niz predmeti na liniji 90
+INFO  13:31:11,364 - ss4
+ERROR 13:31:11,364 - Nisu kompatibilni tipovi u naredbi dodele 4 na liniji 90
+INFO  13:31:11,364 - Obradjuje se niz predmeti na liniji 91
+INFO  13:31:11,364 - ss4
+ERROR 13:31:11,364 - Nisu kompatibilni tipovi u naredbi dodele 4 na liniji 91
+INFO  13:31:11,364 - Obradjuje se niz predmeti na liniji 92
+INFO  13:31:11,364 - ss4
+ERROR 13:31:11,364 - Nisu kompatibilni tipovi u naredbi dodele 4 na liniji 92
+INFO  13:31:11,364 - Obradjuje se niz predmeti na liniji 93
+INFO  13:31:11,364 - ss4
+ERROR 13:31:11,364 - Nisu kompatibilni tipovi u naredbi dodele 4 na liniji 93
+INFO  13:31:11,364 - Obradjuje se niz predmeti na liniji 94
+INFO  13:31:11,364 - ss4
+ERROR 13:31:11,364 - Nisu kompatibilni tipovi u naredbi dodele 4 na liniji 94
+INFO  13:31:11,364 - ss1
+INFO  13:31:11,364 - uspesno dodeljeno na liniji 97
+INFO  13:31:11,364 - Obradjuje se niz predmeti na liniji 99
+INFO  13:31:11,364 - poziva se postaviTezinu na liniji 99
+INFO  13:31:11,364 - Poziva se metoda postaviTezinu na liniji 99
+INFO  13:31:11,364 - ss1
+INFO  13:31:11,364 - uspesno dodeljeno na liniji 103
+INFO  13:31:11,364 - ss1
+INFO  13:31:11,364 - uspesno dodeljeno na liniji 104
+INFO  13:31:11,364 - ss1
+INFO  13:31:11,364 - uspesno dodeljeno na liniji 105
+INFO  13:31:11,365 - Obradjuje se niz predmeti na liniji 111
+INFO  13:31:11,365 - poziva se zapremina na liniji 111
+INFO  13:31:11,365 - ss1
+INFO  13:31:11,365 - uspesno dodeljeno na liniji 111
+INFO  13:31:11,365 - Obradjuje se niz predmeti na liniji 112
+INFO  13:31:11,365 - poziva se Q na liniji 112
+INFO  13:31:11,365 - ss1
+INFO  13:31:11,365 - uspesno dodeljeno na liniji 112
+INFO  13:31:11,365 - Obradjuje se niz predmeti na liniji 113
+INFO  13:31:11,365 - Poziva se metoda ispis na liniji 113
+INFO  13:31:11,365 - ss1
+INFO  13:31:11,365 - uspesno dodeljeno na liniji 118
+INFO  13:31:11,365 - ss1
+INFO  13:31:11,365 - uspesno dodeljeno na liniji 119
+INFO  13:31:11,365 - ss1
+INFO  13:31:11,365 - uspesno dodeljeno na liniji 120
+INFO  13:31:11,365 - Obradjuje se niz predmeti na liniji 126
+INFO  13:31:11,365 - poziva se zapremina na liniji 126
+INFO  13:31:11,365 - ss1
+INFO  13:31:11,365 - uspesno dodeljeno na liniji 126
+INFO  13:31:11,365 - Obradjuje se niz predmeti na liniji 127
+INFO  13:31:11,365 - poziva se Q na liniji 127
+INFO  13:31:11,365 - ss1
+INFO  13:31:11,365 - uspesno dodeljeno na liniji 127
+INFO  13:31:11,365 - Obradjuje se niz predmeti na liniji 128
+INFO  13:31:11,365 - Poziva se metoda ispis na liniji 128
+INFO  13:31:11,365 - ===================================

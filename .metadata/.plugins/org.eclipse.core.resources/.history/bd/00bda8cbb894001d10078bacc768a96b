@@ -1,0 +1,19 @@
+class A
+{
+	 int a;
+
+	{	 
+		void foo(int x) { 
+			a = a + 1 - x; 
+			print('f'); print('o'); print('o'); print('<'); print('A'); print('>'); print(' '); print('a'); print('='); print(a); print(eol); 
+		}
+
+		void bar() { 
+			a = a * a; 
+			print('b'); print('a'); print('r'); print('<'); print('A'); print('>'); print(' '); print('a'); print('='); print(a); print(eol); 
+		}
+		
+	}
+	void main(){}
+}
+

@@ -1,0 +1,148 @@
+INFO  13:53:50,433 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:53:50,469 - #8 program
+INFO  13:53:50,469 - #5 ABC
+INFO  13:53:50,469 - #12 const
+INFO  13:53:50,469 - #5 int
+INFO  13:53:50,469 - #5 N
+INFO  13:53:50,471 - #36 =
+INFO  13:53:50,471 - #2 2
+INFO  13:53:50,471 - #39 ;
+INFO  13:53:50,471 - #47 {
+INFO  13:53:50,471 - #5 int
+INFO  13:53:50,473 - #5 fun
+INFO  13:53:50,473 - #43 (
+INFO  13:53:50,473 - #44 )
+INFO  13:53:50,473 - #47 {
+INFO  13:53:50,474 - #18 return
+INFO  13:53:50,474 - #5 N
+INFO  13:53:50,474 - #39 ;
+INFO  13:53:50,474 - #48 }
+INFO  13:53:50,474 - #19 void
+INFO  13:53:50,474 - #5 main
+INFO  13:53:50,474 - #43 (
+INFO  13:53:50,474 - #44 )
+INFO  13:53:50,474 - #5 int
+INFO  13:53:50,474 - #5 x
+INFO  13:53:50,474 - #39 ;
+INFO  13:53:50,475 - #47 {
+INFO  13:53:50,475 - #5 x
+INFO  13:53:50,475 - #36 =
+INFO  13:53:50,475 - #5 fun
+INFO  13:53:50,475 - #43 (
+INFO  13:53:50,476 - #44 )
+INFO  13:53:50,476 - #39 ;
+INFO  13:53:50,476 - #48 }
+INFO  13:53:50,476 - #48 }
+INFO  13:53:50,481 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalConstDecl(
+      ConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneConstDeclarationItem(
+          ConstDeclarationItem(
+           N
+            ConstValueNumber(
+             2
+            ) [ConstValueNumber]
+          ) [ConstDeclarationItem]
+        ) [OneConstDeclarationItem]
+      ) [ConstDeclarations]
+    ) [GlobalConstDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclarationList(
+      ) [NoMethodDeclarationList]
+      MethodDeclaration(
+        MethodReturnType(
+          Type(
+           int
+          ) [Type]
+         fun
+        ) [MethodReturnType]
+        NoFormParams(
+        ) [NoFormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        FullStatementListM(
+          NoStatementListM(
+          ) [NoStatementListM]
+          ReturnStmt(
+            ExprStmtMl(
+              ExprTerm(
+                TermFactor(
+                  FactorDesignator(
+                    ScalarDesignator(
+                     N
+                    ) [ScalarDesignator]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [ExprStmtMl]
+          ) [ReturnStmt]
+        ) [FullStatementListM]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             x
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        NoStatementListM(
+        ) [NoStatementListM]
+        AssignStmt(
+          DesignatorAssignValue(
+            ScalarDesignator(
+             x
+            ) [ScalarDesignator]
+            AssignOperation(
+            ) [AssignOperation]
+            ExprTerm(
+              TermFactor(
+                FactorFuncCall(
+                  ScalarDesignator(
+                   fun
+                  ) [ScalarDesignator]
+                  NoActualPars(
+                  ) [NoActualPars]
+                ) [FactorFuncCall]
+              ) [TermFactor]
+            ) [ExprTerm]
+          ) [DesignatorAssignValue]
+        ) [AssignStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:53:50,482 - ===================================
+INFO  13:53:50,484 - Obradjuje se tip int na liniji 2
+INFO  13:53:50,485 - Obradjuje se tip int na liniji 4
+INFO  13:53:50,485 - obradjuje se metoda fun na liniji 4
+INFO  13:53:50,485 - obradjuje se metoda main na liniji 7
+INFO  13:53:50,485 - Obradjuje se tip int na liniji 8
+INFO  13:53:50,485 - Deklarisana promenljiva x na liniji 8
+INFO  13:53:50,485 - uspesno dodeljeno na liniji 10
+INFO  13:53:50,485 - ===================================

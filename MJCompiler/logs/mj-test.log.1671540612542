@@ -1,0 +1,62 @@
+INFO  13:49:50,324 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:49:50,369 - #8 program
+INFO  13:49:50,369 - #5 Test
+INFO  13:49:50,369 - #10 class
+INFO  13:49:50,370 - #5 Prva
+INFO  13:49:50,370 - #48 {
+INFO  13:49:50,370 - #49 }
+INFO  13:49:50,371 - #5 bool
+INFO  13:49:50,371 - #5 l
+INFO  13:49:50,372 - #46 [
+INFO  13:49:50,372 - #47 ]
+INFO  13:49:50,372 - #42 ,
+INFO  13:49:50,373 - #5 k
+INFO  13:49:50,373 - #40 ;
+INFO  13:49:50,373 - #48 {
+INFO  13:49:50,373 - #49 }
+INFO  13:49:50,379 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalClassDecl(
+        ClassDeclaration(
+         Prva
+          NoClassExtends(
+          ) [NoClassExtends]
+          NoClassVarDeclaration(
+          ) [NoClassVarDeclaration]
+          NoClassMethDeclaration(
+          ) [NoClassMethDeclaration]
+        ) [ClassDeclaration]
+      ) [GlobalClassDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         bool
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             l
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           k
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  13:49:50,379 - ===================================
+INFO  13:49:50,382 - Obradjuje se tip bool na liniji 3
+INFO  13:49:50,383 - Deklarisan niz l na liniji 3
+INFO  13:49:50,383 - Deklarisana promenljiva k na liniji 3
+INFO  13:49:50,383 - ===================================

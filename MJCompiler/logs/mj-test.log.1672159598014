@@ -1,0 +1,155 @@
+INFO  17:43:48,864 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  17:43:48,902 - #8 program
+INFO  17:43:48,903 - #5 ABC
+INFO  17:43:48,903 - #12 const
+INFO  17:43:48,903 - #5 int
+INFO  17:43:48,903 - #5 N
+INFO  17:43:48,903 - #36 =
+INFO  17:43:48,903 - #2 2
+INFO  17:43:48,903 - #39 ;
+INFO  17:43:48,903 - #47 {
+INFO  17:43:48,904 - #19 void
+INFO  17:43:48,904 - #5 main
+INFO  17:43:48,904 - #43 (
+INFO  17:43:48,904 - #44 )
+INFO  17:43:48,904 - #5 int
+INFO  17:43:48,905 - #5 x
+INFO  17:43:48,905 - #39 ;
+INFO  17:43:48,905 - #5 int
+INFO  17:43:48,905 - #5 niz
+INFO  17:43:48,905 - #45 [
+INFO  17:43:48,905 - #46 ]
+INFO  17:43:48,905 - #39 ;
+INFO  17:43:48,905 - #47 {
+INFO  17:43:48,906 - #5 x
+INFO  17:43:48,906 - #36 =
+INFO  17:43:48,906 - #2 8
+INFO  17:43:48,908 - #24 -
+INFO  17:43:48,908 - #2 3
+INFO  17:43:48,909 - #39 ;
+INFO  17:43:48,909 - #5 x
+INFO  17:43:48,910 - #36 =
+INFO  17:43:48,910 - #5 x
+INFO  17:43:48,910 - #39 ;
+INFO  17:43:48,910 - #48 }
+INFO  17:43:48,910 - #48 }
+INFO  17:43:48,915 - Program(
+  NamePro(
+   ABC
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalConstDecl(
+      ConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneConstDeclarationItem(
+          ConstDeclarationItem(
+           N
+            ConstValueNumber(
+             2
+            ) [ConstValueNumber]
+          ) [ConstDeclarationItem]
+        ) [OneConstDeclarationItem]
+      ) [ConstDeclarations]
+    ) [GlobalConstDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               x
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             niz
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      FullStatementListM(
+        FullStatementListM(
+          NoStatementListM(
+          ) [NoStatementListM]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               x
+              ) [ScalarDesignator]
+              AssignOperation(
+              ) [AssignOperation]
+              ExprAdd(
+                ExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     8
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                MinusOperation(
+                ) [MinusOperation]
+                TermFactor(
+                  FactorNumber(
+                   3
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprAdd]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [FullStatementListM]
+        AssignStmt(
+          DesignatorAssignValue(
+            ScalarDesignator(
+             x
+            ) [ScalarDesignator]
+            AssignOperation(
+            ) [AssignOperation]
+            ExprTerm(
+              TermFactor(
+                FactorDesignator(
+                  ScalarDesignator(
+                   x
+                  ) [ScalarDesignator]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprTerm]
+          ) [DesignatorAssignValue]
+        ) [AssignStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  17:43:48,916 - ===================================
+INFO  17:43:48,919 - Obradjuje se tip int na liniji 2
+INFO  17:43:48,919 - obradjuje se metoda main na liniji 4
+INFO  17:43:48,919 - Obradjuje se tip int na liniji 5
+INFO  17:43:48,919 - Deklarisana promenljiva x na liniji 5
+INFO  17:43:48,919 - Obradjuje se tip int na liniji 6
+INFO  17:43:48,919 - Deklarisan niz niz na liniji 6
+INFO  17:43:48,919 - uspesno dodeljeno na liniji 8
+INFO  17:43:48,919 - uspesno dodeljeno na liniji 9
+INFO  17:43:48,919 - ===================================

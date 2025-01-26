@@ -1,0 +1,91 @@
+INFO  14:47:16,763 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:47:16,806 - #8 program
+INFO  14:47:16,807 - #5 Test
+INFO  14:47:16,807 - #5 int
+INFO  14:47:16,807 - #5 p
+INFO  14:47:16,808 - #37 =
+ERROR 14:47:16,808 - 
+Sintaksna greska na liniji 2
+INFO  14:47:16,809 - #2 0
+INFO  14:47:16,809 - #40 ;
+INFO  14:47:16,810 - #48 {
+INFO  14:47:16,810 - #5 int
+INFO  14:47:16,810 - #5 fun
+ERROR 14:47:16,810 - Izvrsen oporavak od greske u definiciji globalne promenljive do , ili ;. Greska je u liniji 2
+INFO  14:47:16,811 - #44 (
+INFO  14:47:16,811 - #5 int
+INFO  14:47:16,811 - #5 a
+INFO  14:47:16,811 - #45 )
+INFO  14:47:16,812 - #48 {
+INFO  14:47:16,812 - #18 return
+INFO  14:47:16,812 - #25 -
+INFO  14:47:16,813 - #2 1
+INFO  14:47:16,813 - #40 ;
+INFO  14:47:16,813 - #49 }
+INFO  14:47:16,813 - #49 }
+INFO  14:47:16,819 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          ErrorInDeclaringItem(
+          ) [ErrorInDeclaringItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    MethodDeclaration(
+      MethodReturnType(
+        Type(
+         int
+        ) [Type]
+       fun
+      ) [MethodReturnType]
+      FormParams(
+        SingleFormalParamDecl(
+          ScalarParam(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [ScalarParam]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      FullStatementListM(
+        NoStatementListM(
+        ) [NoStatementListM]
+        ReturnStmt(
+          ExprStmtMl(
+            ExprMTerm(
+              TermFactor(
+                FactorNumber(
+                 1
+                ) [FactorNumber]
+              ) [TermFactor]
+            ) [ExprMTerm]
+          ) [ExprStmtMl]
+        ) [ReturnStmt]
+      ) [FullStatementListM]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:47:16,819 - ===================================
+INFO  14:47:16,821 - Obradjuje se tip int na liniji 2
+INFO  14:47:16,821 - Obradjuje se tip int na liniji 4
+INFO  14:47:16,822 - obradjuje se metoda fun na liniji 4
+INFO  14:47:16,822 - Obradjuje se tip int na liniji 4
+ERROR 14:47:16,822 - Izraz uz return nije ekvivalentan tipu tekuce metode! Semanticka greska na liniji 5
+INFO  14:47:16,822 - ===================================

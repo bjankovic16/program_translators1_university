@@ -1,0 +1,128 @@
+INFO  17:37:32,692 - Compiling source file: D:\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  17:37:32,727 - #8 program
+INFO  17:37:32,727 - #5 Test
+INFO  17:37:32,727 - #5 int
+INFO  17:37:32,728 - #5 niz
+INFO  17:37:32,728 - #46 [
+INFO  17:37:32,728 - #47 ]
+INFO  17:37:32,728 - #40 ;
+INFO  17:37:32,728 - #5 int
+INFO  17:37:32,728 - #5 c
+INFO  17:37:32,728 - #40 ;
+INFO  17:37:32,729 - #10 class
+INFO  17:37:32,729 - #5 Druga
+INFO  17:37:32,729 - #48 {
+INFO  17:37:32,729 - #5 int
+INFO  17:37:32,730 - #5 l
+INFO  17:37:32,730 - #40 ;
+INFO  17:37:32,730 - #48 {
+INFO  17:37:32,730 - #19 void
+INFO  17:37:32,730 - #5 met
+INFO  17:37:32,730 - #44 (
+INFO  17:37:32,731 - #5 char
+INFO  17:37:32,731 - #5 s
+INFO  17:37:32,736 - #45 )
+INFO  17:37:32,736 - #48 {
+INFO  17:37:32,736 - #49 }
+INFO  17:37:32,737 - #49 }
+INFO  17:37:32,737 - #49 }
+INFO  17:37:32,738 - #48 {
+INFO  17:37:32,738 - #49 }
+INFO  17:37:32,743 - Program(
+  NamePro(
+   Test
+  ) [NamePro]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        NoGlobalDeclarationsList(
+        ) [NoGlobalDeclarationsList]
+        GlobalVarDecl(
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              ArrayDeclarationItem(
+               niz
+              ) [ArrayDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [GlobalVarDecl]
+      ) [GlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             c
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalClassDecl(
+      ClassDeclaration(
+        ClassFirst(
+         Druga
+          NoClassExtends(
+          ) [NoClassExtends]
+        ) [ClassFirst]
+        ClassVarDeclaration(
+          NoClassVarDeclaration(
+          ) [NoClassVarDeclaration]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               l
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [ClassVarDeclaration]
+        ClassMethDeclaration(
+          ClassMethodDeclaration(
+            NoClassMethodDeclaration(
+            ) [NoClassMethodDeclaration]
+            MethodDeclaration(
+              MethodReturnVoid(
+               met
+              ) [MethodReturnVoid]
+              FormParams(
+                SingleFormalParamDecl(
+                  ScalarParam(
+                    Type(
+                     char
+                    ) [Type]
+                   s
+                  ) [ScalarParam]
+                ) [SingleFormalParamDecl]
+              ) [FormParams]
+              NoLocalVarDeclarationsList(
+              ) [NoLocalVarDeclarationsList]
+              NoStatementListM(
+              ) [NoStatementListM]
+            ) [MethodDeclaration]
+          ) [ClassMethodDeclaration]
+        ) [ClassMethDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassDecl]
+  ) [GlobalDeclarationsList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  17:37:32,744 - ===================================
+INFO  17:37:32,747 - Obradjuje se tip int na liniji 2
+INFO  17:37:32,747 - Deklarisan niz niz na liniji 2
+INFO  17:37:32,747 - Obradjuje se tip int na liniji 3
+INFO  17:37:32,747 - Deklarisana promenljiva c na liniji 3
+INFO  17:37:32,747 - Kreirana je klasa Druga na liniji 4
+INFO  17:37:32,747 - Obradjuje se tip int na liniji 4
+INFO  17:37:32,747 - Deklarisana promenljiva l na liniji 4
+INFO  17:37:32,747 - obradjuje se metoda met na liniji 5
+INFO  17:37:32,747 - Obradjuje se tip char na liniji 5
+INFO  17:37:32,748 - ===================================
